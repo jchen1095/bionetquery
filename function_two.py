@@ -1,6 +1,7 @@
 import pandas as pd
 import sys
 import os
+import csv
 import requests
 
 # import obonet
@@ -10,6 +11,10 @@ nodes_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_nodes.csv"
 nodes_df = pd.read_csv(nodes_file)
 edges_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_edges.csv"
 edges_df = pd.read_csv(edges_file)
+cpdb_genes = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/gene_input.csv"
+cpdb_gene_df = pd.read_csv(edges_file)
+cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/gene_input.csv"
+cpdb_interaction_df = pd.read_csv(edges_file)
 
 
 def get_files():
@@ -17,7 +22,7 @@ def get_files():
     # return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
 
 #given a cell type ID, find interacting cell types and return their biomarkers
-def get_related_biomarkers(cell_type_id):
+def get_related_cells_and_biomarkers(cell_type_id):
     cell_ids = nodes_df.loc[nodes_df['cell_id'] == cell_type_id, 'id'].tolist()
     #there should only be one id per cell id 
     relevant_ids = []
@@ -44,3 +49,54 @@ def check_ct_id_col(row, token):
         if token in str(row[col]):
             return True
     return False
+
+def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
+    found_symbols = []
+    found_uniprot = []
+    all_bm_symbols = []
+    
+    for bm in list_biomarkers:
+        hgnc_symbol = get_symbol_from_hgnc_id(bm)
+        all_bm_symbols.append(hgnc_symbol)
+    
+  
+    with open(cpdb_genes, mode='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            symbol_in_csv = row['hgnc_symbol']
+            if symbol_in_csv in all_bm_symbols:
+                uniprot_id = row['uniprot']
+                found_uniprot.append(uniprot_id)
+                found_symbols.append(symbol_in_csv)
+    for id in found_uniprot:
+
+    
+        
+
+
+            
+
+    
+def get_symbol_from_hgnc_id(hgnc_id):
+    url = f"https://rest.genenames.org/search/hgnc_id/{hgnc_id}"
+    headers = {
+        'Accept': 'application/xml'
+    }
+    
+    try:
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+           
+            xml_response = response.text
+          
+            import xml.etree.ElementTree as ET
+            root = ET.fromstring(xml_response)
+            
+            symbol = root.find(".//str[@name='symbol']").text
+            return symbol
+        else:
+            print(f"Error {response.status_code}: {response.reason}")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Request error: {e}")
+        return None
