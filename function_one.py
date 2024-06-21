@@ -1,45 +1,33 @@
 import pandas as pd
 import sys
 import os
+import requests
 
-# import obonet
-# G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
+# The cellxgene API URLs contain a "latest snapshot identifier" (presumably points to a specific version of the data)
+curr_id = requests.get("https://cellguide.cellxgene.cziscience.com/latest_snapshot_identifier").text
+     
 
-nodes_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_nodes.csv"
-nodes_df = pd.read_csv(nodes_file)
-edges_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_edges.csv"
-edges_df = pd.read_csv(edges_file)
+cl_id = "CL:0000653" # Podocyte
+# cl_id = sys.argv[1]
+     
+
+canonical_info = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json").json()
+data_driven_info = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json").json()
+     
+
+print(canonical_info)
+
 
 #terminal input should be python function_one.py anatomical_system 
 print("Arguments:", sys.argv[1:])
 
-def get_files(string):
-    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
+def get_files():
+    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/out.csv"
+    # return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
 
 common_words = ["cell", "neuron"]
 #if cell type has more than 1 word, filter out the tokens 
 
-#given a cell type ID, find interacting cell types and return their biomarkers
-def get_related_biomarkers(cell_type_id):
-    cell_ids = nodes_df.loc[nodes_df['cell_id'] == cell_type_id, 'id'].tolist()
-    #there should only be one id per cell id 
-    relevant_ids = []
-    for id in cell_ids:
-        filtered_edges = edges_df[(edges_df['source'] == id) | (edges_df['target'] == id)]
-        relevant_ids = filtered_edges['source'].tolist() + filtered_edges['target'].tolist()
-        relevant_ids = list(set(relevant_ids))
-    relevant_biomarkers = []
-    print(relevant_ids)
-    for cellt in relevant_ids:
-        print(cellt)
-        df = pd.read_csv(get_files(sys.argv[1]))
-        mask = df.apply(lambda row: check_ct_id_col(row, cellt), axis=1) #filter out the rows where the token is found in the cell type col
-        filtered_rows = df[mask]
-        biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
-        filtered_rows = filtered_rows[biomarker_col]
-        relevant_biomarkers.append(filtered_rows)
-    print(relevant_biomarkers)
-    return relevant_biomarkers
 
 def get_biomarkers(cell_type, file):
     results = []
@@ -51,18 +39,20 @@ def get_biomarkers(cell_type, file):
         counter+=1
         mask = df.apply(lambda row: only_check_ct_col(row, token), axis=1) #filter out the rows where the token is found in the cell type col
         filtered_rows = df[mask]
-        biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
-        filtered_rows = filtered_rows[biomarker_col]
-        results.append(filtered_rows)
+        if sys.argv[2]== None:
+            biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
+            filtered_rows = filtered_rows[biomarker_col]
+        if sys.argv[2]=="id":
+            ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
+            filtered_rows = filtered_rows[ids_only]
+        elif sys.argv[2]=="name":
+            names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
+            filtered_rows = filtered_rows[names_only]
+        non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
+        results.append(filtered_rows[non_empty_cols])
     
     return results
     
-def check_ct_id_col(row, token):
-    ct_columns = [col for col in row.index if col.endswith('ID') and col.startswith('CT')]
-    for col in ct_columns:
-        if token in str(row[col]):
-            return True
-    return False
 
 def only_check_ct_col(row, token):
     ct_columns = [col for col in row.index if col.startswith('CT')]
@@ -73,10 +63,11 @@ def only_check_ct_col(row, token):
     return False
 
 def search(): #method to call full search
-    file_to_use = get_files(sys.argv[1])
-    search_results = get_biomarkers(sys.argv[2], file_to_use)
+    file_to_use = get_files()
+    search_results = get_biomarkers(sys.argv[1], file_to_use)
     for result in search_results:
         print(result)
+    #get_related_biomarkers("CL:0000895")
 
-# search()
-get_related_biomarkers("CL:0000895")
+search()
+

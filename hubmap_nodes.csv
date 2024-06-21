@@ -1,0 +1,778 @@
+id,label,cell_id,cell_iri,organ_id,organ_iri
+22700e7d-27d4-5647-b4c7-4d984b1d3048,Paneth Cell Of Epithelium Proper Of Small intestine - Small Intestine,CL:1000344,http://purl.obolibrary.org/obo/CL_1000344,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+625579fc-5562-52ec-9283-b599d5ae004c,Duodenal Goblet cell - Small Intestine,CL:1000324,http://purl.obolibrary.org/obo/CL_1000324,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+59c88e0a-24d1-5b73-b9f2-c6d47efdaede,Tuft cell - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+a65ff0eb-f733-5c16-b3c5-83317841f309,absorptive - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+88938a99-96ae-5d64-8247-63d057dc9c6f,enterocyte - Small Intestine,CL:0000584,http://purl.obolibrary.org/obo/CL_0000584,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+5d6f3585-b56f-5ecb-ae30-7b8e6af64faf,Endocrine Lineage cell - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+888eb4c0-a2bc-57f2-82b8-132d6f213c1c,Stem cell - Small Intestine,CL:0000034,http://purl.obolibrary.org/obo/CL_0000034,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+75716073-dac7-54b6-9549-860914f249aa,endothelial - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+b810d33e-c423-5646-8d29-15aa6bf791a1,myofibroblast - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+941da13a-c292-5c10-a342-70104abf1214,fibroblast - Small Intestine,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+1362d078-cc55-50f1-aa6e-99977c8a5c40,B cell - Small Intestine,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+8669e91e-5785-52db-ab7d-f9658cef2cd0,plasma - Small Intestine,ENVO:01000798,http://purl.obolibrary.org/obo/ENVO_01000798,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+6f03b262-2e3c-5e92-b1a1-ea05c0344740,CD4+ T - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+84465451-b422-59df-9c42-7b231a3f1efe,Regulatory CD4+ T - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+8a72b56e-5151-51de-a5b4-884eb4bcd64e,CD8+ T - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+e5c05494-570c-504b-902f-b00470d0a05d,macrophage - Small Intestine,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+8c43ed81-5d67-57b1-b462-b5458eab1b02,Mast cell - Small Intestine,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+7ba1fb43-a367-5049-9361-9c61be1a60e7,fibroblasts - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+df1a4749-c05b-5867-9116-6676ec746786,Endothelial cells - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+12dcc854-84d0-58a9-ad86-031da0987d22,Epithelial Stem cells - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+ec32af16-4a11-5649-af3c-8dc79f5177f4,Paneth - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+67d2bd51-7415-50b9-8519-194a6adc4c19,endocrine - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+a39afd7c-5ed4-5957-8961-0205f2330f5e,Jejunal Goblet cell - Small Intestine,CL:1000325,http://purl.obolibrary.org/obo/CL_1000325,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+f163c3aa-8bfd-5e6b-b16f-0dc9f6f3e7df,enterocytes - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+bf3bcd03-aa3e-5b49-b310-f3cbb9546679,Tuft cells - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+062f1ea7-39d1-53fd-a768-e40b17e5010b,myofibroblasts - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+70007b1b-b656-5078-a0fa-a9e119f042d1,macrophages - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+ed4296f6-862e-5d12-8d21-213e432ac010,Mast cells - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+4c88c2fa-49c2-5161-ae0a-8a1b62e3df14,endoethlial - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+4396f831-adeb-5625-807e-f061201acde8,goblet - Small Intestine,,,UBERON:0002108,http://purl.obolibrary.org/obo/UBERON_0002108
+efeca54e-e92c-5391-ad6d-4402f55ffa9c,Endothelial Cell Of Hepatic sinusoid - Liver,CL:1000398,http://purl.obolibrary.org/obo/CL_1000398,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+fe079fe1-1c68-5088-b6db-d1eab8ad7f8e,Kupffer cell - Liver,CL:0000091,http://purl.obolibrary.org/obo/CL_0000091,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+4a156967-e175-5e7e-a4fb-4fabe2058be3,Hepatic Stellate cell - Liver,CL:0000632,http://purl.obolibrary.org/obo/CL_0000632,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+c03d93bf-84d2-5e9e-9cfc-9dddf81e02a2,hepatocyte - Liver,CL:0000182,http://purl.obolibrary.org/obo/CL_0000182,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+26234454-4f59-57b1-8f49-1166f4b0880c,Periportal Region hepatocyte - Liver,CL:0019026,http://purl.obolibrary.org/obo/CL_0019026,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+037733b8-8915-5bf8-8189-b36af23103e6,Centrilobular Region hepatocyte - Liver,CL:0019029,http://purl.obolibrary.org/obo/CL_0019029,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+ad4f165a-8b43-5295-a48a-fd5368aa5eff,Vein Endothelial cell - Liver,CL:0002543,http://purl.obolibrary.org/obo/CL_0002543,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+bea40050-9cb2-55f4-9851-cb74215f5d5d,Stratified Cuboidal Epithelial cell - Liver,CL:0000241,http://purl.obolibrary.org/obo/CL_0000241,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+cbed764a-1e0a-535a-bbea-6d07b21264df,Columnar/Cuboidal Epithelial cell - Liver,CL:0000075,http://purl.obolibrary.org/obo/CL_0000075,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+1212ddc1-51ce-5114-94a0-afdc1d2bd181,Afferent neuron - Liver,CL:0000526,http://purl.obolibrary.org/obo/CL_0000526,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+defec7b9-b3c3-5ee9-8a63-9915c00ab78c,Endothelial Cell Of artery - Liver,CL:1000413,http://purl.obolibrary.org/obo/CL_1000413,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+6c9290de-22a8-5c48-8399-ff433d0da3d9,Portal fibroblast - Liver,,,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+d7a869ef-baa9-5b72-a2dd-b737c09b2799,Hepatic Oval Stem cell - Liver,CL:0002196,http://purl.obolibrary.org/obo/CL_0002196,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+d0163faa-afd7-5162-abd1-4fbc3e5c0059,"Dendritic Cell, human - Liver",CL:0001056,http://purl.obolibrary.org/obo/CL_0001056,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+68d4a850-3e7c-56d2-8ba4-858a743c0d60,Conventional Dendritic cell - Liver,CL:0000990,http://purl.obolibrary.org/obo/CL_0000990,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+985b9d26-bb57-5fde-aa9c-e39f6277a95e,CD1c-positive Myeloid Dendritic cell - Liver,CL:0002399,http://purl.obolibrary.org/obo/CL_0002399,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+61944929-a69c-5501-bd13-607324518f12,Plasmacytoid Dendritic cell - Liver,CL:0000784,http://purl.obolibrary.org/obo/CL_0000784,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+996ddfe0-c542-5e12-9c16-e7d0d8f44cc6,CD8 TRm (Residence memory) - Liver,,,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+8ab31298-a346-5031-b9dd-cb1ad0756ba0,"CD4-positive, Alpha-Beta T cell - Liver",CL:0000624,http://purl.obolibrary.org/obo/CL_0000624,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+a6af2a65-2d13-504a-af68-2c46e99f70d7,"CD8-positive, Alpha-Beta Memory T Cell, CD45RO-positive - Liver",CL:0001203,http://purl.obolibrary.org/obo/CL_0001203,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+8afe74a9-848e-5d7e-b4aa-6195bfbafc0c,Type I NK T cell - Liver,CL:0000921,http://purl.obolibrary.org/obo/CL_0000921,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+6386dfb1-06c1-579e-9472-531e2ea83ecc,Eomes Low Liver NK cell - Liver,,,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+59a6bef0-4385-54f0-924e-3dac08638460,TBet Low Liver NK cell - Liver,,,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+b3b6f398-6838-5f93-a0e3-992119b7ec77,Natural Killer cell - Liver,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+039381a0-9e2b-5335-b190-f46614e2ade4,Hepatic Pit cell - Liver,CL:2000054,http://purl.obolibrary.org/obo/CL_2000054,UBERON:0002107,http://purl.obolibrary.org/obo/UBERON_0002107
+546e4e15-4334-59aa-8252-b9c16e882975,Articular chondrocyte - Knee,CL:1001607,http://purl.obolibrary.org/obo/CL_1001607,UBERON:0001465,http://purl.obolibrary.org/obo/UBERON_0001465
+8e8d6a3b-61f1-5331-bea9-8e6ff7fbd576,Hypertrophic chondrocyte - Knee,CL:0000743,http://purl.obolibrary.org/obo/CL_0000743,UBERON:0001465,http://purl.obolibrary.org/obo/UBERON_0001465
+6046bd30-7f9d-5a1f-88d4-1b8e29acf059,Residual Hypertrophic Chondrocytes - Knee,,,UBERON:0001465,http://purl.obolibrary.org/obo/UBERON_0001465
+053ad2e1-47e3-516a-ae82-6f6f6938a945,osteocyte - Knee,CL:0000137,http://purl.obolibrary.org/obo/CL_0000137,UBERON:0001465,http://purl.obolibrary.org/obo/UBERON_0001465
+774e09f7-be9b-51d6-b78a-186d8a7db74c,osteoblast - Knee,CL:0000062,http://purl.obolibrary.org/obo/CL_0000062,UBERON:0001465,http://purl.obolibrary.org/obo/UBERON_0001465
+047ea75c-6dc5-5767-9402-91496819d1c6,Multinuclear osteoclast - Knee,CL:0000779,http://purl.obolibrary.org/obo/CL_0000779,UBERON:0001465,http://purl.obolibrary.org/obo/UBERON_0001465
+b96f8516-4438-5eda-bf8e-30125dc65140,Epithelial Cell Of amnion - Placenta,CL:0002536,http://purl.obolibrary.org/obo/CL_0002536,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+6edf6160-c943-55f9-bbb2-f0d5539e1b6c,Embryonic fibroblast - Placenta,CL:2000042,http://purl.obolibrary.org/obo/CL_2000042,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+1abf0b82-4839-509a-b630-4aab826d588e,Extravillous trophoblast - Placenta,UBERON:0000426,http://purl.obolibrary.org/obo/UBERON_0000426,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+650f532b-84d0-572f-806a-017b71da6753,Endometrial Epithelial Cells - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+8ad8a37f-eeba-5a74-857a-c6b68c538839,Endometrial Stromal Cells (decidua) - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+c0d23abe-01f7-5b02-8ce6-65c989f57413,Endothelial cell - Placenta,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+df8aad3c-870d-58af-88bf-ae5cf661273a,Uterine NK Cells - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+af78c562-efee-5f3c-881f-02e9d4f9c642,Uterine macrophage - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+3ab9c1cb-4947-54df-962a-8b395b401ac4,Regulatory T Cell - Placenta,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+6d0cb108-e180-5818-8486-c20462383157,Cytotoxic T Cell - Placenta,CL:0000910,http://purl.obolibrary.org/obo/CL_0000910,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+f244bf85-92b4-545a-b54e-eeeba4b9ee9e,B Cell (Including Plasma cells) - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+0c9d5559-17d5-5349-9c4d-fa06fd0e88c1,Syncytiotrophoblast cell - Placenta,CL:0000525,http://purl.obolibrary.org/obo/CL_0000525,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+7c7e452c-c2fc-5a79-a683-7621c8448a05,Mononuclear Cytotrophoblast cell - Placenta,CL:0000523,http://purl.obolibrary.org/obo/CL_0000523,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+8a875479-8f63-5488-84ea-2fa1684690ec,Hofbauer cell - Placenta,CL:3000001,http://purl.obolibrary.org/obo/CL_3000001,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+8fa0103a-859d-5d0d-a287-56543e8a1200,Placental Stromal Cells - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+72650e6b-f544-53b2-a790-e8596de749ce,Placental Microvascular Endothelial Cells - Placenta,,,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+68dde570-8cc1-5499-8d29-1835c5439125,Stromal Cell Of endometrium - Placenta,CL:0002255,http://purl.obolibrary.org/obo/CL_0002255,UBERON:0001987,http://purl.obolibrary.org/obo/UBERON_0001987
+95ae6c40-ef17-5686-9baf-88aefbbbbf5b,Amacrine cell - Eye,CL:0000561,http://purl.obolibrary.org/obo/CL_0000561,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+e697b19e-f1b3-5ddc-a7d5-c18bc87557dc,Glutamic Acid Decarboxylase 65 cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+5ba1a6bc-b6a6-5fcd-9b12-38cb40244563,A8 Bistratified Small-Field cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+9689c2fa-55b6-5936-964a-81b2d13fd2d4,Wide Field cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+4474fc24-ae27-5f09-9358-dc79d9900dd3,Semilunar Type 1 cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+3fd50117-dad7-5cac-ac32-f3fc01f1221e,Semilunar Type 3 cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+f5d9f2e0-b712-5660-99a9-cec2aad1534e,Semilunar cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+0c43ea86-79af-575e-8483-eceebeed9634,Starburst Amacrine cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+c9616b64-68bb-5f89-9e40-2926a2aa1580,Retinal Bipolar neuron - Eye,CL:0000748,http://purl.obolibrary.org/obo/CL_0000748,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+07c416fc-398a-5b99-bf5e-a1d4fee86dd9,Blue Cone Bipolar cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+6ca847d3-9fa6-52be-9961-2d5f021d0be5,Diffuse Bipolar 1 (DB1) - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+c6027149-38a0-535b-a8e9-d97c4320f880,Diffuse Bipolar 2 cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+69618161-4f79-5633-a91b-f9132c4403e5,Diffuse Bipolar 3A cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+90a97c6d-3625-5007-9f39-eac19edd3ec2,Diffuse Bipolar 3B cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+0f9c1e41-fae1-5992-b75b-88e61cd6b1b5,Diffuse Bipolar 4 cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+b76b165f-4b40-5b3c-8d47-f02d73565ff7,Flat Midget Bipolar cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+63f146f4-2738-581f-9466-634ca5123ea6,Invaginating Bipolar cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+46e40a02-bacd-5c48-b1d2-917ad34174b9,ON-bipolar cell - Eye,CL:0000749,http://purl.obolibrary.org/obo/CL_0000749,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+13a8cb5d-0ffb-52ea-9d83-aa538e38c22c,Rod Bipolar cell - Eye,CL:0000751,http://purl.obolibrary.org/obo/CL_0000751,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+53c3f222-fc83-5a0e-94d5-9e4363fa8ac9,Capillary Layer Of choroid - Eye,UBERON:0005336,http://purl.obolibrary.org/obo/UBERON_0005336,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+424b7521-98fd-5715-bf61-00d419ef1d3c,Retinal Cone cell - Eye,CL:0000573,http://purl.obolibrary.org/obo/CL_0000573,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+3e6d73ec-a1c0-5d98-aaee-d2ad5066de1c,Retinal Blood Vessel Endothelial cell - Eye,CL:0002585,http://purl.obolibrary.org/obo/CL_0002585,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+33695c26-c2f3-5634-ace4-867170b9aa16,Retinal Ganglion cell - Eye,CL:0000740,http://purl.obolibrary.org/obo/CL_0000740,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+a0c39ea4-5383-5b46-9655-1c596e1b8eb1,Primary Lens fiber - Eye,CL:0002228,http://purl.obolibrary.org/obo/CL_0002228,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+abdbfeaf-f555-51ea-9933-743509ce3827,Retina Horizontal cell - Eye,CL:0000745,http://purl.obolibrary.org/obo/CL_0000745,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+4b431ac6-be57-56a5-81d6-036bd0322e75,Lens Epithelial cell - Eye,CL:0002224,http://purl.obolibrary.org/obo/CL_0002224,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+731c79e3-b0b8-57c6-ace7-225cc31229f0,Lens Fiber cell - Eye,CL:0011004,http://purl.obolibrary.org/obo/CL_0011004,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+bb8920c0-10aa-5217-a5ab-303528a38528,Secondary Lens fiber - Eye,CL:0002225,http://purl.obolibrary.org/obo/CL_0002225,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+0114e51c-9edf-588b-b18e-2db09ee5dcb1,Obsolete Muller cell - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+e33fc335-8c18-5772-bc98-b3941952de32,Retinal Rod cell - Eye,CL:0000604,http://purl.obolibrary.org/obo/CL_0000604,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+06073d0b-4851-566e-b6b3-b0be8f7798a5,Retinal Pigment Epithelial cell - Eye,CL:0002586,http://purl.obolibrary.org/obo/CL_0002586,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+bb900d6b-0909-5e41-be5f-1ea70651ba98,Corneal Endothelial cell - Eye,CL:0000132,http://purl.obolibrary.org/obo/CL_0000132,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+8999bbb0-e474-5d32-9a84-5080eae2ee87,keratocyte - Eye,CL:0002363,http://purl.obolibrary.org/obo/CL_0002363,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+25548cbb-52b8-5ca0-91f1-40abd132b4ff,telocyte - Eye,,,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+dee2a465-7eb5-5843-beed-1a87cafe1f11,Corneal Epithelial cell - Eye,CL:0000575,http://purl.obolibrary.org/obo/CL_0000575,UBERON:0000970,http://purl.obolibrary.org/obo/UBERON_0000970
+a4601da2-c0a3-5bc3-a7b4-b3275b4d4ad7,Basal Cell Of Epithelium Of trachea - Respiratory System,CL:1000348,http://purl.obolibrary.org/obo/CL_1000348,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+f5a5b991-d97b-522e-ac45-e256852f704c,Tracheal Goblet cell - Respiratory System,CL:1000329,http://purl.obolibrary.org/obo/CL_1000329,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+e4bcf250-9752-5a31-a0b4-d6bbe253aea4,Brush Cell Of trachea - Respiratory System,CL:0002207,http://purl.obolibrary.org/obo/CL_0002207,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+eb7b0999-c4e9-5f7f-be21-b41242664151,Ciliated Columnar Cell Of Tracheobronchial tree - Respiratory System,CL:0002145,http://purl.obolibrary.org/obo/CL_0002145,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+7785d236-475f-5b0a-a1c8-1d36d53dc289,Dense-Core Granulated Cell Of Epithelium Of trachea - Respiratory System,CL:1000377,http://purl.obolibrary.org/obo/CL_1000377,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+51cdd676-9851-5182-a9d9-2fbba2ceded4,Serous Cell Of Epithelium Of trachea - Respiratory System,CL:1000330,http://purl.obolibrary.org/obo/CL_1000330,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+507dc1d3-e1b7-5b78-9a29-cd09747856e9,Smooth Muscle Cell Of trachea - Respiratory System,CL:0002600,http://purl.obolibrary.org/obo/CL_0002600,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+171c554d-517b-55f5-81aa-7bdb737fd696,Submucosal Gland Ciliated Duct cells - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+7fc1e62e-d938-504c-8d76-bc4dd9e98cb4,Submucosal Gland Basal cells - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+3028e275-9633-5d57-8f8b-6141e72e1690,Submucosal Gland secretory - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+359c8c95-eb82-553a-b850-81c0f518b275,Submucosal Gland Collecting Duct epithelium - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+807aba01-84d8-5105-86ca-9923513e6724,Submucosal Gland Mucous cells - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+c896c776-fa56-57cf-be79-93715dae7202,Submucosal Gland Serous cells - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+dc5d2767-bde6-5b98-a2bf-4d74a4e0755b,Myoepithelial cell - Respiratory System,CL:0000185,http://purl.obolibrary.org/obo/CL_0000185,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+73e41959-058c-52ce-bc95-c46773f01d41,Tracheobronchial chondrocyte - Respiratory System,CL:0019002,http://purl.obolibrary.org/obo/CL_0019002,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+a30c5207-44d3-523f-8e06-9de945ff52f4,Endothelial Cell Of artery - Respiratory System,CL:1000413,http://purl.obolibrary.org/obo/CL_1000413,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+0c77bc18-0919-5a58-9d25-11a1328df2a5,Blood Vessel Smooth Muscle cell - Respiratory System,CL:0019018,http://purl.obolibrary.org/obo/CL_0019018,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+8407607e-3bbb-50cd-8ffc-1ad6275ec759,Venous Endothelial cell - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+79ef8219-d4e4-5ae6-addb-678d419e9515,Ciliated Cell Of The bronchus - Respiratory System,CL:0002332,http://purl.obolibrary.org/obo/CL_0002332,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+f093b6cb-7767-5bc2-a35e-0d49e3b2a4e1,Basal Epithelial Cell Of Tracheobronchial tree - Respiratory System,CL:0002329,http://purl.obolibrary.org/obo/CL_0002329,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+4b5dd984-edb4-54f2-ad7a-c254ef2f0a6d,Lung Goblet cell - Respiratory System,CL:1000143,http://purl.obolibrary.org/obo/CL_1000143,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+4a3636f8-2e51-544e-91b2-36c763475cfe,Lung Neuroendocrine cell - Respiratory System,CL:1000223,http://purl.obolibrary.org/obo/CL_1000223,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+a3cd25e9-9459-52ff-bc28-73e5ed1c81c1,Brush Cell Of Trachebronchial tree - Respiratory System,CL:0002075,http://purl.obolibrary.org/obo/CL_0002075,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+7dc9fec0-f513-5a1b-bcb5-85a375b1afde,Pulmonary ionocyte - Respiratory System,CL:0017000,http://purl.obolibrary.org/obo/CL_0017000,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+6bf22dc1-4d43-546c-a437-6d72ee7211b5,Serous Cell Of Epithelium Of bronchus - Respiratory System,CL:1000331,http://purl.obolibrary.org/obo/CL_1000331,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+42b78d23-e98a-56fd-9112-10a90daf6e9c,Bronchial Smooth Muscle cell - Respiratory System,CL:0002598,http://purl.obolibrary.org/obo/CL_0002598,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+8bc63eb2-4560-524d-a0f3-315a6d7dca4e,Pulmonary Artery Endothelial cell - Respiratory System,CL:1001568,http://purl.obolibrary.org/obo/CL_1001568,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+6342819d-c610-5de3-9f04-d8bf15ea58ad,Smooth Muscle Cell Of The Pulmonary artery - Respiratory System,CL:0002591,http://purl.obolibrary.org/obo/CL_0002591,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+87378e78-56e2-59a4-abe5-0b76ef45ebb6,Tracheobronchial Smooth Muscle cell - Respiratory System,CL:0019019,http://purl.obolibrary.org/obo/CL_0019019,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+4da6d1d1-938c-50ae-b08d-8c25c5ad04ee,Club cell - Respiratory System,CL:0000158,http://purl.obolibrary.org/obo/CL_0000158,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+36288440-2d9a-5460-a558-9e054efef0b8,Basal Cells Of Terminal Ciliated Ducts Of Submucosal glands - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+66460e2b-41bd-542e-ac76-c17569bbeed7,Ciliated Cuboidal epithelium - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+39a24568-286f-5f96-a28f-349ff477ec52,Serous Cell Of Epithelium Of Lobular bronchiole - Respiratory System,CL:1000333,http://purl.obolibrary.org/obo/CL_1000333,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+b8e80743-ab2c-5e96-9735-8f5b07376b64,Smooth Muscle cells - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+ffbc9c6e-c46e-53cb-840c-e65eac34f9d9,Basal Cell Of Epithelium Of Lobular bronchiole - Respiratory System,CL:1000352,http://purl.obolibrary.org/obo/CL_1000352,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+af577b75-21fb-587e-ab4a-a00697037f72,Serous Cell Of Epithelium Of Terminal bronchiole - Respiratory System,CL:1000332,http://purl.obolibrary.org/obo/CL_1000332,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+ab7720ee-7fe9-5f01-9352-96b6346e866e,Basal Cell Of Epithelium Of Terminal bronchiole - Respiratory System,CL:1000350,http://purl.obolibrary.org/obo/CL_1000350,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+65302ca7-0d95-56ec-995b-a3dfe83dc8c8,Bronchioalveolar Stem cells - Respiratory System,CL:1001566,http://purl.obolibrary.org/obo/CL_1001566,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+fbe9285c-97a2-52a8-89df-93c5bd7c627c,Lung Matrix Fibroblast 2 - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+05188b8d-b747-561c-a3e1-da1d1944f663,Matrix Fibroblast 1/(Lipofibroblast) - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+27de723d-0dda-5448-b298-9a12faa0add5,Type I pneumocyte - Respiratory System,CL:0002062,http://purl.obolibrary.org/obo/CL_0002062,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+a49e6264-7849-520a-aba6-553c9b6844be,Type II pneumocyte - Respiratory System,CL:0002063,http://purl.obolibrary.org/obo/CL_0002063,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+76930d50-f505-5350-96b2-94cf9c897302,Myofibroblast cell - Respiratory System,CL:0000186,http://purl.obolibrary.org/obo/CL_0000186,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+bdbd6acd-8f13-58e2-86cd-cd050d802618,Pericyte cell - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+1e9ededa-ffd2-5fde-b14f-12bfa087a722,CAP1 - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+f7a0d675-a62f-5fbc-9b6e-c4462199852f,CAP2 - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+6296fbfe-712f-5a4a-912a-a35a1b5b16b0,Pulmonary Venous Endothelial cell - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+fdf61eee-a192-51df-a49b-599289f872f5,Adult Endothelial Progenitor cell - Respiratory System,CL:0002619,http://purl.obolibrary.org/obo/CL_0002619,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+89db1032-bca3-59de-bfa4-24a9a43abac4,Endothelial Cell Of Lymphatic vessel - Respiratory System,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+0151314c-6508-54e1-b3fd-e83a128e219e,Mesothelial Cell Of Visceral pleura - Respiratory System,CL:1000493,http://purl.obolibrary.org/obo/CL_1000493,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+32e4112d-d6bc-5818-84d7-498c0eff459b,basal - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+cfda5b70-05da-5b4c-86fe-5e87c23971d7,Alveolar macrophage - Respiratory System,CL:0000583,http://purl.obolibrary.org/obo/CL_0000583,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+01c20c3b-c350-51a0-8299-2bdd5094b089,Interstitial macrophage - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+6b1fc390-f9f7-5ef7-8ba4-1f8cce3c22ef,Connective Tissue Type Mast cell - Respiratory System,CL:0000484,http://purl.obolibrary.org/obo/CL_0000484,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+ba094487-3d0f-59ca-8689-b6cce5d870ca,Mucosal Type Mast cell - Respiratory System,CL:0000485,http://purl.obolibrary.org/obo/CL_0000485,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+5206fd3d-46d0-5680-8616-3777d7cd2b8b,Classical monocyte - Respiratory System,CL:0000860,http://purl.obolibrary.org/obo/CL_0000860,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+26d3895d-7bbc-503a-bc20-5cf7c90a4b5e,Non-Classical monocyte - Respiratory System,CL:0000875,http://purl.obolibrary.org/obo/CL_0000875,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+dd1f18ff-028b-520b-b246-5283ecc656cd,basophil - Respiratory System,CL:0000767,http://purl.obolibrary.org/obo/CL_0000767,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+b714168a-6e65-57b1-8c41-af71a328c638,Lung Parenchyma Resident eosinophil - Respiratory System,CL:0019015,http://purl.obolibrary.org/obo/CL_0019015,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+ae681920-d69f-58e2-98d2-97d310ac0361,granulocyte - Respiratory System,CL:0000094,http://purl.obolibrary.org/obo/CL_0000094,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+0c3e67ef-5ff7-5610-94b1-8bc1c53ebd55,T cell - Respiratory System,CL:0000084,http://purl.obolibrary.org/obo/CL_0000084,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+8e291a3c-cf14-54d7-8050-1a86ebf97b58,Resident Memory CD8 T cell - Respiratory System,,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+ce582c3c-7e10-56b2-800b-6b180c89e214,B cell - Respiratory System,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+2f24c343-9f8d-54cf-9238-93bb79a410c2,Plasma cell - Respiratory System,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+8b507ed2-9fc8-52f5-b8d1-3d712144e478,Natural Killer cell - Respiratory System,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+a351c934-87d6-508a-b03f-46c75eb32df0,CD141-positive Myeloid Dendritic cell - Respiratory System,CL:0002394,http://purl.obolibrary.org/obo/CL_0002394,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+4d78a8f5-02f1-5883-b5e6-289fcc3f019c,CD1c-positive Myeloid Dendritic cell - Respiratory System,CL:0002399,http://purl.obolibrary.org/obo/CL_0002399,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+77a3adee-0950-5420-8e9e-f8cea3e4e343,Plasmacytoid Dendritic cell - Respiratory System,CL:0000784,http://purl.obolibrary.org/obo/CL_0000784,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+d5558db1-0a2f-59d4-81e8-f0c2438ac678,Regulatory T cell - Respiratory System,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+9ede97aa-f83a-5fba-87de-0fab1e4f96ab,"Naive Thymus-Derived CD4-positive, Alpha-Beta T cell - Respiratory System",CL:0000895,http://purl.obolibrary.org/obo/CL_0000895,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+b7c5f7e3-6d48-5e56-a152-8f5790c250b6,"Naive Thymus-Derived CD8-positive, Alpha-Beta T cell - Respiratory System",CL:0000900,http://purl.obolibrary.org/obo/CL_0000900,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+f641e9aa-dd5e-55ba-adc3-2af266dcc77e,"Central Memory CD4-positive, Alpha-Beta T cell - Respiratory System",CL:0000904,http://purl.obolibrary.org/obo/CL_0000904,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+0784ddfd-9e61-5e55-a182-e17f788be6ae,"Central Memory CD8-positive, Alpha-Beta T cell - Respiratory System",CL:0000907,http://purl.obolibrary.org/obo/CL_0000907,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+806cd70f-1625-5641-bbd6-cb9576c83394,Mucosal Invariant T cell - Respiratory System,CL:0000940,http://purl.obolibrary.org/obo/CL_0000940,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+c828d427-ab09-5213-8e16-74622c386cbc,"CD16-negative, CD56-bright Natural Killer cell - Respiratory System",,,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+4cf6c04a-b464-52b4-b19a-6b0b83a3f3fc,megakaryocyte - Respiratory System,CL:0000556,http://purl.obolibrary.org/obo/CL_0000556,UBERON:0001004,http://purl.obolibrary.org/obo/UBERON_0001004
+f7e858e3-70fe-572d-a8bc-f891635260ed,Keratinocyte (Corneocyte) - Skin,,,,
+529e6a1f-4f51-5ad2-a03d-60ec8fb42218,keratinocyte - Skin,CL:0000312,http://purl.obolibrary.org/obo/CL_0000312,,
+c7eb4c48-d2b6-5901-9d10-a80a160865dd,Epidermal Langerhans cell - Skin,CL:0002457,http://purl.obolibrary.org/obo/CL_0002457,,
+ed8ca369-8ea8-5a06-8887-7b8945d45066,Prickle cell - Skin,CL:0000649,http://purl.obolibrary.org/obo/CL_0000649,,
+439d44e8-44ea-5d7d-a1fb-04b9b7740070,Merkel cell - Skin,CL:0000242,http://purl.obolibrary.org/obo/CL_0000242,,
+081a34bd-d0f2-588c-add0-bfc7a9a9fc27,Basal cell - Skin,CL:0000646,http://purl.obolibrary.org/obo/CL_0000646,,
+f550385d-e2b9-5d7e-a759-e4a385c6805c,Melanocyte Of skin - Skin,CL:1000458,http://purl.obolibrary.org/obo/CL_1000458,,
+99dd6286-56a7-5613-b1f2-9c4dea829d9d,Keratinocyte (Onychocyte) - Skin,,,,
+0822d91f-2e5b-5054-aa99-a53eb70c0e3b,Keratinocyte Stem cell - Skin,CL:0002337,http://purl.obolibrary.org/obo/CL_0002337,,
+b837aad9-a077-551e-a94b-20f9908152b3,Secretory cell - Skin,CL:0000151,http://purl.obolibrary.org/obo/CL_0000151,,
+86397004-7066-55fd-9768-9e59d54e7b54,Myoepithelial Cell Of Sweat gland - Skin,CL:1000417,http://purl.obolibrary.org/obo/CL_1000417,,
+d2621e30-8bb1-582d-88f4-8b450279b067,Skin fibroblast - Skin,CL:0002620,http://purl.obolibrary.org/obo/CL_0002620,,
+1c01ca3c-e034-5faa-b266-3abf7a5187c9,Mast cell - Skin,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,,
+bca2e0d8-5d13-5252-9895-aff04fcef488,Dermal Dendritic cell - Skin,CL:0001006,http://purl.obolibrary.org/obo/CL_0001006,,
+849c42e3-9ae3-5719-96b6-417d83f749d1,macrophage - Skin,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,,
+b4924e94-3e7b-557e-b677-22c27a9a3c5d,T-helper 1 cell - Skin,CL:0000545,http://purl.obolibrary.org/obo/CL_0000545,,
+34e912c6-3532-5f8d-9fdd-5d71f6e67d13,Cytotoxic T cell - Skin,CL:0000910,http://purl.obolibrary.org/obo/CL_0000910,,
+a4519c9f-a1ec-5ec8-af1f-5feca715f0d0,Regulatory T cell - Skin,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,,
+7e2da630-c1af-5088-a92f-1674a90d9fd0,Natural Killer cell - Skin,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,,
+80025514-494f-56b2-9a26-a3ba067cc01c,Group 1 Innate Lymphoid cell - Skin,CL:0001067,http://purl.obolibrary.org/obo/CL_0001067,,
+64734823-9793-5173-b546-8452219bb526,Group 2 Innate Lymphoid cell - Skin,CL:0001069,http://purl.obolibrary.org/obo/CL_0001069,,
+f9145d22-e7d1-57d4-b13a-f38e099d4f7d,Group 3 Innate Lymphoid cell - Skin,CL:0001071,http://purl.obolibrary.org/obo/CL_0001071,,
+04a42b30-4a4a-58b0-b4bc-4f6397dd3bb6,B cell - Skin,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,,
+3bba9c44-f6b8-5273-a266-9c9b9557dc28,Plasma cell - Skin,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,,
+3816ac71-22e5-560c-bbd2-b73495dcc3e4,neutrophil - Skin,CL:0000775,http://purl.obolibrary.org/obo/CL_0000775,,
+3e62b282-09af-568d-878b-9e581c53b14d,eosinophil - Skin,CL:0000771,http://purl.obolibrary.org/obo/CL_0000771,,
+9303d094-dfb7-5400-a60f-0996cdc36700,neuron - Skin,CL:0000540,http://purl.obolibrary.org/obo/CL_0000540,,
+629ab5ab-9b08-57a2-9ba4-4d4ded1dfab1,Schwann cell - Skin,CL:0002573,http://purl.obolibrary.org/obo/CL_0002573,,
+aa81f8af-1294-5b49-aa43-e61ca87d28fc,Perineurial cells - Skin,,,,
+71d365d5-1e71-55a1-95b6-890d6e6f61a2,Endothelial cell - Skin,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,,
+d2af1d79-fa6c-57e8-b2db-a934f9686f1b,Vascular Associated Smooth Muscle cell - Skin,CL:0000359,http://purl.obolibrary.org/obo/CL_0000359,,
+89c23d74-fbf3-5966-8f8d-376d7220dfb1,Type I Cell Of Carotid body - Skin,CL:0002292,http://purl.obolibrary.org/obo/CL_0002292,,
+9974ef25-94e1-56a8-bfbb-0f5092ab8bac,Pericyte cell - Skin,,,,
+832a9f69-d8aa-5157-82d5-7b11e020b83d,Endothelial Cell Of Lymphatic vessel - Skin,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,,
+1380cdb5-0061-5cdc-946b-c1e854c650cc,Subcutaneous Fat cell - Skin,CL:0002521,http://purl.obolibrary.org/obo/CL_0002521,,
+9b28a72f-ce07-59d5-ab37-f14329c80353,Perineural cell - Skin,CL:0002576,http://purl.obolibrary.org/obo/CL_0002576,,
+0a0c6222-c94a-5cff-944f-c028d467f57f,Uterine Smooth Muscle cell - Uterus,CL:0002601,http://purl.obolibrary.org/obo/CL_0002601,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+852e7c4f-0748-5f0d-9f49-5d156d07d224,Endothelial cell - Uterus,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+809f0200-7bfb-5ea6-9861-cc791080b544,SOX9+ Epithelial cell - Uterus,,,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+8c6f5f91-df56-5a81-bef0-4068174cfe0f,Ciliated Epithelial cell - Uterus,CL:0000067,http://purl.obolibrary.org/obo/CL_0000067,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+3d822ce3-83a7-5105-bde5-1459ea6a40f5,Glandular Epithelial cell - Uterus,CL:0000150,http://purl.obolibrary.org/obo/CL_0000150,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+4708cd21-2ead-502c-ab49-0791018d1ff2,Luminal Epithelial cell - Uterus,,,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+13d5ca38-27d2-5c56-bd50-f8bae1528c13,Stromal cell - Uterus,CL:0000499,http://purl.obolibrary.org/obo/CL_0000499,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+10c74f87-4918-53ea-afe2-7993f74c3450,Perivascular Support cell - Uterus,,,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+53bd7323-6535-5cc3-b569-98e8ac1aa695,macrophage - Uterus,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+0582d84d-d0c0-587b-8afc-a418019dec73,lymphocyte - Uterus,CL:0000542,http://purl.obolibrary.org/obo/CL_0000542,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+c9793eb8-b413-5467-9e5e-cba5b57c02ed,Uterine Natural Killer cell - Uterus,,,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+a0e98bde-785c-505c-bb25-6ab4a28cdcaf,Uterine Dendritic cells - Uterus,,,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+7c92bb3b-01a1-5195-a311-e96ba8248c59,B cell - Uterus,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+90e51c1a-cda7-55a8-bfea-7ba01631185b,T cell - Uterus,CL:0000084,http://purl.obolibrary.org/obo/CL_0000084,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+67a04425-493f-5f79-a0e1-7d9e179a7e1d,Innate Lymphoid cell - Uterus,CL:0001065,http://purl.obolibrary.org/obo/CL_0001065,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+09236c43-a8bc-5aae-866d-da8c4ecd418b,Mast cell - Uterus,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0000995,http://purl.obolibrary.org/obo/UBERON_0000995
+84b6b64c-66ff-59b0-8bb7-f3d9c7559456,Thymic Capsular fibroblast - Thoracic Thymus,,,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+8361e2e3-9474-5ab3-bddb-d41c45be2dca,macrophage - Thoracic Thymus,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+952d3e22-70ef-5d6c-bf4f-98d04b1cffcb,Blood Vessel Endothelial cell - Thoracic Thymus,CL:0000071,http://purl.obolibrary.org/obo/CL_0000071,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+13c32a3f-8dce-557f-8b59-972bd9c8c9a0,Thymic Interlobular fibroblast - Thoracic Thymus,,,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+b10a3f9e-471e-5191-a308-d50a04f9cf8c,Erythroid Lineage cell - Thoracic Thymus,CL:0000764,http://purl.obolibrary.org/obo/CL_0000764,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+3ef31be0-ee63-5970-9bc8-cd78e04652cf,Mast cell - Thoracic Thymus,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+a72ac47c-e078-53b5-a130-9ca28278dbac,Early T Lineage precursor - Thoracic Thymus,CL:0002425,http://purl.obolibrary.org/obo/CL_0002425,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+1d4c3e74-e082-5a28-b68d-7187fd3b6084,Double Negative Thymocyte 2 - Thoracic Thymus,,,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+fba5f65c-1612-5ffa-bb47-e37622c74d4c,Double Negative Thymocyte 3 - Thoracic Thymus,,,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+a2fb698e-6d47-58b5-b863-7dd986ab0c70,Double Negative Thymocyte 4 - Thoracic Thymus,,,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+aea5e31a-540e-5eb0-8f9c-8491ccaa9fae,Thymic Cortical macrophage - Thoracic Thymus,CL:0000883,http://purl.obolibrary.org/obo/CL_0000883,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+61e99ba7-bc25-5423-b061-31f0af293de3,"Double-Positive, Alpha-Beta thymocyte - Thoracic Thymus",CL:0000809,http://purl.obolibrary.org/obo/CL_0000809,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+a33e1523-e8bb-5631-989b-bcda4c92041f,Thymic Plasmacytoid Dendritic cell - Thoracic Thymus,CL:0000942,http://purl.obolibrary.org/obo/CL_0000942,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+ded22f78-78b1-5563-9e2a-0f3bced8e29c,Cortical Thymic Epithelial cell - Thoracic Thymus,CL:0002364,http://purl.obolibrary.org/obo/CL_0002364,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+41c4d99f-4652-56d8-a739-83a167051d61,Unswitched Memory B cell - Thoracic Thymus,CL:0000970,http://purl.obolibrary.org/obo/CL_0000970,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+990f2e69-c5c2-52b8-b8e7-3edb22b13928,Class Switched Memory B cell - Thoracic Thymus,CL:0000972,http://purl.obolibrary.org/obo/CL_0000972,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+3a9480ce-2885-51de-9eba-c018294acd11,Plasma cell - Thoracic Thymus,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+b384cd27-3ecc-5631-904d-b717c4cd7dc2,monocyte - Thoracic Thymus,CL:0000576,http://purl.obolibrary.org/obo/CL_0000576,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+14a62d36-82cb-5d5b-86a6-294eeb8185e3,Mature CD4 Single-Positive thymocyte - Thoracic Thymus,CL:0002436,http://purl.obolibrary.org/obo/CL_0002436,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+27d934de-cf48-5f06-8a67-3c59f5e76623,Mature CD8 Single-Positive thymocyte - Thoracic Thymus,CL:0002437,http://purl.obolibrary.org/obo/CL_0002437,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+5cc873c8-41a3-5901-a2ce-6cf2129b3f9f,Thymic macrophage - Thoracic Thymus,CL:0000866,http://purl.obolibrary.org/obo/CL_0000866,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+ad10a163-0845-5d08-98ce-c545e633a1c2,CD8alpha-positive Thymic Conventional Dendritic cell - Thoracic Thymus,CL:0002059,http://purl.obolibrary.org/obo/CL_0002059,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+030763de-9981-5b53-bb8b-e29771434db8,CD8alpha-negative Thymic Conventional Dendritic cell - Thoracic Thymus,CL:0002460,http://purl.obolibrary.org/obo/CL_0002460,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+b78b97ee-a633-5006-bdea-177aefbed18e,Endothelial Cell Of Lymphatic vessel - Thoracic Thymus,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+83fe015a-ed2e-5c73-b0e3-743d911f4412,Corticomedullary Thymic Epithelial cell - Thoracic Thymus,CL:0009070,http://purl.obolibrary.org/obo/CL_0009070,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+9c24390b-0a8f-5206-8ad9-7e1e0023406b,"CD4-positive, Alpha-Beta Cytotoxic T cell - Thoracic Thymus",CL:0000934,http://purl.obolibrary.org/obo/CL_0000934,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+00a5183a-d449-5774-b540-31c3f0beb25f,"CD4-positive, Alpha-Beta Memory T cell - Thoracic Thymus",CL:0000897,http://purl.obolibrary.org/obo/CL_0000897,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+24869e10-2a4c-597b-b452-569aed205148,"CD8-positive, Alpha-Beta Memory T cell - Thoracic Thymus",CL:0000909,http://purl.obolibrary.org/obo/CL_0000909,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+5b01d780-cbf5-5b7a-a60e-03c1094675a9,CD8aa(I) thymocyte - Thoracic Thymus,CL:0009068,http://purl.obolibrary.org/obo/CL_0009068,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+4cf83218-32d4-5bd0-a226-9c6523af5153,CD8aa(II) thymocyte - Thoracic Thymus,CL:0009069,http://purl.obolibrary.org/obo/CL_0009069,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+78fb75f1-fd14-5545-b456-2c1117e62549,T Follicular Helper cell - Thoracic Thymus,CL:0002038,http://purl.obolibrary.org/obo/CL_0002038,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+b2ab15b6-78c5-51d3-9b88-627109176c32,Naive Regulatory T cell - Thoracic Thymus,CL:0002677,http://purl.obolibrary.org/obo/CL_0002677,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+5cedce75-e183-57be-8c32-663fb29a50ec,Gamma-Delta T cell - Thoracic Thymus,CL:0000798,http://purl.obolibrary.org/obo/CL_0000798,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+99ec7c4b-ec8c-5a9b-a142-54468a007bb4,T-helper 17 cell - Thoracic Thymus,CL:0000899,http://purl.obolibrary.org/obo/CL_0000899,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+2b47286a-5860-5ca1-94b4-7178154c3e20,Immature NK T cell - Thoracic Thymus,CL:0000914,http://purl.obolibrary.org/obo/CL_0000914,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+dc2c473c-7d2c-5ab0-b0e5-4c29fb290d6c,Thymic Medullary macrophage - Thoracic Thymus,CL:0000882,http://purl.obolibrary.org/obo/CL_0000882,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+842f80f1-9217-53c4-b2e6-c723d2eb95bb,Naive B cell - Thoracic Thymus,CL:0000788,http://purl.obolibrary.org/obo/CL_0000788,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+8205df65-ef05-5152-9b61-e481e3f75089,"Group 3 Innate Lymphoid Cell, human - Thoracic Thymus",CL:0001078,http://purl.obolibrary.org/obo/CL_0001078,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+e0e13783-90df-563e-bd96-5bb83360f61f,Natural Killer cell - Thoracic Thymus,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+a1ab7bf6-5e3a-596b-824e-65998a4d4c7a,Medullary Thymic Epithelial Cell Type 1 - Thoracic Thymus,CL:0009071,http://purl.obolibrary.org/obo/CL_0009071,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+f84b3145-172d-5858-abf7-336d59658b5a,Medullary Thymic Epithelial Cell Type 2 - Thoracic Thymus,CL:0009072,http://purl.obolibrary.org/obo/CL_0009072,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+fb7384df-8d0d-54d3-a64f-8b8e326d94ea,Medullary Thymic Epithelial Cell Type 3 - Thoracic Thymus,CL:0009073,http://purl.obolibrary.org/obo/CL_0009073,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+fd78de36-9276-5b0f-b08e-01df77e56c6b,Medullary Thymic Epithelial Cell Type 4,CL:0009074,http://purl.obolibrary.org/obo/CL_0009074,,
+2e195c78-2e55-5b38-8edc-25ac864b4329,Myo-Medullary Thymic Epithelial cell - Thoracic Thymus,CL:0009075,http://purl.obolibrary.org/obo/CL_0009075,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+9cda73e5-7e5e-5c2e-a433-ead39a415d26,Neuro-Medullary Thymic Epithelial cell - Thoracic Thymus,CL:0009076,http://purl.obolibrary.org/obo/CL_0009076,UBERON:0009115,http://purl.obolibrary.org/obo/UBERON_0009115
+e7324b25-7211-5ea1-a55c-c7b5a57e7f3d,Splenic Endothelial cell - Spleen,CL:2000053,http://purl.obolibrary.org/obo/CL_2000053,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+9f409489-14bb-57ed-a0f6-4fcaf58c6dc1,Catecholaminergic Neuron - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+6c46056b-a9f3-5239-9a6c-bdd26cabaa4d,Naive B cell - Spleen,CL:0000788,http://purl.obolibrary.org/obo/CL_0000788,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+9f39a87f-a6e6-57de-b417-2721688eae57,Memory B cell - Spleen,CL:0000787,http://purl.obolibrary.org/obo/CL_0000787,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+5b18e2f1-6d5a-58f4-922f-8c7fb4eadfc0,Class Switched Memory B cell - Spleen,CL:0000972,http://purl.obolibrary.org/obo/CL_0000972,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+5df2a5be-1682-5282-9501-757f2e8da6d8,Adventitial Stromal Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+901f167f-ced2-59e7-8d0a-3ac4590e31b4,Splenic Stromal Cell (non-FRC/non-FDC) - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+cca5ec75-366b-520e-a1dc-67a38c5fe3f7,Splenic Pericyte - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+e850a295-718c-5e80-9722-5c114ab7b970,Splenic Stromal Sheath Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+a8eb40cf-cdd8-5723-9550-63e43c7abbe4,Splenic Red Pulp macrophage - Spleen,CL:0000874,http://purl.obolibrary.org/obo/CL_0000874,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+c21697e1-f27f-56a1-b69e-485e332a6e02,Reticular Cell Of Splenic sinusoid - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+867fbaa9-53a8-5ecc-847c-6909fa2192e8,Splenic Littoral Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+fc8a1a48-b873-53f8-a50e-11e9fa0fc99c,Splenic Red Pulp Stromal Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+bbdbf6a4-10a8-5635-8154-2f992de82327,Hematopoietic Stem cell - Spleen,CL:0000037,http://purl.obolibrary.org/obo/CL_0000037,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+6a06a618-cd92-564d-acba-69f740807fd7,"CD14-positive, CD16-low monocyte - Spleen",CL:0001055,http://purl.obolibrary.org/obo/CL_0001055,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+92986380-5467-5e96-a888-14d752d4f2ed,erythrocyte - Spleen,CL:0000232,http://purl.obolibrary.org/obo/CL_0000232,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+13ede371-1c83-562a-b9f5-bc5e6d37d780,B cell - Spleen,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+76262115-3b89-56e6-8273-9d90c4acb6cd,"CD8-positive, Alpha-Beta T cell - Spleen",CL:0000625,http://purl.obolibrary.org/obo/CL_0000625,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+56f8c6fc-0cb5-508c-847c-d8f938c5e79b,"CD8-positive, Alpha-Beta Memory T cell - Spleen",CL:0000909,http://purl.obolibrary.org/obo/CL_0000909,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+a886a1b4-e56f-50ce-a63b-87b00c38bdf8,Plasma cell - Spleen,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+17e335f2-1ff7-59da-9df5-e3ec16532221,plasmablast - Spleen,CL:0000980,http://purl.obolibrary.org/obo/CL_0000980,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+c3bc4fa2-6a4e-5c19-bfbb-12e100f2a79a,"Dendritic Cell, human - Spleen",CL:0001056,http://purl.obolibrary.org/obo/CL_0001056,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+780f3579-dc7a-5fcf-b503-a7cecd53dd3f,platelet - Spleen,CL:0000233,http://purl.obolibrary.org/obo/CL_0000233,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+9376fcdb-4011-5975-b1da-2132152c87d8,Natural Killer cell - Spleen,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+0faa5a2f-c32d-59e5-825a-df6c773a7688,Reticular Cell Of Splenic cord - Spleen,CL:1000489,http://purl.obolibrary.org/obo/CL_1000489,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+f1d5b826-9058-5f73-a384-dfb8f04a0d19,neutrophil - Spleen,CL:0000775,http://purl.obolibrary.org/obo/CL_0000775,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+c5cae2fb-7580-5d36-8561-9227d72bf2c9,Splenic Perifollicular Zone macrophage - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+a623729f-3f7a-5192-bf82-17830b9774c1,Stromal Cell - Spleen,CL:0000499,http://purl.obolibrary.org/obo/CL_0000499,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+721804b9-1067-5780-8991-c8e2e2d8ad03,CD141-positive Myeloid Dendritic cell - Spleen,CL:0002394,http://purl.obolibrary.org/obo/CL_0002394,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+d892ddf3-0239-53a2-86d7-8a3fddbc8d70,CD1c-positive Myeloid Dendritic cell - Spleen,CL:0002399,http://purl.obolibrary.org/obo/CL_0002399,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+74d91a66-a58b-5749-88b8-268e019023d5,Monocyte-Derived DC - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+58f0768c-f7df-5340-ae28-8bb016cf5034,"Plasmacytoid Dendritic Cell, human - Spleen",CL:0001058,http://purl.obolibrary.org/obo/CL_0001058,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+2913f98c-d3a4-5935-adb9-3d33e2283c92,DEC205+ DC - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+467b0ef5-ff16-54ba-b481-f38cc3501a14,Endothelial Cell Of Lymphatic vessel - Spleen,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+ecb9837b-7bac-5a55-b94e-66f649659917,Follicular Dendritic cell - Spleen,CL:0000442,http://purl.obolibrary.org/obo/CL_0000442,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+100e093b-392a-54cf-ada0-8d714e7a8112,Splenic White Pulp macrophage - Spleen,CL:0000876,http://purl.obolibrary.org/obo/CL_0000876,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+9765bcd7-0a81-54d5-883f-6d56c0c8a06f,Germinal Center B cell - Spleen,CL:0000844,http://purl.obolibrary.org/obo/CL_0000844,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+7bf3ace0-9931-5374-a4b9-ce1789d003bf,T Follicular Helper cell - Spleen,CL:0002038,http://purl.obolibrary.org/obo/CL_0002038,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+760ee4b9-a021-5deb-9460-7e3a87b04c41,T Follicular Regulatory Cell - Spleen,CL:0009113,http://purl.obolibrary.org/obo/CL_0009113,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+93905d03-7297-5a38-a69a-91e62d2827d5,Splenic Tingible Body macrophage - Spleen,CL:0000877,http://purl.obolibrary.org/obo/CL_0000877,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+2f5a69ce-2013-5bed-8f8d-52109177c16d,Mantle Zone B Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+b9e13b5d-7c1b-59e9-93e8-005c160322f0,Transitional Stage B cell - Spleen,CL:0000818,http://purl.obolibrary.org/obo/CL_0000818,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+bd838a1f-5fd4-5155-99a8-af8fe9588225,Superficial Zone B Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+ce88b8a3-1986-552f-9036-9fe600f9f66d,Splenic Marginal Zone macrophage - Spleen,CL:0000872,http://purl.obolibrary.org/obo/CL_0000872,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+0ccffd3d-ec5a-5eca-9e32-f4f2b8fe1a90,CD4-positive Helper T cell - Spleen,CL:0000492,http://purl.obolibrary.org/obo/CL_0000492,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+34c1582b-162d-55b4-aa59-95cdf6c9ac91,"Group 3 Innate Lymphoid Cell, human - Spleen",CL:0001078,http://purl.obolibrary.org/obo/CL_0001078,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+f90b8e01-0187-5fd4-b7a4-b81cdc6b73ff,"Naive Thymus-Derived CD4-positive, Alpha-Beta T cell - Spleen",CL:0000895,http://purl.obolibrary.org/obo/CL_0000895,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+5f9a43eb-b9f7-5f5c-8d6c-2879f10bf77b,"Naive Thymus-Derived CD8-positive, Alpha-Beta T cell - Spleen",CL:0000900,http://purl.obolibrary.org/obo/CL_0000900,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+e250942e-3186-5746-a2ab-52cb5b5f2f41,"Effector CD8-positive, Alpha-Beta T cell - Spleen",CL:0001050,http://purl.obolibrary.org/obo/CL_0001050,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+ab066a31-7746-575c-80da-3bdaa3fabb8b,"CD8-positive, Alpha-Beta Cytotoxic T cell - Spleen",CL:0000794,http://purl.obolibrary.org/obo/CL_0000794,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+58990d9b-e833-5698-b3b2-906c28b8bac8,Regulatory T cell - Spleen,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+198644fc-48ab-529c-970f-2f9369772597,Interdigitating Dendritic Cells - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+a29052ae-4447-5414-b81f-920811e29845,Cytotoxic Memory T Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+73dcae87-7fcf-5918-8af4-a5452e188f0a,"CD4-positive, Alpha-Beta Memory T cell - Spleen",CL:0000897,http://purl.obolibrary.org/obo/CL_0000897,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+c309acad-9a62-59df-848a-c1c5ff094c87,Myofibroblast cell - Spleen,CL:0000186,http://purl.obolibrary.org/obo/CL_0000186,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+e4765bf9-8d90-5103-831d-a0dc4d659321,Gamma-Delta T cell - Spleen,CL:0000798,http://purl.obolibrary.org/obo/CL_0000798,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+10e3f72c-d9cb-5e1f-8d65-9abeb8ba7d14,Endothelial Cell Of artery - Spleen,CL:1000413,http://purl.obolibrary.org/obo/CL_1000413,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+03d76984-425c-5282-ac76-f785fc2ae9c3,Vein Endothelial cell - Spleen,CL:0002543,http://purl.obolibrary.org/obo/CL_0002543,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+c03fa6df-17e4-5e33-ad79-5bf29ceb2245,Subcapsular Dendritic Cell - Spleen,,,UBERON:0002106,http://purl.obolibrary.org/obo/UBERON_0002106
+1abf9d3b-cf29-51ad-a61b-825229b8a5c9,Endothelial cell - Fallopian Tube,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+db268c8d-c654-5414-a4aa-5dc8fe1252d7,macrophage - Fallopian Tube,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+5b115211-14f9-54fc-ad6f-f57bff0b9f89,CD8+ T-cells - Fallopian Tube,,,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+30bb339b-d1a5-58b8-ad11-03f3c7898267,Natural Killer cell - Fallopian Tube,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+937229f6-4dcf-52f8-bd08-a81505ff3f89,CD4+ T-cell - Fallopian Tube,,,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+f93a6cb5-87f2-530d-8143-2b93a8e6163b,Langerhans cell - Fallopian Tube,CL:0000453,http://purl.obolibrary.org/obo/CL_0000453,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+9c573cfb-df4b-51f8-8b83-2ceb4191f246,monocyte - Fallopian Tube,CL:0000576,http://purl.obolibrary.org/obo/CL_0000576,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+b861182c-7266-5752-8b78-d6695a5a76db,Dendritic cell - Fallopian Tube,CL:0000451,http://purl.obolibrary.org/obo/CL_0000451,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+a1386632-f4d9-54ee-ac43-493c8fd28e10,B cell - Fallopian Tube,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+ad7de85c-dc74-594d-88a8-4c3151393408,Plasma cell - Fallopian Tube,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+55e151a9-48af-5fe6-bb9d-c98d789efe79,Secretory Epithelial cell - Fallopian Tube,,,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+8682fd81-fa13-5f8b-a315-949eebef2c9f,Intercalary Of Fallopian Tube isthmus - Fallopian Tube,,,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+3d83ee4f-8003-5615-998e-15b6a6581c0a,Intercalary Of Fallopian Tube ampulla - Fallopian Tube,,,UBERON:0003889,http://purl.obolibrary.org/obo/UBERON_0003889
+177bd2fc-2701-5054-be05-a2fc62a80434,Enterocyte Of Epithelium Of Large intestine - Large Intestine,CL:0002071,http://purl.obolibrary.org/obo/CL_0002071,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+937ed459-7fd9-5390-b59e-d305448c1aca,Large Intestine Crypt Goblet cell - Large Intestine,CL:1000321,http://purl.obolibrary.org/obo/CL_1000321,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+1eb8978a-6dbe-5386-9ebe-e77475d61628,Intestinal Crypt Stem Cell Of Large intestine - Large Intestine,CL:0009016,http://purl.obolibrary.org/obo/CL_0009016,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+b36f6459-2ba6-50c4-ad4f-856b1d6331bc,Paneth Cell Of colon - Large Intestine,CL:0009009,http://purl.obolibrary.org/obo/CL_0009009,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+83636118-799f-5780-910d-9a0a75b367a3,Neuroendocrine cell - Large Intestine,CL:0000165,http://purl.obolibrary.org/obo/CL_0000165,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+086dd38a-e2c6-5aa2-ac5a-c38789e4e6a8,Transit Amplifying Cell Of colon - Large Intestine,CL:0009011,http://purl.obolibrary.org/obo/CL_0009011,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+166963bb-9820-5a4a-a84d-d6cb1b4f8a62,Intestinal Tuft cell - Large Intestine,CL:0019032,http://purl.obolibrary.org/obo/CL_0019032,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+f8f53e6d-3745-5182-ac66-8a273e982704,"CD8-alpha-alpha-positive, Alpha-Beta Intraepithelial T cell - Large Intestine",CL:0000915,http://purl.obolibrary.org/obo/CL_0000915,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+3a9b39bb-45d1-50b5-b3da-3e582ef172b2,Surface Intraepithelial CD8+ Lymphocyte gamma/delta - Large Intestine,,,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+1ec03fc4-51be-5c4d-bb79-63e5f7d492dc,"CD8-alpha-beta-positive, Alpha-Beta Intraepithelial T cell - Large Intestine",CL:0000796,http://purl.obolibrary.org/obo/CL_0000796,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+86acfdae-0bb0-56ce-b477-88022d462717,"CD4-positive, Alpha-Beta Intraepithelial T cell - Large Intestine",CL:0000793,http://purl.obolibrary.org/obo/CL_0000793,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+e647abfe-837b-5d65-8722-7e8dc8d0c009,"CD4-negative, CD8-negative, Alpha-Beta Intraepithelial T cell - Large Intestine",CL:0000935,http://purl.obolibrary.org/obo/CL_0000935,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+b8d21817-cb63-5a28-8de4-f7c31a410bcd,Mature eosinophil - Large Intestine,CL:0000041,http://purl.obolibrary.org/obo/CL_0000041,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+e08db698-09ac-5913-ac27-5c28779d98de,Pericryptal Fibroblastic sheath - Large Intestine,,,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+e4b6a580-f584-5660-aa22-b88b319942d6,Capillary Endothelial cell - Large Intestine,CL:0002144,http://purl.obolibrary.org/obo/CL_0002144,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+a2df601e-33d5-528f-b60c-67276fec00aa,Endothelial Cell Of Lymphatic vessel - Large Intestine,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+7752f4d9-440a-578e-99ec-5b3e705018a0,Pericyte cell - Large Intestine,,,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+36a4db70-09d1-5e80-9d4d-cd1cc81f590a,fibroblast - Large Intestine,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+fc22b4b2-03f4-56bd-b73e-7b1916d51ef4,Schwann cell - Large Intestine,CL:0002573,http://purl.obolibrary.org/obo/CL_0002573,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+f7562d5a-2770-5d6c-a9fe-bd427af5b50a,ganglion - Large Intestine,UBERON:0000045,http://purl.obolibrary.org/obo/UBERON_0000045,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+febc8812-8834-58a8-99f9-c3a2e45812e2,Lymphocyte Of Large Intestine Lamina propria - Large Intestine,CL:0009018,http://purl.obolibrary.org/obo/CL_0009018,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+0b88ce52-92c6-535f-8971-79c1c2f53d9c,macrophage - Large Intestine,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+571ea2db-0dfd-524c-ae38-fea4372fbd5b,Endothelial Cell Of High Endothelial venule - Large Intestine,CL:0002652,http://purl.obolibrary.org/obo/CL_0002652,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+dfbf3ffe-d9b4-5f04-92c1-8fc2cbd5f409,Plasma cell - Large Intestine,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+dd66fba1-3a31-55f1-ab76-eeabccf8aabc,Mast cell - Large Intestine,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+89cd66dc-0262-57c7-8bf5-d9c72c77560e,Mature neutrophil - Large Intestine,CL:0000096,http://purl.obolibrary.org/obo/CL_0000096,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+527ea803-b5b9-517f-8c5f-b831ec8178f0,Dendritic cell - Large Intestine,CL:0000451,http://purl.obolibrary.org/obo/CL_0000451,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+4e70a2cc-d86c-5f62-8ff4-5aa96d231e19,Fat cell - Large Intestine,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+8f0532a1-fe6e-5e81-bc91-fe798d34d28c,Endothelial Cell Of arteriole - Large Intestine,CL:1000412,http://purl.obolibrary.org/obo/CL_1000412,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+fed64d01-4e73-58fd-b402-4511f3cf853e,Endothelial Cell Of venule - Large Intestine,CL:1000414,http://purl.obolibrary.org/obo/CL_1000414,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+bdc28627-d78e-570c-9a99-daeb6adac703,Smooth Muscle Cell Of Large intestine - Large Intestine,CL:1000279,http://purl.obolibrary.org/obo/CL_1000279,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+6e96af54-eea6-5d03-a0a2-406cb59d3c04,Mesothelial Cell Of Visceral peritoneum - Large Intestine,CL:1000457,http://purl.obolibrary.org/obo/CL_1000457,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+bd354309-2dc0-51c8-a550-2f1131eaae43,Transitional Epithelial cell - Large Intestine,CL:0000244,http://purl.obolibrary.org/obo/CL_0000244,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+0bc1cc58-97dc-56e5-92e5-4cccde5eb19f,Simple Columnar Epithelial cell - Large Intestine,CL:0000146,http://purl.obolibrary.org/obo/CL_0000146,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+be1965b1-18f2-5293-9a97-b4ae8ad64101,Stratified Squamous Epithelial cell - Large Intestine,CL:0000240,http://purl.obolibrary.org/obo/CL_0000240,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+512e5803-25d7-5e94-a2f5-51376a9b51fa,Langerhans cell - Large Intestine,CL:0000453,http://purl.obolibrary.org/obo/CL_0000453,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+acadfbf2-eced-5f4c-aa6e-92d06b6c3739,melanocyte - Large Intestine,CL:0000148,http://purl.obolibrary.org/obo/CL_0000148,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+aeef8a00-09d9-5db3-9e15-dc7344ccaba3,Merkel cell - Large Intestine,CL:0000242,http://purl.obolibrary.org/obo/CL_0000242,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+59ab3cb4-d2dd-5e01-a53d-dc066877bf13,keratinocyte - Large Intestine,CL:0000312,http://purl.obolibrary.org/obo/CL_0000312,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+0b8a1bcf-a958-51e0-8aff-19bd0df64678,Sebum Secreting cell - Large Intestine,CL:0000317,http://purl.obolibrary.org/obo/CL_0000317,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+057ccba3-f69f-53d2-a570-8062f2cc4a06,Eccrine cell - Large Intestine,CL:0000434,http://purl.obolibrary.org/obo/CL_0000434,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+f72c6757-7333-5dd0-828d-24a8c9961636,Apocrine cell - Large Intestine,CL:0000033,http://purl.obolibrary.org/obo/CL_0000033,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+cff91c14-5566-5b95-a598-ccab9bdeb77a,T-helper 1 cell - Large Intestine,CL:0000545,http://purl.obolibrary.org/obo/CL_0000545,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+3bd196e5-646d-5093-abac-4eea045aaebb,Cytotoxic T cell - Large Intestine,CL:0000910,http://purl.obolibrary.org/obo/CL_0000910,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+4c3c16ad-b7c9-5c8b-8859-7a8b15006dc4,Regulatory T cell - Large Intestine,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+4a9dae19-6e61-5000-b532-b361a738cfe4,B cell - Large Intestine,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+242772cc-14fe-5bce-8000-37a3d181245d,Perineural cell - Large Intestine,CL:0002576,http://purl.obolibrary.org/obo/CL_0002576,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+0e06ecbf-8ccd-50f1-ae0e-80b4c40b01f1,Type I Cell Of Carotid body - Large Intestine,CL:0002292,http://purl.obolibrary.org/obo/CL_0002292,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+f1b31887-c1d6-565d-81c5-71f89161c01b,Immature NK T Cell Stage IV - Large Intestine,CL:0002042,http://purl.obolibrary.org/obo/CL_0002042,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+ddd87026-1fcc-5584-b83d-d0c4b7144b14,Vein Endothelial cell - Large Intestine,CL:0002543,http://purl.obolibrary.org/obo/CL_0002543,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+efd240e1-fa34-57e5-90dd-a049776da53e,Skeletal Muscle cell - Large Intestine,,,UBERON:0000059,http://purl.obolibrary.org/obo/UBERON_0000059
+851ebdb8-c484-5366-b41d-07530caf26fa,Cardiac Pacemaker Cell Of Sinoatrial node - Heart,CL:1000477,http://purl.obolibrary.org/obo/CL_1000477,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+a197d96b-6c74-5457-91c2-4c22405f3e10,Endothelial Cell Of artery - Heart,CL:1000413,http://purl.obolibrary.org/obo/CL_1000413,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+ed5bc6e9-edd0-584e-a874-badb3d799a9e,Smooth Muscle Cell Of The Coronary artery - Heart,CL:0002592,http://purl.obolibrary.org/obo/CL_0002592,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+73568a59-ff58-5f81-ab37-72259be45219,fibroblast - Heart,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+ba50638d-8c6c-58fc-ab32-a451a8868b63,Cardiac Muscle cell - Heart,CL:0000746,http://purl.obolibrary.org/obo/CL_0000746,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+aff34d6e-903d-50e8-b2b5-cb6308420521,Cardiac Atrium fibroblast - Heart,CL:2000067,http://purl.obolibrary.org/obo/CL_2000067,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+16f6e31e-bf55-5637-8c62-e0ca19175870,macrophage - Heart,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+84a8aebb-f3b6-55c7-8f46-83a19767f355,neuronal - Heart,,,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+50cccb19-a96a-5884-8aca-89291f3ed601,Cardiac Endothelial cell - Heart,CL:0010008,http://purl.obolibrary.org/obo/CL_0010008,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+b2294362-ac37-5b76-a30b-605b62a9d681,Vascular Associated Smooth Muscle cell - Heart,CL:0000359,http://purl.obolibrary.org/obo/CL_0000359,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+7e6ce7fe-defa-5207-92b7-d588dc2e9e88,pericyte - Heart,CL:0000669,http://purl.obolibrary.org/obo/CL_0000669,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+768b9582-8463-5920-9f3d-7867e225c6a9,Telocyte (Interstitial Like Cell Of cajal) - Heart,,,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+14e42816-babd-5e51-af72-29b8746fbcd4,lymphocyte - Heart,CL:0000542,http://purl.obolibrary.org/obo/CL_0000542,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+3c3a35c0-df8b-5172-8859-5ab85ccd4545,"Dendritic Cell, human - Heart",CL:0001056,http://purl.obolibrary.org/obo/CL_0001056,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+0cc96ce2-c5dd-5747-93f0-94df5b73cf54,Fat cell - Heart,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+cf531598-4fb3-5caf-a1ec-08bd41425ed4,Blood Vessel Endothelial cell - Heart,CL:0000071,http://purl.obolibrary.org/obo/CL_0000071,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+78581fba-a1be-5e77-b1c9-cc9115be2f8f,Cardiac Ventricle fibroblast - Heart,CL:2000066,http://purl.obolibrary.org/obo/CL_2000066,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+6e36eb99-944c-5644-bbe4-d8c4694ceca7,Heart Valve cell - Heart,CL:1000147,http://purl.obolibrary.org/obo/CL_1000147,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+753b175b-f277-5859-8260-3697b3286cbd,Valve Interstitial cell - Heart,,,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+a54b50c1-2f43-5b94-a0ac-b3b1404aff3a,Mesothelial cell - Heart,CL:0000077,http://purl.obolibrary.org/obo/CL_0000077,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+9fc222e3-d6b3-5fea-b302-2383cc955feb,Epicardial adipocyte - Heart,CL:1000309,http://purl.obolibrary.org/obo/CL_1000309,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+e1911d3c-bc1d-5dbd-8e7b-3f9e88ff2ec2,Schwann cell - Heart,CL:0002573,http://purl.obolibrary.org/obo/CL_0002573,UBERON:0000948,http://purl.obolibrary.org/obo/UBERON_0000948
+64a2d562-52e2-5aee-accb-c6edfbba226f,Myofibroblast cell - Lymph Node,CL:0000186,http://purl.obolibrary.org/obo/CL_0000186,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+2bb7de88-b206-58b5-a621-0c9f2f1378db,Blood Vessel Endothelial cell - Lymph Node,CL:0000071,http://purl.obolibrary.org/obo/CL_0000071,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+bf1857c4-aa95-5b88-9608-f998506b2b53,Pericyte cell - Lymph Node,,,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+d163810b-eb1d-5cba-adf3-235203e56589,Endothelial Cell Of Lymphatic vessel - Lymph Node,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+97fb315a-7465-55da-b786-66c2a2bb7130,Lymph Node Subcapsular Sinus macrophage - Lymph Node,CL:0000887,http://purl.obolibrary.org/obo/CL_0000887,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+00608219-fa55-5006-8d50-3facdb9c3ac0,Marginal Reticular Cell - Lymph Node,,,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+3cd938fe-9ed6-5bed-96df-d231168841f8,Lymphatic Endothelial Cell -Subcapsular Sinus Ceiling - Lymph Node,,,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+29ca2625-908b-526d-bdbc-da443361eba7,Lymphatic Endothelial Cell-Subcapsular Sinus Floor - Lymph Node,,,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+64762081-1732-5fb6-82e7-0ed25703b645,Lymphatic Endothelial Cell-Trabeculae - Lymph Node,,,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+3de7e35c-8c61-5acb-b426-c00330d7909d,Follicular Dendritic cell - Lymph Node,CL:0000442,http://purl.obolibrary.org/obo/CL_0000442,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+97f3306c-5d8e-53d1-9386-65dad08d513d,Naive B cell - Lymph Node,CL:0000788,http://purl.obolibrary.org/obo/CL_0000788,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+b2fb324f-48ff-5e81-8cf7-9c1ceaa2878c,Memory B cell - Lymph Node,CL:0000787,http://purl.obolibrary.org/obo/CL_0000787,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+d911f92f-8e5c-5546-9ab1-53174278c74a,macrophage - Lymph Node,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+991b2e55-0ae2-5b44-b83e-5d8ee4447a64,Centrocyte - Lymph Node,CL:0009111,http://purl.obolibrary.org/obo/CL_0009111,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+7a5526db-a956-54c2-8b16-3f739c05a9d6,T Follicular Helper cell - Lymph Node,CL:0002038,http://purl.obolibrary.org/obo/CL_0002038,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+60d4ac65-a136-5ed3-980c-dd9e5fa747e3,T Follicular Regulatory Cell - Lymph Node,CL:0009113,http://purl.obolibrary.org/obo/CL_0009113,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+faaf0c50-4650-548e-8172-bd625208b8b0,Lymph Node Tingible Body macrophage - Lymph Node,CL:0000888,http://purl.obolibrary.org/obo/CL_0000888,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+ee5847f3-26b5-54b5-a8f9-cc20a33b526c,plasmablast - Lymph Node,CL:0000980,http://purl.obolibrary.org/obo/CL_0000980,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+d4560238-3f55-5ed7-93af-fe9fc19a255f,Centroblast - Lymph Node,CL:0009112,http://purl.obolibrary.org/obo/CL_0009112,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+591e62af-dd2b-589c-83b3-7034c99b4460,B Cell Zone Reticular Cell - Lymph Node,CL:0009104,http://purl.obolibrary.org/obo/CL_0009104,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+070b44c5-da32-5f36-bbef-dd5aabd0f8bd,"Naive Thymus-Derived CD4-positive, Alpha-Beta T cell - Lymph Node",CL:0000895,http://purl.obolibrary.org/obo/CL_0000895,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+3c7a2ba0-2a6b-50ef-8878-610f23b29d6b,"CD4-positive, Alpha-Beta Memory T cell - Lymph Node",CL:0000897,http://purl.obolibrary.org/obo/CL_0000897,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+5f43be77-fd2e-52e8-bc9c-74b9725bfd5d,T-helper 1 cell - Lymph Node,CL:0000545,http://purl.obolibrary.org/obo/CL_0000545,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+18e34334-af1d-5c9a-a1bc-8c7a90da04c7,T-helper 2 cell - Lymph Node,CL:0000546,http://purl.obolibrary.org/obo/CL_0000546,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+22e975ab-2527-54a7-9a7c-7aa1dd6d3b24,T-helper 17 cell - Lymph Node,CL:0000899,http://purl.obolibrary.org/obo/CL_0000899,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+7eb9f426-588d-5d01-bbe2-841ad0d19e3b,Regulatory T cell - Lymph Node,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+54ba8595-ebdd-58a0-aed2-a488ff3ec444,Cytotoxic T cell - Lymph Node,CL:0000910,http://purl.obolibrary.org/obo/CL_0000910,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+159bdb23-a100-5af8-9e95-0842e6d4acc8,"Naive Thymus-Derived CD8-positive, Alpha-Beta T cell - Lymph Node",CL:0000900,http://purl.obolibrary.org/obo/CL_0000900,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+39f8a2b7-19ae-54c5-a790-598980830660,"CD8-positive, Alpha-Beta Memory T cell - Lymph Node",CL:0000909,http://purl.obolibrary.org/obo/CL_0000909,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+c98e9797-2ffc-55de-a342-3a7fa7781c03,Natural Killer cell - Lymph Node,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+4d131023-98c8-5388-b28b-d0b47a9dfc11,T Cell Zone Reticular Cell - Lymph Node,CL:0009105,http://purl.obolibrary.org/obo/CL_0009105,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+5b49fb54-494d-5fdc-9986-a16d97bb9e3f,Dendritic cell - Lymph Node,CL:0000451,http://purl.obolibrary.org/obo/CL_0000451,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+72407bbe-4868-58a7-8281-6803c8b9c0bb,CD1c-positive Myeloid Dendritic cell - Lymph Node,CL:0002399,http://purl.obolibrary.org/obo/CL_0002399,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+3ae42335-b3d9-54c5-8e6a-7ab3bf135830,"Plasmacytoid Dendritic Cell, human - Lymph Node",CL:0001058,http://purl.obolibrary.org/obo/CL_0001058,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+5666d605-0af2-5145-867a-c0ae30f00b52,CD141-positive Myeloid Dendritic cell - Lymph Node,CL:0002394,http://purl.obolibrary.org/obo/CL_0002394,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+4e23b81c-8965-5e1b-a4e8-342a2b328fdf,Gamma-Delta T cell - Lymph Node,CL:0000798,http://purl.obolibrary.org/obo/CL_0000798,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+2d0c1e50-a11d-5438-993f-43991a93ad9c,Mast cell - Lymph Node,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+90924c78-3fcd-56df-91b6-c828e15393eb,Plasma cell - Lymph Node,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+c0eaa55e-8c70-5c46-a507-c21ac8acedc0,Monocytoid B Cell - Lymph Node,CL:0009114,http://purl.obolibrary.org/obo/CL_0009114,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+0468e0ed-a0d0-5371-b386-a0633da3d347,B cell - Lymph Node,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+86d38dfd-1603-5bf5-a909-24ab5e823245,Medullary Reticular Cell - Lymph Node,CL:0009106,http://purl.obolibrary.org/obo/CL_0009106,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+b5f20eb6-df41-52bb-a35a-4e021ee74cad,T cell - Lymph Node,CL:0000084,http://purl.obolibrary.org/obo/CL_0000084,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+bd283159-ce03-5ebe-a328-0627006c02cd,Lymphatic Endothelial Cell Of Medulla Ceiling - Lymph Node,CL:0009110,http://purl.obolibrary.org/obo/CL_0009110,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+24367500-88bc-5fb0-be8a-dd431284840d,Sympathetic neuron - Lymph Node,CL:0011103,http://purl.obolibrary.org/obo/CL_0011103,UBERON:0000029,http://purl.obolibrary.org/obo/UBERON_0000029
+7b394594-2809-5d61-81f2-04a32dd33f75,Hilus Cell Of ovary - Ovary,CL:0002095,http://purl.obolibrary.org/obo/CL_0002095,UBERON:0000992,http://purl.obolibrary.org/obo/UBERON_0000992
+a209f6d4-fda8-51c9-a644-1265b4a70a87,Inh L1 LAMP5 PVRL2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+18b4419f-2fad-5cf0-b47d-c82fcab0cd41,Inh L1 LAMP5 RAB11FIP1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+8445e9e8-7ebb-5cbb-8a4e-91781881c383,Inh L1-6 LAMP5 AARD - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+9c3ab069-e4c3-569a-9305-bb0f67103296,Inh L1-6 LAMP5 NES - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+5be255c7-e6cf-50e3-a61d-de793c6a770c,Inh L1-6 LAMP5 CA1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+8b9395f0-4686-591c-a279-d1a50760536c,Inh L5-6 LAMP5 CRABP1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+7b33b495-66d2-5fda-8ec2-4f86d25b7a8b,Inh L3-6 PAX6 LINC01497 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+8501f53e-7cd5-5aed-85b6-4743c67e6c57,Inh L1 PAX6 MIR101-1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+408d0c93-70e4-5b20-b1c8-9a114996f0ff,Inh L1 LAMP5 BMP2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+c349f4c2-a6e1-5db9-a773-65662fcf596e,Inh L1 LAMP5 NMBR - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+eda66a49-1790-56c0-bc77-493342ffe605,Inh L1 PAX6 CHRFAM7A - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+f0d0e39f-a3e6-5e07-b58e-2480b27f439d,Inh L1-6 VIP SLC7A6OS - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+97c6140a-0f9f-5ebd-9c57-acb61a2bc0ec,Inh L2 PAX6 FREM2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+30917d90-623b-520b-b86d-ad578d2b2d9a,Inh L1-2 VIP HTR3A - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+225893eb-9196-5e24-bdb3-4566f741b2ef,Inh L1-2 VIP WNT4 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+a06f31ef-2237-5e1c-a7ff-85e4e0c89b75,Inh L1 PVALB SST ASIC4 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+9d84df09-0ce4-5fda-bb5d-44076d097ab2,Inh L1 SST P4HA3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+d397bed8-3336-50a1-a82a-626e721c3e48,Inh L1 SST DEFB108B - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+57b7e96c-070f-5d9b-9999-81a50a3aa2ed,Inh L1-3 VIP CBLN1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+c51f6b05-1063-533f-bd6c-35bae08658c7,Inh L1-2 VIP EXPH5 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+2c74c097-23a8-5afe-b194-846ec28fba83,Inh L1-3 VIP HSPB6 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+d6104c3b-b0ed-5dfc-bbc7-3bc65be7afa8,Inh L1-2 VIP PTGER3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+68d818b6-9a5a-5770-8186-abe3ebf74094,Inh L1-2 VIP SCML4 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+9d2e8734-0686-5992-9f59-c50adc63f089,Inh L1-3 VIP FNDC1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+3db75b14-0314-5477-8c3b-e3198182ae07,Inh L1-3 VIP CHRNA2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+38b777e7-8289-547a-bacc-a527f6e8318e,Inh L2 VIP SLC6A16 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+05fae972-2ba2-5271-81a9-53735086f758,Inh L1 VIP KLHDC8B - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+2e4f0812-881d-5005-880c-402701046592,Inh L3-5 VIP IGDCC3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+b9a03e36-2c33-5ab4-b687-f3ba5f81d5f6,Inh L1-5 VIP SMOC1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+44f20a6e-42a0-5e7e-8b1e-8d2b89b95846,Inh L3-5 VIP HS3ST3A1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+00d9f0ef-5418-57e4-8f4b-31cc8659e374,Inh L5-6 VIP COL4A3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+098817b3-902e-566a-b15d-3c002ee22f4d,Inh L1-5 VIP CD27-AS1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+1fe22a59-6117-525e-87d9-4e4111563b64,Inh L2-5 VIP BSPRY - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0b460527-f4d9-5257-8178-d5436b462eab,Inh L2-5 VIP SOX11 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+549f340d-569e-5419-8d90-14b053545f39,Inh L3-6 VIP ZIM2-AS1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+d8ca9d40-232d-5a16-b609-0f33aa1734a0,Inh L1-5 VIP PHLDB3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0f22c6ee-7f90-52c4-8023-43006c6f4885,Inh L1-5 VIP LINC01013 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0811a4c6-3cc2-5a58-973f-abe3884a752c,Inh L3-6 VIP UG0898H09 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+36276459-24bb-5e35-95cc-c67bd5fe6d31,Inh L3-5 VIP TAC3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+b56da6b0-82f0-5146-8c1c-32d104ab0e83,Inh L1-6 SST NPY (Sset Chodl) - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+c195cf53-4ea7-5b07-a7d8-007be9a7caf4,Inh L3-5 SST CDH3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+a0898b1e-84fd-5322-ab02-0dcb125828e6,Inh L5 SST RPL35AP11 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+fb2df4b9-0811-5ef2-943b-4f2312198c59,Inh L5-6 SST ISX - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+8310ac0f-848a-592a-aa05-6664317e37b3,Inh L5-6 PVALB SST CRHR2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+ba6fec91-8df6-5f02-b61d-31dd7531761a,Inh L3-5 SST OR5AH1P - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+167d02c5-697a-5061-939b-3f710ed901a0,Inh L3-5 SST GGTLC3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+e2a99e4e-e788-5ff7-a37a-b065a3d13c44,Inh L2-3 SST NMU - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+3ce8f8e0-26fe-5eb5-849d-e4782a8566e0,Inh L5-6 SST PAWR - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+fa793263-0c22-5d40-ad42-3745ab7b157e,Inh L5-6 SST PIK3CD - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+4e21bd37-3a59-5266-bee4-d3fb91ef8107,Inh L1-2 SST CCNJL - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+d2f1307d-6f75-5af7-bf35-7ef493125aa2,Inh L1-3 SST FAM20A - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+639a0431-3eff-557a-8525-c8157cb58de8,Inh L5-6 SST BEAN1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+26d1499d-9049-5c82-959c-8b88ddcb617f,Inh L5-6 SST DNAJC14 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+91cd7e7d-9b2c-5118-b3e5-434768680471,Inh L5-6 SST C4orf26 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+8ca0883a-6d5d-5d6c-93b7-678d09b5ae8b,Inh L5-6 SST FBN2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0e39f853-ca6a-5dea-92bb-ac9064621296,Inh L5-6 SST KLHL1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+75df3adf-8695-59e1-84b2-7a8be26e54ed,Inh L6 SST TH - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+cd6fc3de-66ee-5340-8002-c16f9e93a037,Inh L5-6 PVALB KCNIP2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+77d5fa14-31ae-5801-a10a-dddd0c9152b5,Inh L5-6 PVALB ZFPM2-AS1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+79401e53-4e04-5339-b955-a79aae2f444d,Inh L3-5 PVALB ISG20 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+2de3462c-e4bc-5d8c-b13d-8b8e26f48b48,Inh L5 PVALB LRIG3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+b6265721-3dd2-5cd1-a322-a32b4f05991d,Inh L2-5 PVALB HHIPL1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+df38d3e5-7310-5108-ae74-7a4da0e35e41,Inh L2-5 PVALB RPH3AL - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+552c7269-c04b-55f7-9b3a-6eb950bfad2f,Inh L3 PVALB SAMD13 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+42bd0059-e981-5031-a7a3-3afaab6584f9,Inh L1-2 PVALB CDK20 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+c97c9ade-076d-5d08-9070-b86e923ea9f3,Inh L2 PVALB FRZB - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+ce0cac3f-e725-5465-8b73-016f6a636c95,Inh L1-2 SST CLIC6 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+52621243-c376-5430-9fba-bf347fb4135e,Inh L5-6 PVALB GAPDHP60 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+1ee0eb6f-8186-55c2-a77e-905fc225e1bf,Inh L5-6 PVALB FAM150B - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0347cc5d-44d0-56f0-8507-bf74ae2fc8b2,Inh L5-6 PVALB MEPE - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+d8f30ab5-160f-5d4d-ad2c-4356bdc09787,Inh L1-6 PVALB COL15A1 (Chandelier) - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+f3fec73c-e3b1-58be-af58-4d461488f3d2,Exc L2 LAMP5 KCNG3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+1b963998-ee4f-529d-998c-2d7cb185744d,Exc L2 LINC00507 ATP7B - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+1be2f841-8936-56a3-afcd-bfd3a434837e,Exc L2 LINC00507 GLRA3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+dcee7fcf-4874-5946-824c-68ad73fee76d,Exc L2-3 RORB RTKN2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+e44053de-b78e-5bb0-b9c0-e4ad0b832663,Exc L2-3 LINC00507 DSG3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+e4d40257-ae6a-59f6-b9a4-7ecd208976e5,Exc L3 LAMP5 CARM1P1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+65980da5-f76a-50bd-9a98-e192d47af317,Exc L2-3 RORB CCDC68 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+ff9c1a1e-9eb2-54a7-acc4-b9585814b53f,Exc L2-3 RORB PTPN3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+3ec79649-0167-5994-be3c-ebc613a28146,Exc L3 THEMIS ENPEP - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+5b14283b-4d9f-562e-b1d9-757cf1da9b7f,Exc L3-5 RORB TNNT2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+cf64da71-5439-560d-926f-d5c72ff8a73e,Exc L3-5 RORB LAMA4 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+a9dda209-7387-5d11-9125-728f77e290d0,Exc L5 THEMIS VILL - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+e99b5f4c-e4a4-59f8-95df-efd2c0ff5e2c,Exc L3 RORB OTOGL - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+fc546602-51f7-58cc-a3b0-f00f97c12c74,Exc L5 THEMIS SLC22A18 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+78343a6d-0537-566c-8d63-f19db3294a36,Exc L5-6 THEMIS TNFAIP6 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+66e9c872-aa20-518a-9c66-14588b049360,Exc L3-5 RORB LNX2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+021761e9-267a-5c2c-baba-9ce9d313ab5c,Exc L3-5 RORB RPRM - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+3d17b393-a5c9-547d-915d-16d3c6cb0a61,Exc L5 RORB MED8 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+58ba153b-cfe6-5eb6-885a-656c39940f54,Exc L5 THEMIS FGF10 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+06375780-f302-5174-9bc5-73ff3490a7ad,Exc L6 THEMIS LINC00343 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+75d9e936-4c7e-5d3c-ab74-88500d21fae6,Exc L6 THEMIS SLN - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+19dd5eff-4174-5322-a1ab-4b0ecd3e4b0e,Exc L5-6 THEMIS SMYD1 (L6 IT Car3) - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+42163ee5-5acb-5912-8857-9d469181ec97,Exc L5-6 FEZF2 OR1L8 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+fc931256-1707-5853-a363-ca35869c906e,Exc L5 THEMIS RGPD6 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+8431a7c3-a504-5452-aa21-4717d1a7a84e,Exc L5-6 FEZF2 C9orf135-AS1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0c3125b9-31fe-5d27-aeec-af81d52aef80,Exc L5-6 FEZF2 FILIP1L - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+ccc5f6b6-3f8d-5352-b805-5d3a5d2e8b0b,Exc L5-6 FEZF2 SH2D1B - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+5ee1c747-4faf-5b84-b638-1f1b4e323db6,Exc L6 FEZF2 PDYN - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+287aed01-45c7-53e0-8c55-2bc962aa25fc,Exc L6 FEZF2 PROKR2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+34d07d2b-1001-5227-9a04-ca9b074e3f7a,Exc L5-6 FEZF2 CFTR - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+de540096-2212-5597-b269-d9409bf5c486,Exc L6 FEZF2 KLK7 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+b4e89d61-d5a8-56b5-8c40-8d5646367066,Exc L6 FEZF2 POGK - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+ef60230a-4bb6-555a-a212-0c985fff2ca3,Exc L5 FEZF2 CSN1S1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+c0532d8e-8025-5355-9561-8bd1c34f7f5a,Exc L3-5 FEZF2 ASGR2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+e1889307-ab0b-56e9-8427-78df5cf1e59f,Exc L3-5 FEZF2 LINC01107 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+edb12016-b980-5d68-a99f-a26f09d66afe,Exc L5 FEZF2 PKD2L1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+7409b32f-9cac-5516-b3ac-45d53de2d300,Exc L5 FEZF2 NREP-AS1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+7649f8d7-1694-561d-b66a-a00c7f3cfd45,Exc L5 FEZF2 RNF144A-AS1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+bff08750-26bb-54ca-9e16-392ca64bc394,OPC L1-6 PDGFRA COL20A1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+61f9233d-d5a5-513a-b1d6-e2777f0054f7,Oligo L2-6 OPALIN MAP6D1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+a6cf0a23-05a8-57ff-91e3-1239ece57a07,Oligo L3-6 OPALIN ENPP6 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+143bc666-f3c3-570e-abab-36e2ddd64941,Oligo L2-6 OPALIN FTH1P3 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+0a59b6fa-52ef-53da-8e52-fd6598fbb18c,Oligo L5-6 OPALIN LDLRAP1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+e35663cc-7907-5b3c-a5e2-a2199f81c096,Astro L1-6 FGFR3 AQP1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+2f685c18-1403-56bd-9a4b-98010e9c5de9,Astro L1 FGFR3 SERPINI2 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+9f98119d-2f9a-5ef5-8b5f-8cbd8c07227e,Astro L1-6 FGFR3 PLCG1 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+a17c185d-01a6-5363-b82c-f3d902bf01fb,Endo L2-5 NOSTRIN SRGN - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+838f549f-d73d-5a6a-b7b8-594da070e7a7,VLMC L1-5 PDGFRA COLEC12 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+7d3c2835-ae0e-54b5-9a32-760aecb990c7,Micro L1-6 TYROBP CD74 - Brain,,,UBERON:0000955,http://purl.obolibrary.org/obo/UBERON_0000955
+d3b871f5-c54c-5936-9da4-5ebdf2ca57dc,Pancreatic Acinar cell - Pancreas,CL:0002064,http://purl.obolibrary.org/obo/CL_0002064,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+867c3bc0-e14b-508e-9b6f-8a686858ff8f,Simple Columnar Epithelial cell - Pancreas,CL:0000146,http://purl.obolibrary.org/obo/CL_0000146,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+f35986b7-446f-5929-8dde-0e3df5adc84b,Flat Epithelial cells - Pancreas,,,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+87de4239-553a-5b2e-891d-b9e2e3f8ef2e,Pancreatic Goblet cell - Pancreas,CL:1000322,http://purl.obolibrary.org/obo/CL_1000322,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+54683113-b43f-5f9e-8b95-472076300a67,Brush cell - Pancreas,CL:0002204,http://purl.obolibrary.org/obo/CL_0002204,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+27268318-ea2f-5631-b68f-883332fff001,Type EC Enteroendocrine cell - Pancreas,CL:0000577,http://purl.obolibrary.org/obo/CL_0000577,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+49a0cba3-5290-50a5-a603-f92c3b69096e,B cell - Pancreas,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+b13330c1-ec2d-5bbb-84ea-696bba317e91,T cell - Pancreas,CL:0000084,http://purl.obolibrary.org/obo/CL_0000084,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+66f09f95-a8a4-5721-9967-05d7eddfc60d,macrophage - Pancreas,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+35051564-e56f-58f1-8d96-1ce81a045340,Dendritic cell - Pancreas,CL:0000451,http://purl.obolibrary.org/obo/CL_0000451,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+06f03324-32fe-512d-b96e-0c73fc44e289,Pancreatic A cell - Pancreas,CL:0000171,http://purl.obolibrary.org/obo/CL_0000171,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+26017827-a14f-5ca8-b190-a499362fcd24,Type B Pancreatic cell - Pancreas,CL:0000169,http://purl.obolibrary.org/obo/CL_0000169,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+4dfe136d-fd17-5f42-a65f-2afff6223cfb,Pancreatic D cell - Pancreas,CL:0000173,http://purl.obolibrary.org/obo/CL_0000173,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+3ff05b88-9af5-57fc-9153-80d731bdcdf4,Pancreatic PP cell - Pancreas,CL:0002275,http://purl.obolibrary.org/obo/CL_0002275,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+0ee629c6-e19d-5d9e-8ee7-02e923e4f52a,Pancreatic Epsilon cell - Pancreas,CL:0005019,http://purl.obolibrary.org/obo/CL_0005019,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+030cc903-0b3c-5b73-9e50-01272faea7e3,Gastrin Secreting cell - Pancreas,CL:0000509,http://purl.obolibrary.org/obo/CL_0000509,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+10c8c3d4-dfef-590e-948c-97b48cff7885,Activated Stellate cell - Pancreas,,,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+019e2ada-a8de-59d2-937d-4513b2340101,Quiescent Stellate cell - Pancreas,,,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+4943900a-70ae-500d-ba1d-7240ea24d3cc,Fat cell - Pancreas,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,UBERON:0001264,http://purl.obolibrary.org/obo/UBERON_0001264
+b14ef92c-253d-5a51-8a19-202280e7d06a,Basal Cell Of Bladder urothelium - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+28f01ebc-1f17-5350-b82b-7fad70e3c1b9,Intermediate Cell Of Bladder urothelium - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+afa3f141-6695-5fcc-8778-b10614d677b8,Superficial Cell Of Bladder urothelium - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+5c2aeff2-d07c-5787-bb50-368bd6919894,Detrusor Smooth Muscle Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+45d47aa4-864a-55f9-94eb-a1a1451ceb29,Myofibroblast Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+fcb80791-011e-5292-95a8-14300c2e8cb9,PI16+ Fibroblast Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+2b73aa48-0b37-53e0-9d18-e9d43a5fff0c,DPT+ Fibroblast Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+e999625c-0fcc-5047-beb0-c231562b0484,Lipofibroblast Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+a4ad2641-6218-50c7-979d-4e7f74306e85,Endothelial Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+61c653e8-b406-5acb-a37d-df8d239042f1,Vascular Smooth Muscle Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+6b320142-ec85-50c8-a60f-5283639b82d3,Pericyte Cell Of bladder - Urinary Bladder,,,UBERON:0001255,http://purl.obolibrary.org/obo/UBERON_0001255
+6444699c-518b-5af7-bc70-7db0dc59fae4,Immature B cell - Blood,CL:0000816,http://purl.obolibrary.org/obo/CL_0000816,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+23c4c66e-60eb-5d06-9ffe-505a9dd83abc,Memory B cell - Blood,CL:0000787,http://purl.obolibrary.org/obo/CL_0000787,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+4390c9f7-3384-54d8-9db8-d74396da89b5,Naive B cell - Blood,CL:0000788,http://purl.obolibrary.org/obo/CL_0000788,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+d15c0e99-2111-53c2-b36a-b79626599fd5,Transitional Stage B cell - Blood,CL:0000818,http://purl.obolibrary.org/obo/CL_0000818,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+3044130f-f974-5df0-a974-6c68c1034a98,CD141-positive Myeloid Dendritic cell - Blood,CL:0002394,http://purl.obolibrary.org/obo/CL_0002394,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+44f294c1-eaaf-588b-af2c-82afb40b780e,CD1c-positive Myeloid Dendritic cell - Blood,CL:0002399,http://purl.obolibrary.org/obo/CL_0002399,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+09ee1cf0-2691-5ab7-9c26-a932f4426f3a,"Plasmacytoid Dendritic Cell, human - Blood",CL:0001058,http://purl.obolibrary.org/obo/CL_0001058,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+5fc055c5-f77c-5e53-beb3-752d24b8d5e5,Immature Conventional Dendritic cell - Blood,CL:0000840,http://purl.obolibrary.org/obo/CL_0000840,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+dcdcc188-6591-51ee-98b9-093f4f9cd78f,CD14-positive monocyte - Blood,CL:0001054,http://purl.obolibrary.org/obo/CL_0001054,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+72837ec5-4f4c-52c0-bb38-7404450f837c,"CD14-low, CD16-positive monocyte - Blood",CL:0002396,http://purl.obolibrary.org/obo/CL_0002396,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+47eb34b7-3fa9-58e4-b5e6-1b29d3ec615e,neutrophil - Blood,CL:0000775,http://purl.obolibrary.org/obo/CL_0000775,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+dec1fb38-12d5-5bf5-86dd-0d94601e6d64,eosinophil - Blood,CL:0000771,http://purl.obolibrary.org/obo/CL_0000771,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+cf8495f1-f8a3-5f05-abfd-525247bced77,basophil - Blood,CL:0000767,http://purl.obolibrary.org/obo/CL_0000767,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+a5650b8a-595d-5eb6-a57f-0f289005a73a,"Naive Thymus-Derived CD4-positive, Alpha-Beta T cell - Blood",CL:0000895,http://purl.obolibrary.org/obo/CL_0000895,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+67ad20c2-6555-57ed-9712-535120fa2268,CD4 T Cell memory - Blood,,,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+68ce296d-303a-5808-89e4-7b8ce5830763,CD4 T Cell Effector Memory CD45RA - Blood,,,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+d037af1e-c210-545e-b368-2d2899ac2b19,"Naive Thymus-Derived CD8-positive, Alpha-Beta T cell - Blood",CL:0000900,http://purl.obolibrary.org/obo/CL_0000900,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+a8ca3d36-0f9d-5d3a-9eeb-2ad6954e9bcc,CD8 T Cell memory - Blood,,,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+baf9b9b5-af4a-59fe-8869-3bcb1c046097,"Effector CD8-positive, Alpha-Beta T cell - Blood",CL:0001050,http://purl.obolibrary.org/obo/CL_0001050,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+bd99af74-2f2d-59b2-a3cc-9ff6067e6749,"Effector Memory CD8-positive, Alpha-Beta T Cell, Terminally differentiated - Blood",CL:0001062,http://purl.obolibrary.org/obo/CL_0001062,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+7b200340-c916-5bc6-afbb-7fcd3b10d866,Mature CD8 T cell - Blood,,,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+c0e26980-1195-55c1-a604-d28220fee26b,"CD16-negative, CD56-bright Natural Killer cell - Blood",,,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+2b2d4497-97f2-5360-8d2b-a3a8b0e54407,Mature Natural Killer cell - Blood,CL:0000824,http://purl.obolibrary.org/obo/CL_0000824,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+971b3bfc-df17-5f59-aea4-d6dd7e1f7c9c,Regulatory T cell - Blood,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0000178,http://purl.obolibrary.org/obo/UBERON_0000178
+a1102865-660c-5602-b904-91b48f3fce83,Capsule Mesenchymal Stromal cell - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+67e68aca-5cd8-58df-bae5-cefb2684f859,Parietal Epithelial cell - Kidney,CL:1000452,http://purl.obolibrary.org/obo/CL_1000452,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+1cb68241-2cb1-5602-af2f-5beed335c0b8,Glomerular Visceral Epithelial cell - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+da948b01-4c20-5ba8-ae4f-113d54d740aa,Glomerular Capillary Endothelial cell - Kidney,CL:1001005,http://purl.obolibrary.org/obo/CL_1001005,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+32472b1a-7f86-59f8-aca6-d50544151cad,Glomerular Mesangial cell - Kidney,CL:1000742,http://purl.obolibrary.org/obo/CL_1000742,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+53f5bb21-581c-5a88-a2b1-299b7d799c48,Epithelial Cell Of Proximal tubule - Kidney,CL:0002306,http://purl.obolibrary.org/obo/CL_0002306,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+c97b3135-4f4d-5716-b2c3-a639fc1205be,Proximal Tubule Epithelial Cell Segment 1 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+2db7621d-6da4-5b3f-89fa-e7298c1a46e5,Proximal Tubule Epithelial Cell Segment 2 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+d6fc8b23-dc0f-513c-bd2d-1cf404796470,Proximal Tubule Cell Epithelial Segment 3 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+acf386b7-cec0-5a5a-bc5c-dce989c7b68d,Kidney Loop Of Henle Thin Descending Limb Epithelial cell - Kidney,CL:1001111,http://purl.obolibrary.org/obo/CL_1001111,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+3fbad6ec-0c06-5dc3-a33e-3c433ed61a96,Descending Thin Limb Cell Type 1 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+3761282c-9caf-515b-9c26-4a5ca353fcdd,Descending Thin Limb Cell Type 2 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+63b4b30c-67b5-5872-86a5-1ef504a6914b,Descending Thin Limb Cell Type 3 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+2696b941-66be-5d97-b575-0da4af440fb7,Kidney Loop Of Henle Thin Ascending Limb Epithelial cell - Kidney,CL:1001107,http://purl.obolibrary.org/obo/CL_1001107,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+6391e18a-beb4-5799-92da-2fc88bb99483,Kidney Loop Of Henle Thick Ascending Limb Epithelial cell - Kidney,CL:1001106,http://purl.obolibrary.org/obo/CL_1001106,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+beb70ab5-3099-5d30-a0bb-c353d6a652b6,Kidney Loop Of Henle Cortical Thick Ascending Limb Epithelial cell - Kidney,CL:1001109,http://purl.obolibrary.org/obo/CL_1001109,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+29d98972-1267-5fbc-a1e3-4e077d9bdef2,Kidney Loop Of Henle Medullary Thick Ascending Limb Epithelial cell - Kidney,CL:1001108,http://purl.obolibrary.org/obo/CL_1001108,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+7ad322ca-67dd-5fe5-a05f-e92770d42361,Macula Densa Epithelial cell - Kidney,CL:1000850,http://purl.obolibrary.org/obo/CL_1000850,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+62222455-cec1-5c44-8dea-2313fc9ab896,Kidney Distal Convoluted Tubule Epithelial cell - Kidney,CL:1000849,http://purl.obolibrary.org/obo/CL_1000849,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+d62573ad-e961-59bb-94c2-16123d5deed5,Distal Convoluted Tubule Cell Type 1 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+153c53da-ba7f-5428-8e77-89652043aa15,Distal Convoluted Tubule Cell Type 2 - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+9298f3ca-fef5-521f-972c-8181d0f0ff22,Kidney Connecting Tubule Epithelial cell - Kidney,CL:1000768,http://purl.obolibrary.org/obo/CL_1000768,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+b3cef360-3db7-5e2a-b7b8-927b9e9d8286,Connecting Tubule Principal Cell - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+74e1a208-2951-585b-a066-561e52d607a2,Connecting Tubule Intercalated Cell - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+75f3dc38-b690-53f3-93c1-e2d08e283acf,Connecting Tubule Intercalated Cell Type A - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+908b315d-e2b5-545e-a68c-3b1826e6b490,Connecting Tubule Intercalated Cell Type B - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+da31fd85-ad28-55f5-a245-f06604b1bf8c,Kidney Collecting Duct Epithelial cell - Kidney,CL:1000454,http://purl.obolibrary.org/obo/CL_1000454,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+d88c2908-fdae-5f28-88a4-49caa105ede0,Kidney Collecting Duct Principal cell - Kidney,CL:1001431,http://purl.obolibrary.org/obo/CL_1001431,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+ad9d4766-4c15-512b-9351-17ec5e0d79bc,Kidney Cortex Collecting Duct Principal cell - Kidney,CL:1000714,http://purl.obolibrary.org/obo/CL_1000714,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+3071591b-ab51-59c4-9ead-f604d0b7d846,Kidney Outer Medulla Collecting Duct Principal cell - Kidney,CL:1000716,http://purl.obolibrary.org/obo/CL_1000716,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+931f3d5d-9924-5835-ab16-7411138b1778,Kidney Inner Medulla Collecting Duct Principal cell - Kidney,CL:1000718,http://purl.obolibrary.org/obo/CL_1000718,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+49e08f81-6e1f-5ff8-81fe-e629593d2306,Transitional Principal-Intercalated cell - Kidney,,,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+e34e6487-a658-5727-a6ac-20824a6a65cd,Kidney Collecting Duct Intercalated cell - Kidney,CL:1001432,http://purl.obolibrary.org/obo/CL_1001432,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+416185fc-075b-5bd5-bf8c-e84887549d36,Collecting Duct Intercalated Cell Type A - Kidney,CL:4030015,http://purl.obolibrary.org/obo/CL_4030015,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+da22db73-1d87-5a06-bba0-38269c9dd17a,Kidney Cortex Collecting Duct Intercalated cell - Kidney,CL:1000715,http://purl.obolibrary.org/obo/CL_1000715,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+54b8a2d1-784f-5e12-be10-ee227fc2895d,Kidney Outer Medulla Collecting Duct Intercalated cell - Kidney,CL:1000717,http://purl.obolibrary.org/obo/CL_1000717,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+eb8245ca-b281-547a-a73b-aa2d14dbac5b,Renal Beta-Intercalated cell - Kidney,CL:0002201,http://purl.obolibrary.org/obo/CL_0002201,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+36a9b22e-9455-58d1-888d-906427a42f42,Endothelial cell - Kidney,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+a7d06bcb-0e24-53c5-8e15-df7dbb9b2475,Kidney Afferent Arteriole Endothelial cell - Kidney,CL:1001096,http://purl.obolibrary.org/obo/CL_1001096,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+f01b7ce2-3b49-526f-9ac0-78e29c8a06cb,Kidney Efferent Arteriole Endothelial cell - Kidney,CL:1001099,http://purl.obolibrary.org/obo/CL_1001099,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+6a210290-9814-559f-a90d-aa4a7e70f155,Peritubular Capillary Endothelial cell - Kidney,CL:1001033,http://purl.obolibrary.org/obo/CL_1001033,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+d8c691dc-3cae-5a53-b38b-8c1dd6f0572e,Vasa Recta Descending Limb cell - Kidney,CL:1001285,http://purl.obolibrary.org/obo/CL_1001285,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+866cea3b-96d0-5684-94d6-a55cd379b2ed,Vasa Recta Ascending Limb cell - Kidney,CL:1001131,http://purl.obolibrary.org/obo/CL_1001131,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+507bfab8-679d-51f2-ab11-8326ce1780af,Endothelial Cell Of Lymphatic vessel - Kidney,CL:0002138,http://purl.obolibrary.org/obo/CL_0002138,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+96b09f78-73a4-53a8-aa4c-72a8785c3363,Renal Interstitial pericyte - Kidney,CL:1001318,http://purl.obolibrary.org/obo/CL_1001318,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+fd4bd385-d171-55f5-8f05-0f1181aa57cf,Kidney Granular cell - Kidney,CL:0000648,http://purl.obolibrary.org/obo/CL_0000648,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+47df8be9-c239-5982-9421-786fdb14300a,Kidney Interstitial fibroblast - Kidney,CL:1000692,http://purl.obolibrary.org/obo/CL_1000692,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+58357fbc-ee0d-5506-a0ca-7b6612485261,Kidney Interstitial myofibroblast - Kidney,CL:1000691,http://purl.obolibrary.org/obo/CL_1000691,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+2a7bf2b9-cd01-52a5-9d56-b2d811c935f7,Kidney Resident macrophage - Kidney,CL:1000698,http://purl.obolibrary.org/obo/CL_1000698,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+df81ae3f-3084-5a37-af89-4536108faba7,Non-Classical monocyte - Kidney,CL:0000875,http://purl.obolibrary.org/obo/CL_0000875,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+d0efab57-b04a-5fd4-8bd9-34440eaed7dd,Natural Killer cell - Kidney,CL:0000623,http://purl.obolibrary.org/obo/CL_0000623,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+cf45d2b4-222e-5c54-ae17-819ad1e1b291,Mature NK T cell - Kidney,CL:0000814,http://purl.obolibrary.org/obo/CL_0000814,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+d395ef1b-2c9e-5473-a5b8-a04ac7cf79c4,"Dendritic Cell, human - Kidney",CL:0001056,http://purl.obolibrary.org/obo/CL_0001056,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+197ee014-04e8-5d87-8985-2294fb1ddc38,Conventional Dendritic cell - Kidney,CL:0000990,http://purl.obolibrary.org/obo/CL_0000990,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+03a36da4-2679-52a6-9369-ad9c9ebeb70c,"Plasmacytoid Dendritic Cell, human - Kidney",CL:0001058,http://purl.obolibrary.org/obo/CL_0001058,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+99c01057-6dd7-559d-9110-413297955dfe,monocyte - Kidney,CL:0000576,http://purl.obolibrary.org/obo/CL_0000576,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+197aaf11-f4d3-5f4c-b89c-8486d61fb604,T cell - Kidney,CL:0000084,http://purl.obolibrary.org/obo/CL_0000084,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+2130f1e6-fe56-5a4b-af2f-80fec751e336,Cytotoxic T cell - Kidney,CL:0000910,http://purl.obolibrary.org/obo/CL_0000910,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+a192f3d4-6027-5414-8e87-2ac892327bc3,B cell - Kidney,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+17cccf57-8af4-5d99-9cf1-af5635d80913,Plasma cell - Kidney,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+57dd51b0-02cf-5306-8610-072d6fd2798e,neutrophil - Kidney,CL:0000775,http://purl.obolibrary.org/obo/CL_0000775,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+ee7ce97a-baed-5542-a397-738578a14044,Mast cell - Kidney,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0002113,http://purl.obolibrary.org/obo/UBERON_0002113
+8569f78c-9b61-58a8-b7ef-f8411e607382,Precursor B cell - Bone Marrow,CL:0000817,http://purl.obolibrary.org/obo/CL_0000817,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+a89d05e8-93e6-5f78-838c-b87d51e08576,Immature B cell - Bone Marrow,CL:0000816,http://purl.obolibrary.org/obo/CL_0000816,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+37e5f2e9-44c3-5cf8-b596-93c7626ae33f,Memory B cell - Bone Marrow,CL:0000787,http://purl.obolibrary.org/obo/CL_0000787,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+88872fca-3b6a-5715-b5ac-957566b8b64c,Naive B cell - Bone Marrow,CL:0000788,http://purl.obolibrary.org/obo/CL_0000788,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+d789bd1a-6da3-5d1d-8922-9a21160615ba,Plasma cell - Bone Marrow,CL:0000786,http://purl.obolibrary.org/obo/CL_0000786,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+f5e8a861-9027-5794-be8d-7705c691a668,pro-B cell - Bone Marrow,CL:0000826,http://purl.obolibrary.org/obo/CL_0000826,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+2a35dd4f-c886-5325-8c39-f88ccd976018,Transitional Stage B cell - Bone Marrow,CL:0000818,http://purl.obolibrary.org/obo/CL_0000818,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+9dea4638-a383-555e-9518-97a6dd025329,Conventional Dendritic cell - Bone Marrow,CL:0000990,http://purl.obolibrary.org/obo/CL_0000990,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+c39e17b3-c5d5-56dd-b28e-461fa49081d0,"Dendritic Cell, human - Bone Marrow",CL:0001056,http://purl.obolibrary.org/obo/CL_0001056,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+c51079bd-22e4-536e-ae88-0b84072e18d1,"Plasmacytoid Dendritic Cell, human - Bone Marrow",CL:0001058,http://purl.obolibrary.org/obo/CL_0001058,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+0b821987-222b-59cb-9772-3a99baa5fa2a,Immature Conventional Dendritic cell - Bone Marrow,CL:0000840,http://purl.obolibrary.org/obo/CL_0000840,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+f823f26a-f51b-5c39-aa08-a498bbb3f4d5,Erythroid Lineage cell - Bone Marrow,CL:0000764,http://purl.obolibrary.org/obo/CL_0000764,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+38fb65b7-35fe-532d-9c8c-f2aa882331af,Megakaryocyte (MK) - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+ff3893d8-9548-5d1d-bb2d-07d6ccda356c,Megakaryocyte Progenitor cell - Bone Marrow,CL:0000553,http://purl.obolibrary.org/obo/CL_0000553,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+7d9a4601-b2b9-5061-8315-7742635a5f9e,Megakaryocyte-Erythroid Progenitor cell - Bone Marrow,CL:0000050,http://purl.obolibrary.org/obo/CL_0000050,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+d5cf88dd-de37-507b-ada5-94c4bd1682d8,Common Lymphoid progenitor - Bone Marrow,CL:0000051,http://purl.obolibrary.org/obo/CL_0000051,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+68323d19-45ce-52b5-b778-ac95938a835c,Common Myeloid progenitor - Bone Marrow,CL:0000049,http://purl.obolibrary.org/obo/CL_0000049,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+25bee3ef-3555-5701-a298-8f7bbc6969ad,Granulocyte-Macrophage Progenitor Cell (GMP) - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+3c415381-c32d-542c-845b-84dfcce95755,Hematopoietic Stem cell - Bone Marrow,CL:0000037,http://purl.obolibrary.org/obo/CL_0000037,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+56cfb7f4-614d-5d4f-9e0e-03a446521798,Lympho-Myeloid Progenitor Cell (LMPP) - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+0899c3d2-8287-56ce-8318-99f9999728d2,Hematopoietic Multipotent Progenitor cell - Bone Marrow,CL:0000837,http://purl.obolibrary.org/obo/CL_0000837,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+d09e238d-5a1f-5028-ba14-48d3c41d7ce5,CD14-positive monocyte - Bone Marrow,CL:0001054,http://purl.obolibrary.org/obo/CL_0001054,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+6f2989c9-92f5-557b-b885-ed0ff945b745,"CD14-low, CD16-positive monocyte - Bone Marrow",CL:0002396,http://purl.obolibrary.org/obo/CL_0002396,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+442d84d4-e5fc-5317-ab32-dfee5e2a2e76,promonocyte - Bone Marrow,CL:0000559,http://purl.obolibrary.org/obo/CL_0000559,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+eaca1c74-442f-5df2-bceb-6f17172e22b7,Myeloid Progenitor (MOP) - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+3a160c6e-f463-5a7a-be89-ceef587d15fd,myelocyte - Bone Marrow,CL:0002193,http://purl.obolibrary.org/obo/CL_0002193,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+c5bfe8d9-9363-5500-af19-f54242da17c4,neutrophil - Bone Marrow,CL:0000775,http://purl.obolibrary.org/obo/CL_0000775,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+aff72b30-bed4-54c4-abd3-1c02c3f89f9c,promyelocyte - Bone Marrow,CL:0000836,http://purl.obolibrary.org/obo/CL_0000836,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+ea73cd53-6124-5401-ae64-b493a9d8fc22,eosinophil - Bone Marrow,CL:0000771,http://purl.obolibrary.org/obo/CL_0000771,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+c6eee256-ae67-5871-b888-d3dcb36755ca,basophil - Bone Marrow,CL:0000767,http://purl.obolibrary.org/obo/CL_0000767,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+bb761b31-0c2f-59f1-a91b-9432e6579a4f,Mast cell - Bone Marrow,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+224e26ce-67e4-5494-b9c5-916b836acbdf,CD4 naive - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+2456d56d-3f3f-5d8e-a1ea-1d8e9568926f,CD4 T Cell memory - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+b4679931-2808-5040-a0f0-1d01f3b32a18,CD4 T Cell Effector Memory CD45RA - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+5c5b4dcc-c8bc-54d1-b7ed-f12af1156b5e,CD8 naive - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+a18783a0-70f1-5d1e-aee1-c4a108ec4ac7,CD8 T Cell memory - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+4e6c2cf1-a84c-527c-a1a5-3eae05f6ebfe,CD8 T Cell Effector memory - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+3d63453f-a985-5a18-8f21-b890726a13f2,"Effector Memory CD8-positive, Alpha-Beta T Cell, Terminally differentiated - Bone Marrow",CL:0001062,http://purl.obolibrary.org/obo/CL_0001062,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+becb989f-4eb9-5c11-b809-b2cdfb2cb150,Mature CD8 T cell - Bone Marrow,,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+04d2ff62-ea73-5bcb-a14e-3883bd218856,"CD16-negative, CD56-bright Natural Killer cell - Bone Marrow",,,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+8079806d-ea16-5b50-b915-a99d2a87cc56,Mature Natural Killer cell - Bone Marrow,CL:0000824,http://purl.obolibrary.org/obo/CL_0000824,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+ac6822d1-f900-59f1-921e-be3f3efce6f0,Regulatory T cell - Bone Marrow,CL:0000815,http://purl.obolibrary.org/obo/CL_0000815,UBERON:0002371,http://purl.obolibrary.org/obo/UBERON_0002371
+8a99686b-819d-5386-b358-6b0a0a4ba39e,Basal Cell Of Ureter urothelium - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+c3080e35-f67c-5572-83eb-1a33f60c723e,Intermediate Cell Of Ureter urothelium - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+faacac0c-d90d-5fc3-8d0a-e1dd2ee3dc4a,Superficial Cell Of Ureter urothelium - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+a3fb345c-3adb-569b-b056-21951f96ab6f,Detrusor Smooth Muscle Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+d97e92be-268d-54d8-bc94-2353712ef877,Myofibroblast Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+f9bb0f99-da67-513a-a4d5-53cbbc2af052,PI16+ Fibroblast Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+038ba855-2f15-5662-a567-d4b8b2fa95eb,DPT+ Fibroblast Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+3126b151-09e2-5ae8-b2f8-7c9e24aa87a9,Lipofibroblast Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+109500d3-fe1d-50c4-874c-d669740363a0,Endothelial Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+1d09c70a-4ceb-5218-8b87-e9a656be5382,Vascular Smooth Muscle Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+e6242d2f-1376-5a8a-9c4e-c1d0da50c13e,Pericyte Cell Of ureter - Ureter,,,UBERON:0000056,http://purl.obolibrary.org/obo/UBERON_0000056
+ef292d64-ec18-5c4b-9c67-5f28c459b6cd,Luminal Cell Of Prostate epithelium - Prostate Gland,CL:0002340,http://purl.obolibrary.org/obo/CL_0002340,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+faea01d8-e84b-5754-80ea-2f6dcf2d2477,Basal Cell Of Prostate epithelium - Prostate Gland,CL:0002341,http://purl.obolibrary.org/obo/CL_0002341,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+f891b3ff-7807-5f34-bd96-becca1f18317,Endocrine-Paracrine Cell Of Prostate gland - Prostate Gland,CL:0002313,http://purl.obolibrary.org/obo/CL_0002313,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+af4a3899-81c3-5c5a-aa37-c54c08c87892,Smooth Muscle Cell Of prostate - Prostate Gland,CL:1000487,http://purl.obolibrary.org/obo/CL_1000487,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+a7337304-4063-5f15-aba3-93955d168fa5,Prostate Gland Microvascular Endothelial cell - Prostate Gland,CL:2000059,http://purl.obolibrary.org/obo/CL_2000059,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+23f8141a-f2dc-5347-9e70-65263ba96ded,Periepithelial fibroblast - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+7bfe6309-bf58-5848-8ba7-bb69d35d4ad6,Interstitial fibroblast - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+74aac9ec-e0da-5f07-84cd-8a3fa6d65841,Vascular Smooth muscle - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+ccfd6cd8-9c74-50bb-b957-dd9f2ecebc61,Prostate perictye - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+a32e0717-d862-513e-aa45-674faa6ca79b,Basal Cell Of Prostatic urethra - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+3204d6b2-d5ac-5b08-8ce0-356b346c1910,Club Cell Of Prostatic urethra - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
+213137af-df41-59c0-a179-4eda5783f79e,Hillock Cell Of Prostatic urethra - Prostate Gland,,,UBERON:0002367,http://purl.obolibrary.org/obo/UBERON_0002367
