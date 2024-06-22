@@ -39,15 +39,16 @@ def get_biomarkers(cell_type, file):
         counter+=1
         mask = df.apply(lambda row: only_check_ct_col(row, token), axis=1) #filter out the rows where the token is found in the cell type col
         filtered_rows = df[mask]
-        if sys.argv[2]== None:
+        if len(sys.argv) < 2:
             biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
             filtered_rows = filtered_rows[biomarker_col]
-        if sys.argv[2]=="id":
-            ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
-            filtered_rows = filtered_rows[ids_only]
-        elif sys.argv[2]=="name":
-            names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
-            filtered_rows = filtered_rows[names_only]
+        elif len(sys.argv) > 2:
+            if sys.argv[2]=="id":
+                ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
+                filtered_rows = filtered_rows[ids_only]
+            elif sys.argv[2]=="name":
+                names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
+                filtered_rows = filtered_rows[names_only]
         non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
         results.append(filtered_rows[non_empty_cols])
     

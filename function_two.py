@@ -13,7 +13,7 @@ edges_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_edges.csv"
 edges_df = pd.read_csv(edges_file)
 cpdb_genes = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/gene_input.csv"
 cpdb_gene_df = pd.read_csv(edges_file)
-cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/gene_input.csv"
+cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/interaction_input.csv"
 cpdb_interaction_df = pd.read_csv(edges_file)
 
 
@@ -51,15 +51,16 @@ def check_ct_id_col(row, token):
     return False
 
 def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
+    ###returns a list of the hgnc symbols of related biomarkers in cpdb
     found_symbols = []
     found_uniprot = []
     all_bm_symbols = []
-    
+    #get the hgnc symbols for all the biomarkers
     for bm in list_biomarkers:
         hgnc_symbol = get_symbol_from_hgnc_id(bm)
         all_bm_symbols.append(hgnc_symbol)
     
-  
+    #check if the symbols are in the cpdb gene csv. if it is get the uniprot ids
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
@@ -68,7 +69,31 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
                 uniprot_id = row['uniprot']
                 found_uniprot.append(uniprot_id)
                 found_symbols.append(symbol_in_csv)
-    for id in found_uniprot:
+    #find interaction partners if any
+    related_bm_uniprot = []
+    with open(cpdb_interactions, mode='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            partner_a = row['partner_a']
+            partner_b = row['partner_b']
+            if partner_a == found_uniprot:
+                related_bm_uniprot.append(partner_b)
+            if partner_b == found_uniprot:
+                related_bm_uniprot.append(partner_a)
+
+    related_hgnc_symbol = []
+    with open(cpdb_genes, mode='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            uniprot_id_to_check = row['uniprot']
+            if uniprot_id_to_check == related_bm_uniprot:
+                related_hgnc_symbol.append(row['hgnc_symbol'])
+    return related_hgnc_symbol
+
+
+practice_list = ['130', '2155']
+
+
 
     
         
@@ -93,6 +118,7 @@ def get_symbol_from_hgnc_id(hgnc_id):
             root = ET.fromstring(xml_response)
             
             symbol = root.find(".//str[@name='symbol']").text
+            print(symbol)
             return symbol
         else:
             print(f"Error {response.status_code}: {response.reason}")
@@ -100,3 +126,5 @@ def get_symbol_from_hgnc_id(hgnc_id):
     except requests.exceptions.RequestException as e:
         print(f"Request error: {e}")
         return None
+
+print(search_cpdb(practice_list))
