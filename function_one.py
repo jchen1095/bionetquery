@@ -3,7 +3,6 @@ import sys
 from itertools import chain
 import json
 import obonet
-
 import os
 import requests
 
@@ -24,8 +23,9 @@ common_words = ["cell", "neuron"]
 
 
 # =====================================
-# This block handles cellxgene data
+# This block handles getting the CL id given a cell type input
 # =====================================
+
 
 G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
 
@@ -33,11 +33,14 @@ def get_cell_ontology_id(cell_type):
     #looking thru obonet first
     for node_id, data in G.nodes(data=True):
         if 'name' in data and data['name'] == cell_type:
+            print("found in name")
             return node_id
         if 'synonym' in data:
             for syn in data['synonym']:
                 if syn == cell_type:
+                    print("found in synonym")
                     return node_id
+                
 
     req = requests.get(f"http://www.ebi.ac.uk/ols4/api/search?q={cell_type}&exact=false&ontology=cl")
     if req.status_code == 200:
@@ -46,10 +49,16 @@ def get_cell_ontology_id(cell_type):
        
         if docs:
             first_id = docs[0]["obo_id"]
+            print(docs[0])
+            print("found in api")
             return first_id
         #could possibly for loop to try other ids
 
         
+# =====================================
+# This block handles retrieving markers from cellxgene 
+# =====================================
+
 
 # def find_cl_id(gene_name):
 #     obo_id = get_cell_ontology_id(gene_name)
@@ -58,25 +67,32 @@ def get_cell_ontology_id(cell_type):
 # The cellxgene API URLs contain a "latest snapshot identifier" (presumably points to a specific version of the data)
 curr_id = requests.get("https://cellguide.cellxgene.cziscience.com/latest_snapshot_identifier").text
      
-
+print(curr_id)
 # cl_id = "CL:0000653" # Podocyte
-cl_id = sys.argv[1]
+
      
+# NOTE: "Marker genes are not available for blood or small populations of cells"  https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_2__Gene%20Expression%20Documentation/4_2_5__Find%20Marker%20Genes
 
-canonical_info = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json").json()
-data_driven_info = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json").json()
 
-canonical_load = json.loads(canonical_info)
-data_driven = json.loads(data_driven_info)
 
-print(canonical_info)
-# def get_biomarkers_from_cl(string){
+def get_biomarkers_from_cl(string):
+    cl_id = str(get_cell_ontology_id(sys.argv[1]))
+    print(cl_id)
+    canonical_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json")
+    data_driven_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json")
+    filtered_canonical_info = []
+    if canonical_info_req.status_code == 200:
+        canonical_info = canonical_info_req.json()
+        for entry in canonical_info['response']['docs']:
+            filtered_canonical_info.append({'name': entry['name'], 'symbol': entry['symbol']})
+    filtered_data_driven_info = []
+    if data_driven_info_req.status_code == 200:
+        data_driven_info = data_driven_info_req.json()
+        for entry in data_driven_info['response']['docs']:
+            filtered_data_driven_info.append({'name': entry['name'], 'symbol': entry['symbol'], 'gene_ontology_term_id': entry['gene_ontology_term_id']})
+        
     
-#     symbol = data["symbol"]
-#     name = data["symbol"]
     
-# }
-
 # =====================================
 # This block handles HuBMAP data
 # =====================================
