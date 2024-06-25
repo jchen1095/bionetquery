@@ -59,47 +59,44 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
     for bm in list_biomarkers:
         hgnc_symbol = get_symbol_from_hgnc_id(bm)
         all_bm_symbols.append(hgnc_symbol)
-    
+    print(all_bm_symbols)
     #check if the symbols are in the cpdb gene csv. if it is get the uniprot ids
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             symbol_in_csv = row['hgnc_symbol']
             if symbol_in_csv in all_bm_symbols:
+                print("im in the cpdb gene csvs!")
                 uniprot_id = row['uniprot']
+                print(uniprot_id)
                 found_uniprot.append(uniprot_id)
                 found_symbols.append(symbol_in_csv)
     #find interaction partners if any
     related_bm_uniprot = []
+    print(found_uniprot)
     with open(cpdb_interactions, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             partner_a = row['partner_a']
             partner_b = row['partner_b']
-            if partner_a == found_uniprot:
+            if partner_a in found_uniprot:
+                print("im interacting!")
                 related_bm_uniprot.append(partner_b)
-            if partner_b == found_uniprot:
+            if partner_b in found_uniprot:
+                print("im interacting!")
                 related_bm_uniprot.append(partner_a)
-
+    print(related_bm_uniprot)
     related_hgnc_symbol = []
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             uniprot_id_to_check = row['uniprot']
-            if uniprot_id_to_check == related_bm_uniprot:
+            if uniprot_id_to_check in related_bm_uniprot:
                 related_hgnc_symbol.append(row['hgnc_symbol'])
     return related_hgnc_symbol
 
 
-practice_list = ['130', '2155']
-
-
-
-    
-        
-
-
-            
+practice_list = ['3236', '4585', '29945', '20821']
 
     
 def get_symbol_from_hgnc_id(hgnc_id):
