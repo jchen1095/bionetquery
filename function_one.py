@@ -60,10 +60,6 @@ def get_cell_ontology_id(cell_type):
 # =====================================
 
 
-# def find_cl_id(gene_name):
-#     obo_id = get_cell_ontology_id(gene_name)
-#     if obo_id == None:
-#         pass
 # The cellxgene API URLs contain a "latest snapshot identifier" (presumably points to a specific version of the data)
 curr_id = requests.get("https://cellguide.cellxgene.cziscience.com/latest_snapshot_identifier").text
      
@@ -73,9 +69,7 @@ print(curr_id)
      
 # NOTE: "Marker genes are not available for blood or small populations of cells"  https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_2__Gene%20Expression%20Documentation/4_2_5__Find%20Marker%20Genes
 
-
-
-def get_biomarkers_from_cl(string):
+def get_biomarkers_from_cl():
     cl_id = str(get_cell_ontology_id(sys.argv[1]))
     print(cl_id)
     canonical_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json")
@@ -83,14 +77,17 @@ def get_biomarkers_from_cl(string):
     filtered_canonical_info = []
     if canonical_info_req.status_code == 200:
         canonical_info = canonical_info_req.json()
-        for entry in canonical_info['response']['docs']:
+        for entry in canonical_info:
             filtered_canonical_info.append({'name': entry['name'], 'symbol': entry['symbol']})
     filtered_data_driven_info = []
     if data_driven_info_req.status_code == 200:
         data_driven_info = data_driven_info_req.json()
-        for entry in data_driven_info['response']['docs']:
+        for entry in data_driven_info:
             filtered_data_driven_info.append({'name': entry['name'], 'symbol': entry['symbol'], 'gene_ontology_term_id': entry['gene_ontology_term_id']})
-        
+    # print(filtered_canonical_info)
+    # print(filtered_data_driven_info)
+    return filtered_canonical_info, filtered_data_driven_info
+
     
     
 # =====================================
@@ -139,8 +136,9 @@ def only_check_ct_col(row, token):
 
 def search(): #method to call full search
     file_to_use = get_files()
-    search_results = get_cell_ontology_id(sys.argv[1])
-    print(search_results)
+    canonical_markers, data_driven_markers = get_biomarkers_from_cl()
+    print(canonical_markers)
+    #print(data_driven_markers)
     # if(sys.argv[1].startswith("CL:")):
     #     search_results = get_cell_ontology_id(sys.argv[1])
     # else:
