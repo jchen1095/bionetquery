@@ -15,7 +15,7 @@ print("Arguments:", sys.argv[1:])
 
 
 def get_files():
-    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/out.csv"
+    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/out.csv" #this is the combined file
     # return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
 
 common_words = ["cell", "neuron"]
@@ -69,23 +69,37 @@ print(curr_id)
      
 # NOTE: "Marker genes are not available for blood or small populations of cells"  https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_2__Gene%20Expression%20Documentation/4_2_5__Find%20Marker%20Genes
 
-def get_biomarkers_from_cl():
-    cl_id = str(get_cell_ontology_id(sys.argv[1]))
+def get_biomarkers_from_cl(string):
+    cl_id = str(get_cell_ontology_id(string))
     print(cl_id)
     canonical_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json")
     data_driven_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json")
-    filtered_canonical_info = []
-    if canonical_info_req.status_code == 200:
-        canonical_info = canonical_info_req.json()
-        for entry in canonical_info:
-            filtered_canonical_info.append({'name': entry['name'], 'symbol': entry['symbol']})
+    data_ok = data_driven_info_req.text
+    canonical_ok = canonical_info_req.text
     filtered_data_driven_info = []
-    if data_driven_info_req.status_code == 200:
-        data_driven_info = data_driven_info_req.json()
-        for entry in data_driven_info:
-            filtered_data_driven_info.append({'name': entry['name'], 'symbol': entry['symbol'], 'gene_ontology_term_id': entry['gene_ontology_term_id']})
+    filtered_canonical_info = []
+    if data_ok:
+        if data_driven_info_req.status_code == 200:
+            data_driven_info = data_driven_info_req.json()
+            for entry in data_driven_info:
+                filtered_data_driven_info.append({'name': entry['name'], 'symbol': entry['symbol'], 'gene_ontology_term_id': entry['gene_ontology_term_id']})
+        else:
+            print("did not find data driven markers")
+    else:
+            print("did not find data driven markers")
+    if canonical_ok:
+        if canonical_info_req.status_code == 200:
+            canonical_info = canonical_info_req.json()
+            for entry in canonical_info:
+                filtered_canonical_info.append({'name': entry['name'], 'symbol': entry['symbol']})
+        else:
+            print("did not find canonical markers")
+    else:
+        print("did not find canonical markers")
     # print(filtered_canonical_info)
-    # print(filtered_data_driven_info)
+    # unique_canonical_info = list(set(filtered_canonical_info))
+    # unique_data_driven_info = list(set(filtered_data_driven_info))
+    # print(unique_canonical_info)
     return filtered_canonical_info, filtered_data_driven_info
 
     
@@ -97,29 +111,24 @@ def get_biomarkers_from_cl():
 def get_biomarkers(cell_type, file):
     results = []
     df = pd.read_csv(file)
-    tokens = cell_type.lower().split('_') #tokenize query
-    # print(tokens)
-    counter = 0
-    for token in tokens: 
-        counter+=1
-        mask = df.apply(lambda row: only_check_ct_col(row, token), axis=1) #filter out the rows where the token is found in the cell type col
-        filtered_rows = df[mask]
-        if len(sys.argv) == 2:
-            biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
-            filtered_rows = filtered_rows[biomarker_col]
-        elif len(sys.argv) > 2:
-            if sys.argv[2]=="id":
-                ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
-                filtered_rows = filtered_rows[ids_only]
-            elif sys.argv[2]=="name":
-                names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
-                filtered_rows = filtered_rows[names_only]
-        non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
-        current_results = list((filtered_rows[non_empty_cols].values.tolist()))
-        results = [item for sublist in current_results for item in sublist if pd.notna(item)]
-        
-    
-    return results
+    print(cell_type)
+    mask = df.apply(lambda row: row.str.contains(cell_type, case=False).any(), axis=1) #filter out the rows where the token is found in the cell type col
+    filtered_rows = df[mask]
+    if len(sys.argv) == 2: ### TODO: Maybe better organize the names/ids/labels that result from this block because sometimes when you do unique/set you lose the connections between label and name/id
+        biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
+        filtered_rows = filtered_rows[biomarker_col]
+    elif len(sys.argv) > 2: 
+        if sys.argv[2]=="id":
+            ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
+            filtered_rows = filtered_rows[ids_only]
+        elif sys.argv[2]=="name":
+            names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
+            filtered_rows = filtered_rows[names_only]
+    non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
+    current_results = list((filtered_rows[non_empty_cols].values.tolist()))
+    results = [item for sublist in current_results for item in sublist if pd.notna(item)]
+    unique_results = list(set(results))
+    return unique_results
     
 
 def only_check_ct_col(row, token):
@@ -134,10 +143,21 @@ def only_check_ct_col(row, token):
 # Search function
 # =====================================
 
+def process_input():
+    input=sys.argv[1]
+    processed_string = input.replace('_', ' ')
+    processed_string = str(processed_string)
+    return processed_string
+
+
 def search(): #method to call full search
     file_to_use = get_files()
-    canonical_markers, data_driven_markers = get_biomarkers_from_cl()
+    hubmap_results = get_biomarkers(process_input(), file_to_use)
+    canonical_markers, data_driven_markers = get_biomarkers_from_cl(process_input())
+    print(data_driven_markers)
     print(canonical_markers)
+    print(hubmap_results)
+    return hubmap_results
     #print(data_driven_markers)
     # if(sys.argv[1].startswith("CL:")):
     #     search_results = get_cell_ontology_id(sys.argv[1])
