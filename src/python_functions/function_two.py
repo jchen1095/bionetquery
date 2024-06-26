@@ -80,10 +80,10 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
             partner_a = row['partner_a']
             partner_b = row['partner_b']
             if partner_a in found_uniprot:
-                print("im interacting!")
+                # print("im interacting!")
                 related_bm_uniprot.append(partner_b)
             if partner_b in found_uniprot:
-                print("im interacting!")
+                # print("im interacting!")
                 related_bm_uniprot.append(partner_a)
     print(related_bm_uniprot)
     related_hgnc_symbol = []
@@ -94,6 +94,12 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
             if uniprot_id_to_check in related_bm_uniprot:
                 related_hgnc_symbol.append(row['hgnc_symbol'])
     return related_hgnc_symbol
+
+#TODO: Instead of the name of the gene, return information about why this is being returned. 
+# this biomarker from the input is in interaction with these biomarkers in the output + other information about related biomarkers 
+# focus on standardizing, will make adding databases easier, and also will make next steps + flow better 
+# pydantic library will help validate the structure, can serialize two jsons
+
 
 
 practice_list = ['3236', '4585', '29945', '20821']

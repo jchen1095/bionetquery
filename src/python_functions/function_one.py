@@ -15,7 +15,7 @@ print("Arguments:", sys.argv[1:])
 
 
 def get_files():
-    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/out.csv" #this is the combined file
+    return f"./bionetquery/outputs/out.csv" #this is the combined file
     # return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
 
 common_words = ["cell", "neuron"]
@@ -26,8 +26,8 @@ common_words = ["cell", "neuron"]
 # This block handles getting the CL id given a cell type input
 # =====================================
 
-
 G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
+#TODO: cl-full instead of cl-basic (takes longer to retrieve)
 
 def get_cell_ontology_id(cell_type):
     #looking thru obonet first
@@ -40,18 +40,17 @@ def get_cell_ontology_id(cell_type):
                 if syn == cell_type:
                     print("found in synonym")
                     return node_id
-                
 
     req = requests.get(f"http://www.ebi.ac.uk/ols4/api/search?q={cell_type}&exact=false&ontology=cl")
     if req.status_code == 200:
         data = req.json()
         docs = data["response"]["docs"]
-       
         if docs:
             first_id = docs[0]["obo_id"]
             print(docs[0])
             print("found in api")
             return first_id
+        
         #could possibly for loop to try other ids
 
         
@@ -127,14 +126,13 @@ def get_biomarkers(cell_type, file):
     non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
     current_results = list((filtered_rows[non_empty_cols].values.tolist()))
     results = [item for sublist in current_results for item in sublist if pd.notna(item)]
-    unique_results = list(set(results))
+    unique_results = list(set(results)) #TODO: do this later/downstream not at the level ur creating
     return unique_results
     
 
 def only_check_ct_col(row, token):
     ct_columns = [col for col in row.index if col.startswith('CT')]
     for col in ct_columns:
-       
         if token.lower() in str(row[col]).lower():
             return True
     return False
@@ -169,4 +167,16 @@ def search(): #method to call full search
     #get_related_biomarkers("CL:0000895")
 
 search()
+
+#TODO: Combine biomarkers but also provide data source/reasoning ("why is this biomarker included in list of results") [hubmap, cellxgene]
+#would allow a user to filter downstream 
+#unify/standardize schema of all the database returns 
+#users don't *have* to know where data comes from but if they want to they can find it 
+#if users want to add another database make it easier for them to process all the data into this one standardize return schema 
+#Another property: biomarker type (canonical or data driven) ("method") because then you can include everything in the same list and user can downstream filter
+#right now hubmap is only canonical 
+#description, symbol, hgnc id, cl id, synonyms
+#TODO: all the downstream filtering can be applied later 
+
+
 
