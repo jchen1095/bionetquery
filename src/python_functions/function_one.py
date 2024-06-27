@@ -4,7 +4,91 @@ from itertools import chain
 import json
 import obonet
 import os
+from pydantic import BaseModel, TypeAdapter
 import requests
+from typing import List,Optional, Dict, Union
+import requests
+
+
+API_URL = "https://cellguide.cellxgene.cziscience.com"
+
+class AdditionalMetadata(BaseModel):
+    """More specific properties from different sources"""
+    cellxgene_canonical: Optional[list]
+    cellxgene_computational: Optional[list]
+    hubmap: Optional[list]
+
+class BioQueryBiomarker(BaseModel):
+    """A biomarker object for bioquery"""
+    source: list
+    type: str #should this be a list?
+    symbol: str
+    label: list
+    additionalMetadata: AdditionalMetadata
+
+
+    # TODO: More fields which should be supported by bioquery responses
+
+class CellXGeneCanonicalMarkerGene(BaseModel):
+    tissue: str
+    symbol: str
+    label: str
+    publication: str
+    publication_titles: str
+
+    # def to_biomarker(self) -> BioQueryBiomarker:
+    #     """Convert the computational marker gene to a bioquery biomarker"""
+    #     # convert canonical marker -> standard bioquery representation here ...
+    #     metadata = AdditionalMetadata(
+    #         cellxgene_canonical={'publication':self.publication, 'publication_titles': self.publication_titles},
+    #         cellxgene_computational=None,
+    #         hubmap=None
+    #     )
+    #     return BioQueryBiomarker(
+    #         source="cellxgene_canonical",
+    #         type="marker_gene",
+    #         label=self.label,
+    #         symbol=self.symbol,
+    #         additionalMetadata=metadata
+    #     )
+
+
+class CellXGeneComputationalMarkerGene(BaseModel):
+    me: float
+    pc: float
+    marker_score: float
+    specificity: float
+    gene_ontology_term_id: str
+    symbol: str
+    label: str
+    groupby_dims: dict
+
+    # def to_biomarker(self) -> BioQueryBiomarker:
+    #     """Convert the computational marker gene to a bioquery biomarker"""
+    #     # convert computational marker -> standard bioquery representation here ...
+    #     additional_metadata = AdditionalMetadata(
+    #         cellxgene_canonical=None,
+    #         cellxgene_computational={'me': self.me, 'pc': self.pc, 'marker_score': self.marker_score, 'specificity': self.specificity,
+    #                                  'gene_ontology_term_id': self.gene_ontology_term_id, 'groupby_dims': self.groupby_dims},
+    #         hubmap=None
+    #     )
+    #     return BioQueryBiomarker(
+    #         source="cellxgene_computational",
+    #         type="marker_gene",
+    #         label=self.label,
+    #         symbol=self.symbol,
+    #         additionalMetadata=additional_metadata
+
+    #     )
+
+
+# class HubmapBiomarker(BaseModel): ...
+
+
+# # These are the response types from the cellguide API
+# CellGuideCanonicalMarkerGenes = TypeAdapter(List[CellGuideCanonicalMarkerGene])
+# CellGuideComputationalMarkerGenes = TypeAdapter(List[CellGuideComputationalMarkerGene])
+
 
 # =====================================
 # This block handles terminal input and file retrieval
@@ -15,7 +99,7 @@ print("Arguments:", sys.argv[1:])
 
 
 def get_files():
-    return f"./bionetquery/outputs/out.csv" #this is the combined file
+    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/outputs/out.csv" #this is the combined file
     # return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
 
 common_words = ["cell", "neuron"]
@@ -75,13 +159,9 @@ def get_biomarkers_from_cl(string):
     data_driven_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json")
     data_ok = data_driven_info_req.text
     canonical_ok = canonical_info_req.text
-    filtered_data_driven_info = []
-    filtered_canonical_info = []
     if data_ok:
         if data_driven_info_req.status_code == 200:
             data_driven_info = data_driven_info_req.json()
-            for entry in data_driven_info:
-                filtered_data_driven_info.append({'name': entry['name'], 'symbol': entry['symbol'], 'gene_ontology_term_id': entry['gene_ontology_term_id']})
         else:
             print("did not find data driven markers")
     else:
@@ -89,8 +169,6 @@ def get_biomarkers_from_cl(string):
     if canonical_ok:
         if canonical_info_req.status_code == 200:
             canonical_info = canonical_info_req.json()
-            for entry in canonical_info:
-                filtered_canonical_info.append({'name': entry['name'], 'symbol': entry['symbol']})
         else:
             print("did not find canonical markers")
     else:
@@ -99,7 +177,7 @@ def get_biomarkers_from_cl(string):
     # unique_canonical_info = list(set(filtered_canonical_info))
     # unique_data_driven_info = list(set(filtered_data_driven_info))
     # print(unique_canonical_info)
-    return filtered_canonical_info, filtered_data_driven_info
+    return canonical_info, data_driven_info
 
     
     
@@ -126,8 +204,9 @@ def get_biomarkers(cell_type, file):
     non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
     current_results = list((filtered_rows[non_empty_cols].values.tolist()))
     results = [item for sublist in current_results for item in sublist if pd.notna(item)]
-    unique_results = list(set(results)) #TODO: do this later/downstream not at the level ur creating
-    return unique_results
+    # unique_results = list(set(results)) #TODO: do this later/downstream not at the level ur creating
+    # return unique_results
+    return results
     
 
 def only_check_ct_col(row, token):
@@ -136,6 +215,125 @@ def only_check_ct_col(row, token):
         if token.lower() in str(row[col]).lower():
             return True
     return False
+
+# =====================================
+# Combining functions 
+# =====================================
+def combine_cellxgene_biomarkers(canonical_marker_genes,computational_marker_genes):
+    merged_biomarkers = []
+
+    merged_by_symbol = {}
+    for marker in canonical_marker_genes:
+        symbol = marker.symbol
+
+        if symbol not in merged_by_symbol:
+            #  new merged biomarker entry
+            merged_by_symbol[symbol] = {
+                'symbol': symbol,
+                'source': ["cellxgene"],
+                'type': "marker_gene",
+                'label': [marker.label],
+                'additionalMetadata': {
+                    'cellxgene_canonical': [{
+                        'tissue': marker.tissue,
+                        'publication': marker.publication,
+                        'publication_titles': marker.publication_titles
+                    }],
+                    'cellxgene_computational': None,
+                    'hubmap': None  # Add hubmap data if available
+                }
+            }
+        else:
+            # update metadata
+            merged_by_symbol[symbol]['additionalMetadata']['cellxgene_canonical'].append({
+                'tissue': marker.tissue,
+                'publication': marker.publication,
+                'publication_titles': marker.publication_titles
+            })
+
+    for marker in computational_marker_genes:
+        symbol = marker.symbol
+
+        if symbol not in merged_by_symbol:
+            # Create new biomarker entry
+            merged_by_symbol[symbol] = {
+                'symbol': symbol,
+                'source': ["cellxgene"],
+                'type': "marker_gene",
+                'label': [marker.label],
+                'additionalMetadata': {
+                    'cellxgene_canonical': None,
+                    'cellxgene_computational': {
+                        'me': marker.me,
+                        'pc': marker.pc,
+                        'marker_score': marker.marker_score,
+                        'specificity': marker.specificity,
+                        'gene_ontology_term_id': marker.gene_ontology_term_id,
+                        'groupby_dims': marker.groupby_dims
+                    },
+                    'hubmap': None  # Add hubmap data if available
+                }
+            }
+        else:
+            # update biomarker entry
+            if merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational']:
+                existing_computational = merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational']
+                existing_computational.update({
+                    'me': marker.me,
+                    'pc': marker.pc,
+                    'marker_score': marker.marker_score,
+                    'specificity': marker.specificity,
+                    'gene_ontology_term_id': marker.gene_ontology_term_id,
+                    'groupby_dims': marker.groupby_dims
+                })
+            else:
+                merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational'] = {
+                    'me': marker.me,
+                    'pc': marker.pc,
+                    'marker_score': marker.marker_score,
+                    'specificity': marker.specificity,
+                    'gene_ontology_term_id': marker.gene_ontology_term_id,
+                    'groupby_dims': marker.groupby_dims
+                }
+
+    # convert to list of biomarker dictionaries
+    merged_biomarkers = list(merged_by_symbol.values())
+
+    return merged_biomarkers
+    
+
+def process_cellxgene_canonical_markers(canonical_info, data_driven_info):
+    print(data_driven_info)
+    canonical_marker_genes = [
+        CellXGeneCanonicalMarkerGene(
+            tissue=entry['tissue'],
+            symbol=entry['symbol'],
+            label=entry['name'],
+            publication=entry['publication'],
+            publication_titles=entry['publication_titles']
+        )
+        for entry in canonical_info]
+    computational_marker_genes = [
+        CellXGeneComputationalMarkerGene(
+            me=entry['me'],
+            pc=entry['pc'],
+            marker_score=entry['marker_score'],
+            specificity=entry['specificity'],
+            gene_ontology_term_id=entry['gene_ontology_term_id'],
+            symbol=entry['symbol'],
+            label=entry['name'],
+            groupby_dims=entry['groupby_dims'],
+        )
+        for entry in data_driven_info]
+    combined_biomarkers = combine_cellxgene_biomarkers(canonical_marker_genes, computational_marker_genes)
+    return combined_biomarkers
+    # for entry in data_driven_info:
+    #     filtered_data_driven_info.append({'sources': 'cellxgene', 'name': entry['name'], 'symbol': entry['symbol'], 'method': 'data_driven', 
+    #             'gene_ontology_term_id': entry['gene_ontology_term_id'], 'me':entry['me'], 'pc': entry['pc'], })
+    # for entry in canonical_info:
+    #     filtered_canonical_info.append({'sources': 'cellxgene', 'name': entry['name'], 'symbol': entry['symbol']})
+
+# def combine_hubmap_data(list_biomarkers):
 
 # =====================================
 # Search function
@@ -152,10 +350,18 @@ def search(): #method to call full search
     file_to_use = get_files()
     hubmap_results = get_biomarkers(process_input(), file_to_use)
     canonical_markers, data_driven_markers = get_biomarkers_from_cl(process_input())
-    print(data_driven_markers)
-    print(canonical_markers)
-    print(hubmap_results)
-    return hubmap_results
+    # print(data_driven_markers)
+    # print(canonical_markers)
+    processed_data = process_cellxgene_canonical_markers(canonical_markers, data_driven_markers)
+    json_string = json.dumps(processed_data, indent=4)
+    output_file = "cellxgene.json"
+
+    with open(output_file, 'w') as f:
+        f.write(json_string)
+
+    print(f"JSON data has been written to {output_file}")
+    # print(hubmap_results)
+    # return hubmap_results
     #print(data_driven_markers)
     # if(sys.argv[1].startswith("CL:")):
     #     search_results = get_cell_ontology_id(sys.argv[1])
@@ -177,6 +383,4 @@ search()
 #right now hubmap is only canonical 
 #description, symbol, hgnc id, cl id, synonyms
 #TODO: all the downstream filtering can be applied later 
-
-
 

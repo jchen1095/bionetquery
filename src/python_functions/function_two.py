@@ -7,13 +7,13 @@ import requests
 # import obonet
 # G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
 
-nodes_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_nodes.csv"
+nodes_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/hubmap_enrichkg/hubmap_nodes.csv"
 nodes_df = pd.read_csv(nodes_file)
-edges_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_edges.csv"
+edges_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/hubmap_enrichkg/hubmap_edges.csv"
 edges_df = pd.read_csv(edges_file)
-cpdb_genes = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/gene_input.csv"
+cpdb_genes = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/cellphonedb_data/gene_input.csv"
 cpdb_gene_df = pd.read_csv(edges_file)
-cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/cellphonedb_data/interaction_input.csv"
+cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/cellphonedb_data/interaction_input.csv"
 cpdb_interaction_df = pd.read_csv(edges_file)
 
 
