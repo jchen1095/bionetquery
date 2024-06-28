@@ -2,7 +2,9 @@ import pandas as pd
 import sys
 import os
 import csv
+from pydantic import BaseModel, TypeAdapter
 import requests
+from typing import List,Optional, Dict, Union
 
 # import obonet
 # G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
@@ -15,6 +17,18 @@ cpdb_genes = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/cellphonedb_data/gen
 cpdb_gene_df = pd.read_csv(edges_file)
 cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/cellphonedb_data/interaction_input.csv"
 cpdb_interaction_df = pd.read_csv(edges_file)
+
+class AdditionalMetadata(BaseModel):
+    """More specific properties from different sources"""
+    cellphonedb: Optional[list]
+
+class BioQueryBiomarker(BaseModel):
+    """A biomarker object for bioquery"""
+    source: list
+    type: str #should this be a list?
+    symbol: str
+    label: list
+    additionalMetadata: AdditionalMetadata
 
 
 def get_files():
@@ -52,7 +66,7 @@ def check_ct_id_col(row, token):
 
 def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
     ###returns a list of the hgnc symbols of related biomarkers in cpdb
-    found_symbols = []
+    found_uniprot_to_symbols={}
     found_uniprot = []
     all_bm_symbols = []
     #get the hgnc symbols for all the biomarkers
@@ -70,39 +84,44 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
                 uniprot_id = row['uniprot']
                 print(uniprot_id)
                 found_uniprot.append(uniprot_id)
-                found_symbols.append(symbol_in_csv)
+                found_uniprot_to_symbols[uniprot_id]=symbol_in_csv
     #find interaction partners if any
-    related_bm_uniprot = []
+    related_bm_uniprot = {}
     print(found_uniprot)
     with open(cpdb_interactions, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             partner_a = row['partner_a']
             partner_b = row['partner_b']
-            if partner_a in found_uniprot:
+            if partner_a in found_uniprot: #PUT RELATED BIOMARKER AS THE KEY
                 # print("im interacting!")
-                related_bm_uniprot.append(partner_b)
+                related_bm_uniprot[partner_b]=partner_a
             if partner_b in found_uniprot:
-                # print("im interacting!")
-                related_bm_uniprot.append(partner_a)
+                related_bm_uniprot[partner_a]=partner_b
+        
     print(related_bm_uniprot)
-    related_hgnc_symbol = []
+    related_hgnc_symbols = {}
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             uniprot_id_to_check = row['uniprot']
             if uniprot_id_to_check in related_bm_uniprot:
-                related_hgnc_symbol.append(row['hgnc_symbol'])
-    return related_hgnc_symbol
+                related_hgnc_symbols[get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check)] = row['hgnc_symbol']
+    print(related_hgnc_symbols)
+    return related_hgnc_symbols
 
 #TODO: Instead of the name of the gene, return information about why this is being returned. 
 # this biomarker from the input is in interaction with these biomarkers in the output + other information about related biomarkers 
 # focus on standardizing, will make adding databases easier, and also will make next steps + flow better 
 # pydantic library will help validate the structure, can serialize two jsons
 
+def get_original_biomarker(uniprot_to_symbol, uniprot_partners, related_uniprot_id):
+    original_biomarker_uniprot = uniprot_partners.get(related_uniprot_id)
+    original_biomarker_symbol = uniprot_to_symbol.get(original_biomarker_uniprot)
+    return original_biomarker_symbol
 
 
-practice_list = ['3236', '4585', '29945', '20821']
+practice_list = ['29945']
 
     
 def get_symbol_from_hgnc_id(hgnc_id):

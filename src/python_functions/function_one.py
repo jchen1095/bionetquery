@@ -36,23 +36,6 @@ class CellXGeneCanonicalMarkerGene(BaseModel):
     publication: str
     publication_titles: str
 
-    # def to_biomarker(self) -> BioQueryBiomarker:
-    #     """Convert the computational marker gene to a bioquery biomarker"""
-    #     # convert canonical marker -> standard bioquery representation here ...
-    #     metadata = AdditionalMetadata(
-    #         cellxgene_canonical={'publication':self.publication, 'publication_titles': self.publication_titles},
-    #         cellxgene_computational=None,
-    #         hubmap=None
-    #     )
-    #     return BioQueryBiomarker(
-    #         source="cellxgene_canonical",
-    #         type="marker_gene",
-    #         label=self.label,
-    #         symbol=self.symbol,
-    #         additionalMetadata=metadata
-    #     )
-
-
 class CellXGeneComputationalMarkerGene(BaseModel):
     me: float
     pc: float
@@ -63,26 +46,15 @@ class CellXGeneComputationalMarkerGene(BaseModel):
     label: str
     groupby_dims: dict
 
-    # def to_biomarker(self) -> BioQueryBiomarker:
-    #     """Convert the computational marker gene to a bioquery biomarker"""
-    #     # convert computational marker -> standard bioquery representation here ...
-    #     additional_metadata = AdditionalMetadata(
-    #         cellxgene_canonical=None,
-    #         cellxgene_computational={'me': self.me, 'pc': self.pc, 'marker_score': self.marker_score, 'specificity': self.specificity,
-    #                                  'gene_ontology_term_id': self.gene_ontology_term_id, 'groupby_dims': self.groupby_dims},
-    #         hubmap=None
-    #     )
-    #     return BioQueryBiomarker(
-    #         source="cellxgene_computational",
-    #         type="marker_gene",
-    #         label=self.label,
-    #         symbol=self.symbol,
-    #         additionalMetadata=additional_metadata
 
-    #     )
+class HubmapBiomarker(BaseModel):
+    label:str
+    id:float
+    symbol:str
+    anatomical_structures:list
+    cell_types:list
 
 
-# class HubmapBiomarker(BaseModel): ...
 
 
 # # These are the response types from the cellguide API
@@ -191,22 +163,20 @@ def get_biomarkers(cell_type, file):
     print(cell_type)
     mask = df.apply(lambda row: row.str.contains(cell_type, case=False).any(), axis=1) #filter out the rows where the token is found in the cell type col
     filtered_rows = df[mask]
-    if len(sys.argv) == 2: ### TODO: Maybe better organize the names/ids/labels that result from this block because sometimes when you do unique/set you lose the connections between label and name/id
-        biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
-        filtered_rows = filtered_rows[biomarker_col]
-    elif len(sys.argv) > 2: 
-        if sys.argv[2]=="id":
-            ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
-            filtered_rows = filtered_rows[ids_only]
-        elif sys.argv[2]=="name":
-            names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
-            filtered_rows = filtered_rows[names_only]
+    # if len(sys.argv) == 2: ### TODO: Maybe better organize the names/ids/labels that result from this block because sometimes when you do unique/set you lose the connections between label and name/id
+    #     biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
+    #     filtered_rows = filtered_rows[biomarker_col]
+    # elif len(sys.argv) > 2: 
+    #     if sys.argv[2]=="id":
+    #         ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
+    #         filtered_rows = filtered_rows[ids_only]
+    #     elif sys.argv[2]=="name":
+    #         names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
+    #         filtered_rows = filtered_rows[names_only]
     non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
-    current_results = list((filtered_rows[non_empty_cols].values.tolist()))
-    results = [item for sublist in current_results for item in sublist if pd.notna(item)]
     # unique_results = list(set(results)) #TODO: do this later/downstream not at the level ur creating
     # return unique_results
-    return results
+    return non_empty_cols
     
 
 def only_check_ct_col(row, token):
@@ -217,8 +187,31 @@ def only_check_ct_col(row, token):
     return False
 
 # =====================================
+# Processing HuBMAP data
+# =====================================
+#add hgnc id and cl id 
+def get_hubmap_biomarker_objects(nonempty_columns):    
+    hubmap_biomarkers = []
+    for row in nonempty_columns.iterrows():
+        as_names=[name for name in row.columns if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID')]
+        as_names=[name for name in row.columns if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID')]
+        for x in range(1, 15): #TODO: only setting at 15 right now because I know that's the highest amount of biomarkers returned by hubmap
+            curr_columns = [col for col in row.columns if col.contains(f'{x}')]
+            hubmap_biomarkers.append(HubmapBiomarker('label':row[f'BGene/{x}/LABEL'], 'id':row[f'BGene/{x}/ID'], 'symbol':row[f'BGene/{x}'],'anatomical_structures':,'cell_types') )
+
+
+    # {
+    #    anatomical structures: []
+    #    cell types []
+
+    # }
+# =====================================
 # Combining functions 
 # =====================================
+
+#TODO: making sure no label duplicates
+
+
 def combine_cellxgene_biomarkers(canonical_marker_genes,computational_marker_genes):
     merged_biomarkers = []
 
