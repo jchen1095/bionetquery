@@ -4,6 +4,7 @@ from itertools import chain
 import json
 import obonet
 import os
+import numpy as np
 from pydantic import BaseModel, TypeAdapter
 import requests
 from typing import List,Optional, Dict, Union
@@ -49,7 +50,7 @@ class CellXGeneComputationalMarkerGene(BaseModel):
 
 class HubmapBiomarker(BaseModel):
     label:str
-    id:float
+    hgnc_id:float
     symbol:str
     anatomical_structures:list
     cell_types:list
@@ -173,10 +174,8 @@ def get_biomarkers(cell_type, file):
     #     elif sys.argv[2]=="name":
     #         names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
     #         filtered_rows = filtered_rows[names_only]
-    non_empty_cols = filtered_rows.columns[filtered_rows.notna().any()]
-    # unique_results = list(set(results)) #TODO: do this later/downstream not at the level ur creating
-    # return unique_results
-    return non_empty_cols
+   
+    return filtered_rows
     
 
 def only_check_ct_col(row, token):
@@ -190,15 +189,34 @@ def only_check_ct_col(row, token):
 # Processing HuBMAP data
 # =====================================
 #add hgnc id and cl id 
-def get_hubmap_biomarker_objects(nonempty_columns):    
+def get_hubmap_biomarker_objects(filtered_rows):    
     hubmap_biomarkers = []
-    for row in nonempty_columns.iterrows():
-        as_names=[name for name in row.columns if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID')]
-        as_names=[name for name in row.columns if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID')]
-        for x in range(1, 15): #TODO: only setting at 15 right now because I know that's the highest amount of biomarkers returned by hubmap
-            curr_columns = [col for col in row.columns if col.contains(f'{x}')]
-            hubmap_biomarkers.append(HubmapBiomarker('label':row[f'BGene/{x}/LABEL'], 'id':row[f'BGene/{x}/ID'], 'symbol':row[f'BGene/{x}'],'anatomical_structures':,'cell_types') )
-
+    for index, row in filtered_rows.iterrows():  # Use iterrows() to iterate over rows
+        as_names = [name for name in row.index if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID')]
+        ct_names = [name for name in row.index if name.startswith('CT') and not name.endswith('LABEL') and not name.endswith('ID')]
+        
+        for x in range(1, 15):  # Assuming this is the maximum number of biomarkers returned by Hubmap
+            label_col = f'BGene/{x}/LABEL'
+            id_col = f'BGene/{x}/ID'
+            symbol_col = f'BGene/{x}'
+            
+            if label_col in row.index and id_col in row.index and symbol_col in row.index:
+                gene_id = row[id_col]
+                if gene_id is not np.nan: 
+                    split = str(gene_id).split(':')
+                    print(split)
+                    id_num = split[1]
+                    gene_id = float(id_num)
+                print(row[label_col])
+                hubmap_biomarkers.append(HubmapBiomarker(
+                    label=row[label_col],
+                    hgnc_id=float(id_num),
+                    symbol=row[symbol_col],
+                    anatomical_structures=as_names,
+                    cell_types=ct_names
+                ))
+    
+    print(hubmap_biomarkers) 
 
     # {
     #    anatomical structures: []
@@ -342,6 +360,7 @@ def process_input():
 def search(): #method to call full search
     file_to_use = get_files()
     hubmap_results = get_biomarkers(process_input(), file_to_use)
+    get_hubmap_biomarker_objects(hubmap_results)
     canonical_markers, data_driven_markers = get_biomarkers_from_cl(process_input())
     # print(data_driven_markers)
     # print(canonical_markers)
