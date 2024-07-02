@@ -30,6 +30,9 @@ class BioQueryBiomarker(BaseModel):
     label: list
     additionalMetadata: AdditionalMetadata
 
+class CellPhoneDB(BaseModel):
+    uniprot_id:str
+
 
 def get_files():
     return f"/Users/JenChen/Desktop/SIBMI/bionetquery/out.csv"
@@ -100,7 +103,7 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
                 related_bm_uniprot[partner_a]=partner_b
         
     print(related_bm_uniprot)
-    related_hgnc_symbols = {}
+    related_hgnc_symbols = {} #maps original biomarker to the related biomarker
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
