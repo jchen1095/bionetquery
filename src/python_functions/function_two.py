@@ -122,7 +122,7 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
                 related_hgnc_symbols[get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check)] = row['hgnc_symbol']
     print(related_hgnc_symbols)
 
-    cellphonedb_biomarkers = [CellPhoneDBBiomarker(
+    cellphonedb_biomarkers = [CellPhoneDBBiomarker( #TODO: actually I think I need to reassess these dictionaries to streamline it better becaue some related biomarkers can be related t the same input biomarker
         partner_a=key, 
         source="cellphonedb", 
         partner_b=value, 

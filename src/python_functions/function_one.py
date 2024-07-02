@@ -13,6 +13,7 @@ import requests
 
 
 API_URL = "https://cellguide.cellxgene.cziscience.com"
+data_folder = "./data/cell"
 
 class AdditionalMetadata(BaseModel):
     """More specific properties from different sources"""
@@ -28,8 +29,10 @@ class BioQueryBiomarker(BaseModel):
     label: list
     additionalMetadata: AdditionalMetadata
 
-
-    # TODO: More fields which should be supported by bioquery responses
+# TODO: Unit testing/examples
+# TODO: put pydantic classes 
+# Utils/helper functions
+# TODO: More fields which should be supported by bioquery responses
 
 class CellXGeneCanonicalMarkerGene(BaseModel):
     tissue: str
@@ -74,7 +77,7 @@ print("Arguments:", sys.argv[1:])
 
 
 def get_files():
-    return f"/Users/JenChen/Desktop/SIBMI/bionetquery/outputs/out.csv" #this is the combined file
+    return f"./outputs/out.csv" #this is the combined file
     # return f"/Users/JenChen/Desktop/SIBMI/bionetquery/hubmap_asct_data/hubmap_{string}.csv"
 
 common_words = ["cell", "neuron"]
@@ -422,7 +425,7 @@ def search(): #method to call full search
    
     processed_data = process_biomarkers(canonical_markers, data_driven_markers, hubmap_markers)
     json_string = json.dumps(processed_data, indent=4)
-    output_file = "cellxgene2.json"
+    output_file = "./outputs/cellxgene2.json"
 
     with open(output_file, 'w') as f:
         f.write(json_string)
