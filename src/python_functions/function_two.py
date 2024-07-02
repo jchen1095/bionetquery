@@ -22,16 +22,22 @@ class AdditionalMetadata(BaseModel):
     """More specific properties from different sources"""
     cellphonedb: Optional[list]
 
-class BioQueryBiomarker(BaseModel):
+class BioQueryRelatedBiomarker(BaseModel):
     """A biomarker object for bioquery"""
+    related_biomarkers: list #should this be a list?
     source: list
-    type: str #should this be a list?
     symbol: str
+    hgnc_id: float
+    uniprot_id: str
     label: list
     additionalMetadata: AdditionalMetadata
 
-class CellPhoneDB(BaseModel):
-    uniprot_id:str
+class CellPhoneDBBiomarker(BaseModel):
+    source: str
+    partner_a: str
+    partner_b: str
+    uniprot_id_a: str
+    uniprot_id_b: str
 
 
 def get_files():
@@ -70,6 +76,7 @@ def check_ct_id_col(row, token):
 def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
     ###returns a list of the hgnc symbols of related biomarkers in cpdb
     found_uniprot_to_symbols={}
+    found_symbols_to_uniprot={}
     found_uniprot = []
     all_bm_symbols = []
     #get the hgnc symbols for all the biomarkers
@@ -88,20 +95,23 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
                 print(uniprot_id)
                 found_uniprot.append(uniprot_id)
                 found_uniprot_to_symbols[uniprot_id]=symbol_in_csv
+                found_symbols_to_uniprot[symbol_in_csv]=uniprot_id
     #find interaction partners if any
     related_bm_uniprot = {}
+    input_to_related_uniprot = {}
     print(found_uniprot)
     with open(cpdb_interactions, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             partner_a = row['partner_a']
             partner_b = row['partner_b']
-            if partner_a in found_uniprot: #PUT RELATED BIOMARKER AS THE KEY
+            if partner_a in found_uniprot: #PUT RELATED BIOMARKER AS THE KEY for related_bm_uniprot
                 # print("im interacting!")
                 related_bm_uniprot[partner_b]=partner_a
+                input_to_related_uniprot[partner_a] = partner_b
             if partner_b in found_uniprot:
                 related_bm_uniprot[partner_a]=partner_b
-        
+                input_to_related_uniprot[partner_b] = partner_a
     print(related_bm_uniprot)
     related_hgnc_symbols = {} #maps original biomarker to the related biomarker
     with open(cpdb_genes, mode='r') as file:
@@ -111,6 +121,15 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
             if uniprot_id_to_check in related_bm_uniprot:
                 related_hgnc_symbols[get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check)] = row['hgnc_symbol']
     print(related_hgnc_symbols)
+
+    cellphonedb_biomarkers = [CellPhoneDBBiomarker(
+        partner_a=key, 
+        source="cellphonedb", 
+        partner_b=value, 
+        uniprot_id_a=found_symbols_to_uniprot[key]
+        uniprot_id_b=found_
+        ) for key, value in related_hgnc_symbols.items()]
+
     return related_hgnc_symbols
 
 #TODO: Instead of the name of the gene, return information about why this is being returned. 
@@ -125,6 +144,15 @@ def get_original_biomarker(uniprot_to_symbol, uniprot_partners, related_uniprot_
 
 
 practice_list = ['29945']
+
+def create_biomarkers(cellphonedb_markers):
+    merged_biomarkers = []
+
+    merged_by_symbol = {}
+    for marker in cellphonedb_markers:
+        symbol = marker.symbol
+
+        if symbol not in merged_by_symbol:
 
     
 def get_symbol_from_hgnc_id(hgnc_id):
@@ -152,4 +180,12 @@ def get_symbol_from_hgnc_id(hgnc_id):
         print(f"Request error: {e}")
         return None
 
-print(search_cpdb(practice_list))
+
+# =====================================
+# Main function
+# =====================================
+
+def main():
+    print(search_cpdb(practice_list))
+
+main()
