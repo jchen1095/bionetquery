@@ -4,8 +4,9 @@ from itertools import chain
 import json
 import obonet
 import os
+import math
 import numpy as np
-from pydantic import BaseModel, TypeAdapter
+from pydantic import BaseModel, TypeAdapter, field_validator
 import requests
 from typing import List,Optional, Dict, Union
 import requests
@@ -50,10 +51,11 @@ class CellXGeneComputationalMarkerGene(BaseModel):
 
 class HubmapBiomarker(BaseModel):
     label:str
-    hgnc_id:float
+    hgnc_id:int
     symbol:str
     anatomical_structures:list
     cell_types:list
+    
 
 
 
@@ -159,7 +161,7 @@ def get_biomarkers_from_cl(string):
 # =====================================
 
 def get_biomarkers(cell_type, file):
-    results = []
+    
     df = pd.read_csv(file)
     print(cell_type)
     mask = df.apply(lambda row: row.str.contains(cell_type, case=False).any(), axis=1) #filter out the rows where the token is found in the cell type col
@@ -189,12 +191,25 @@ def only_check_ct_col(row, token):
 # Processing HuBMAP data
 # =====================================
 #add hgnc id and cl id 
+# def isNaN(num): #i can't figure out how to handle nan
+#     if num is not num:
+#         if isinstance(num, str):
+#             print("is nan")
+#             return ""
+#         if isinstance(num, int):
+#             print("is nan")
+#             return -1
+#     else:
+#         print("did not identify nan")
+#         return num
+
 def get_hubmap_biomarker_objects(filtered_rows):    
     hubmap_biomarkers = []
+    
     for index, row in filtered_rows.iterrows():  # Use iterrows() to iterate over rows
         as_names = [name for name in row.index if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID')]
         ct_names = [name for name in row.index if name.startswith('CT') and not name.endswith('LABEL') and not name.endswith('ID')]
-        
+       
         for x in range(1, 15):  # Assuming this is the maximum number of biomarkers returned by Hubmap
             label_col = f'BGene/{x}/LABEL'
             id_col = f'BGene/{x}/ID'
@@ -202,21 +217,33 @@ def get_hubmap_biomarker_objects(filtered_rows):
             
             if label_col in row.index and id_col in row.index and symbol_col in row.index:
                 gene_id = row[id_col]
-                if gene_id is not np.nan: 
+                symbol_result = row[symbol_col]
+                label_result = row[label_col]
+                if pd.isna(gene_id):
+                    gene_id = -1  
+                
+                if pd.isna(symbol_result):
+                    symbol_result = "" 
+                
+                if pd.isna(label_result):
+                    label_result = "" 
+                
+                print(gene_id, symbol_result, label_result)
+                if gene_id is not -1: 
                     split = str(gene_id).split(':')
-                    print(split)
                     id_num = split[1]
-                    gene_id = float(id_num)
-                print(row[label_col])
+                    gene_id = int(id_num)
+                
                 hubmap_biomarkers.append(HubmapBiomarker(
-                    label=row[label_col],
-                    hgnc_id=float(id_num),
-                    symbol=row[symbol_col],
+                    label=label_result,
+                    hgnc_id=gene_id,
+                    symbol=symbol_result,
                     anatomical_structures=as_names,
                     cell_types=ct_names
                 ))
     
-    print(hubmap_biomarkers) 
+    print(hubmap_biomarkers)
+    return hubmap_biomarkers
 
     # {
     #    anatomical structures: []
@@ -230,7 +257,7 @@ def get_hubmap_biomarker_objects(filtered_rows):
 #TODO: making sure no label duplicates
 
 
-def combine_cellxgene_biomarkers(canonical_marker_genes,computational_marker_genes):
+def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap_biomarkers):
     merged_biomarkers = []
 
     merged_by_symbol = {}
@@ -307,13 +334,39 @@ def combine_cellxgene_biomarkers(canonical_marker_genes,computational_marker_gen
                     'groupby_dims': marker.groupby_dims
                 }
 
+    for marker in hubmap_biomarkers:
+        symbol = marker.symbol
+        if symbol not in merged_by_symbol:
+            # Create new biomarker entry
+            merged_by_symbol[symbol] = {
+                'symbol': symbol,
+                'source': ["hubmap"],
+                'type': "marker_gene",
+                'label': [marker.label],
+                'additionalMetadata': {
+                    'cellxgene_canonical': None,
+                    'cellxgene_computational': None,
+                    'hubmap': {
+                        'anatomical_structures': marker.anatomical_structures,
+                        'cell_types': marker.cell_types
+                    } 
+                }
+            }
+        else:
+            merged_by_symbol[symbol]['additionalMetadata']['hubmap'] = {
+                'anatomical_structures': marker.anatomical_structures,
+                'cell_types': marker.cell_types
+                }
+            merged_by_symbol[symbol]['source'].append("hubmap")
+
+                                     
     # convert to list of biomarker dictionaries
     merged_biomarkers = list(merged_by_symbol.values())
-
+        
     return merged_biomarkers
     
 
-def process_cellxgene_canonical_markers(canonical_info, data_driven_info):
+def process_biomarkers(canonical_info, data_driven_info, hubmap_biomarkers):
     print(data_driven_info)
     canonical_marker_genes = [
         CellXGeneCanonicalMarkerGene(
@@ -336,7 +389,7 @@ def process_cellxgene_canonical_markers(canonical_info, data_driven_info):
             groupby_dims=entry['groupby_dims'],
         )
         for entry in data_driven_info]
-    combined_biomarkers = combine_cellxgene_biomarkers(canonical_marker_genes, computational_marker_genes)
+    combined_biomarkers = combine_biomarkers(canonical_marker_genes, computational_marker_genes, hubmap_biomarkers)
     return combined_biomarkers
     # for entry in data_driven_info:
     #     filtered_data_driven_info.append({'sources': 'cellxgene', 'name': entry['name'], 'symbol': entry['symbol'], 'method': 'data_driven', 
@@ -360,13 +413,14 @@ def process_input():
 def search(): #method to call full search
     file_to_use = get_files()
     hubmap_results = get_biomarkers(process_input(), file_to_use)
-    get_hubmap_biomarker_objects(hubmap_results)
+    hubmap_markers = get_hubmap_biomarker_objects(hubmap_results)
     canonical_markers, data_driven_markers = get_biomarkers_from_cl(process_input())
     # print(data_driven_markers)
     # print(canonical_markers)
-    processed_data = process_cellxgene_canonical_markers(canonical_markers, data_driven_markers)
+   
+    processed_data = process_biomarkers(canonical_markers, data_driven_markers, hubmap_markers)
     json_string = json.dumps(processed_data, indent=4)
-    output_file = "cellxgene.json"
+    output_file = "cellxgene2.json"
 
     with open(output_file, 'w') as f:
         f.write(json_string)
