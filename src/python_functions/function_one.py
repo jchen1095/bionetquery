@@ -287,6 +287,8 @@ def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap
             }
         else:
             # update metadata
+            if marker.label not in merged_by_symbol[symbol]['label']:
+                merged_by_symbol[symbol]['label'].append(marker.label)
             merged_by_symbol[symbol]['additionalMetadata']['cellxgene_canonical'].append({
                 'tissue': marker.tissue,
                 'publication': marker.publication,
@@ -318,6 +320,8 @@ def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap
             }
         else:
             # update biomarker entry
+            if marker.label not in merged_by_symbol[symbol]['label']:
+                merged_by_symbol[symbol]['label'].append(marker.label)
             if merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational']:
                 existing_computational = merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational']
                 existing_computational.update({
@@ -357,6 +361,8 @@ def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap
                 }
             }
         else:
+            if marker.label not in merged_by_symbol[symbol]['label']:
+                merged_by_symbol[symbol]['label'].append(marker.label)
             merged_by_symbol[symbol]['additionalMetadata']['hubmap'] = {
                 'anatomical_structures': marker.anatomical_structures,
                 'cell_types': marker.cell_types
