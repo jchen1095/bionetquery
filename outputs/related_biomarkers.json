@@ -1,0 +1,80 @@
+[
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TENM4",
+        "uniprot_id": "Q6N022",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRL1",
+                    "ADGRL2",
+                    "ADGRL3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ADGRL1",
+        "uniprot_id": "Q6N022",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TENM4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ADGRL2",
+        "uniprot_id": "Q6N022",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TENM4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ADGRL3",
+        "uniprot_id": "Q6N022",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TENM4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    }
+]

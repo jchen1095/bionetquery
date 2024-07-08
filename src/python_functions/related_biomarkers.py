@@ -2,6 +2,7 @@ import pandas as pd
 import sys
 import os
 import csv
+import json
 import xml.etree.ElementTree as ET
 from pydantic import BaseModel, TypeAdapter
 import requests
@@ -110,8 +111,8 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
             uniprot_id_to_check = row['uniprot']
             if uniprot_id_to_check in related_bm_uniprot:
                 related_hgnc_symbols.append((get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check),row['hgnc_symbol']))
-                related_bm_symb_to_uniprot[uniprot_id_to_check] = row['hgnc_symbol']
-
+                related_bm_symb_to_uniprot[row['hgnc_symbol']] = uniprot_id_to_check
+    print(related_bm_symb_to_uniprot)
     print(related_hgnc_symbols)
 
     cellphonedb_biomarkers = [CellPhoneDBBiomarker(
@@ -149,7 +150,7 @@ def create_bioquery_biomarkers(cellphonedb_markers):
                 source=["cellphonedb"],
                 type="marker_gene",
                 uniprot_id= marker.uniprot_id_a,
-                label=[marker.label],
+                label=[],
                 additionalMetadata=AdditionalMetadata(
                     cellxgene_canonical=None,
                     cellxgene_computational=None,
@@ -166,7 +167,7 @@ def create_bioquery_biomarkers(cellphonedb_markers):
                 source=["cellphonedb"],
                 type="marker_gene",
                 uniprot_id= marker.uniprot_id_a,
-                label=[marker.label],
+                label=[],
                 additionalMetadata=AdditionalMetadata(
                     cellxgene_canonical=None,
                     cellxgene_computational=None,
@@ -177,9 +178,13 @@ def create_bioquery_biomarkers(cellphonedb_markers):
         else:
             if symbol_a not in merged_by_symbol[symbol_b].additionalMetadata.cellphonedb['related_biomarkers']:
                 merged_by_symbol[symbol_a].additionalMetadata.cellphonedb['related_biomarkers'].append(symbol_a)
-     
-    merged_biomarkers = [marker.dict() for marker in merged_by_symbol]
-    return merged_biomarkers
+    print(merged_by_symbol)
+    merged_biomarkers = list(merged_by_symbol.values())
+    biomarker_list = []
+    for bm in merged_biomarkers:
+        biomarker_list.append(bm.dict())
+        
+    return biomarker_list
 
     
 def get_symbol_from_hgnc_id(hgnc_id):
@@ -215,6 +220,12 @@ def get_symbol_from_hgnc_id(hgnc_id):
 def main():
     get_bm_obj = search_cpdb(practice_list)
     final_list = create_bioquery_biomarkers(get_bm_obj)
-    print(final_list)
+    json_string = json.dumps(final_list, indent=4)
+    output_file = "./outputs/related_biomarkers.json"
+
+    with open(output_file, 'w') as f:
+        f.write(json_string)
+
+    print(f"JSON data has been written to {output_file}")
 
 main()

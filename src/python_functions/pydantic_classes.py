@@ -4,7 +4,7 @@ from typing import List,Optional, Dict, Union
 
 class AdditionalMetadata(BaseModel):
     """More specific properties from different sources"""
-    cellphonedb: Optional[list]
+    cellphonedb: Optional[dict]
     cellxgene_canonical: Optional[list]
     cellxgene_computational: Optional[list]
     hubmap: Optional[list]
