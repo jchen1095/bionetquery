@@ -2,9 +2,11 @@ import pandas as pd
 import sys
 import os
 import csv
+import xml.etree.ElementTree as ET
 from pydantic import BaseModel, TypeAdapter
 import requests
 from typing import List,Optional, Dict, Union
+from pydantic_classes import AdditionalMetadata,BioQueryBiomarker,CellPhoneDBBiomarker
 
 # import obonet
 # G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
@@ -17,28 +19,7 @@ cpdb_genes = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/cellphonedb_data/gen
 cpdb_gene_df = pd.read_csv(edges_file)
 cpdb_interactions = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/cellphonedb_data/interaction_input.csv"
 cpdb_interaction_df = pd.read_csv(edges_file)
-
-class AdditionalMetadata(BaseModel):
-    """More specific properties from different sources"""
-    cellphonedb: Optional[list]
-
-class BioQueryRelatedBiomarker(BaseModel):
-    """A biomarker object for bioquery"""
-    related_biomarkers: list #should this be a list?
-    source: list
-    symbol: str
-    hgnc_id: float
-    uniprot_id: str
-    label: list
-    additionalMetadata: AdditionalMetadata
-
-class CellPhoneDBBiomarker(BaseModel):
-    source: str
-    partner_a: str
-    partner_b: str
-    uniprot_id_a: str
-    uniprot_id_b: str
-
+GENENAMES_API = 'https://rest.genenames.org/search'
 
 def get_files():
     return f"/Users/JenChen/Desktop/SIBMI/bionetquery/out.csv"
@@ -72,6 +53,14 @@ def check_ct_id_col(row, token):
         if token in str(row[col]):
             return True
     return False
+
+def find_hgnc_info(uniprot_id):
+    response = requests.get(f'{GENENAMES_API}/uniprot_ids/P00568')
+    root = ET.fromstring(response)
+    hgnc_id = root.find(".//str[@name='hgnc_id']").text
+    symbol = root.find(".//str[@name='symbol']").text
+    return hgnc_id,symbol
+
 
 def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
     ###returns a list of the hgnc symbols of related biomarkers in cpdb
@@ -113,24 +102,27 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
                 related_bm_uniprot[partner_a]=partner_b
                 input_to_related_uniprot[partner_b] = partner_a
     print(related_bm_uniprot)
-    related_hgnc_symbols = {} #maps original biomarker to the related biomarker
+    related_hgnc_symbols = [] #maps original biomarker to the related biomarker
+    related_bm_symb_to_uniprot={}
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             uniprot_id_to_check = row['uniprot']
             if uniprot_id_to_check in related_bm_uniprot:
-                related_hgnc_symbols[get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check)] = row['hgnc_symbol']
+                related_hgnc_symbols.append((get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check),row['hgnc_symbol']))
+                related_bm_symb_to_uniprot[uniprot_id_to_check] = row['hgnc_symbol']
+
     print(related_hgnc_symbols)
 
-    cellphonedb_biomarkers = [CellPhoneDBBiomarker( #TODO: actually I think I need to reassess these dictionaries to streamline it better becaue some related biomarkers can be related t the same input biomarker
-        partner_a=key, 
+    cellphonedb_biomarkers = [CellPhoneDBBiomarker(
+        partner_a=pair[0],  # Original biomarker
         source="cellphonedb", 
-        partner_b=value, 
-        uniprot_id_a=found_symbols_to_uniprot[key]
-        uniprot_id_b=found_
-        ) for key, value in related_hgnc_symbols.items()]
+        partner_b=pair[1],  # Related hgnc symbol
+        uniprot_id_a=found_symbols_to_uniprot[pair[0]],
+        uniprot_id_b=related_bm_symb_to_uniprot[pair[1]],
+    ) for pair in related_hgnc_symbols]
 
-    return related_hgnc_symbols
+    return cellphonedb_biomarkers
 
 #TODO: Instead of the name of the gene, return information about why this is being returned. 
 # this biomarker from the input is in interaction with these biomarkers in the output + other information about related biomarkers 
@@ -145,14 +137,49 @@ def get_original_biomarker(uniprot_to_symbol, uniprot_partners, related_uniprot_
 
 practice_list = ['29945']
 
-def create_biomarkers(cellphonedb_markers):
-    merged_biomarkers = []
+def create_bioquery_biomarkers(cellphonedb_markers):
 
     merged_by_symbol = {}
     for marker in cellphonedb_markers:
-        symbol = marker.symbol
-
-        if symbol not in merged_by_symbol:
+        symbol_a = marker.partner_a
+        symbol_b = marker.partner_b
+        if symbol_a not in merged_by_symbol:
+            merged_by_symbol[symbol_a] = BioQueryBiomarker(
+                symbol=symbol_a,
+                source=["cellphonedb"],
+                type="marker_gene",
+                uniprot_id= marker.uniprot_id_a,
+                label=[marker.label],
+                additionalMetadata=AdditionalMetadata(
+                    cellxgene_canonical=None,
+                    cellxgene_computational=None,
+                    hubmap=None,  # Add hubmap data if available
+                    cellphonedb={'related_biomarkers':[symbol_b]},
+                ),
+            )
+        else:
+            if symbol_b not in merged_by_symbol[symbol_a].additionalMetadata.cellphonedb['related_biomarkers']:
+                merged_by_symbol[symbol_a].additionalMetadata.cellphonedb['related_biomarkers'].append(symbol_b)
+        if symbol_b not in merged_by_symbol:
+            merged_by_symbol[symbol_b] = BioQueryBiomarker(
+                symbol=symbol_b,
+                source=["cellphonedb"],
+                type="marker_gene",
+                uniprot_id= marker.uniprot_id_a,
+                label=[marker.label],
+                additionalMetadata=AdditionalMetadata(
+                    cellxgene_canonical=None,
+                    cellxgene_computational=None,
+                    hubmap=None,  # Add hubmap data if available
+                    cellphonedb={'related_biomarkers':[symbol_a]},
+                ),
+            )
+        else:
+            if symbol_a not in merged_by_symbol[symbol_b].additionalMetadata.cellphonedb['related_biomarkers']:
+                merged_by_symbol[symbol_a].additionalMetadata.cellphonedb['related_biomarkers'].append(symbol_a)
+     
+    merged_biomarkers = [marker.dict() for marker in merged_by_symbol]
+    return merged_biomarkers
 
     
 def get_symbol_from_hgnc_id(hgnc_id):
@@ -186,6 +213,8 @@ def get_symbol_from_hgnc_id(hgnc_id):
 # =====================================
 
 def main():
-    print(search_cpdb(practice_list))
+    get_bm_obj = search_cpdb(practice_list)
+    final_list = create_bioquery_biomarkers(get_bm_obj)
+    print(final_list)
 
 main()

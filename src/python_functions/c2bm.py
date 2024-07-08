@@ -10,63 +10,16 @@ from pydantic import BaseModel, TypeAdapter, field_validator
 import requests
 from typing import List,Optional, Dict, Union
 import requests
+from pydantic_classes import AdditionalMetadata,BioQueryBiomarker,CellXGeneCanonicalMarkerGene,CellXGeneComputationalMarkerGene,HubmapBiomarker
 
 
 API_URL = "https://cellguide.cellxgene.cziscience.com"
 data_folder = "./data/cell"
 
-class AdditionalMetadata(BaseModel):
-    """More specific properties from different sources"""
-    cellxgene_canonical: Optional[list]
-    cellxgene_computational: Optional[list]
-    hubmap: Optional[list]
-
-class BioQueryBiomarker(BaseModel):
-    """A biomarker object for bioquery"""
-    source: list
-    type: str #should this be a list?
-    symbol: str
-    label: list
-    additionalMetadata: AdditionalMetadata
 
 # TODO: Unit testing/examples
-# TODO: put pydantic classes 
 # Utils/helper functions
 # TODO: More fields which should be supported by bioquery responses
-
-class CellXGeneCanonicalMarkerGene(BaseModel):
-    tissue: str
-    symbol: str
-    label: str
-    publication: str
-    publication_titles: str
-
-class CellXGeneComputationalMarkerGene(BaseModel):
-    me: float
-    pc: float
-    marker_score: float
-    specificity: float
-    gene_ontology_term_id: str
-    symbol: str
-    label: str
-    groupby_dims: dict
-
-
-class HubmapBiomarker(BaseModel):
-    label:str
-    hgnc_id:int
-    symbol:str
-    anatomical_structures:list
-    cell_types:list
-    
-
-
-
-
-# # These are the response types from the cellguide API
-# CellGuideCanonicalMarkerGenes = TypeAdapter(List[CellGuideCanonicalMarkerGene])
-# CellGuideComputationalMarkerGenes = TypeAdapter(List[CellGuideComputationalMarkerGene])
-
 
 # =====================================
 # This block handles terminal input and file retrieval
@@ -262,34 +215,34 @@ def get_hubmap_biomarker_objects(filtered_rows):
 
 
 def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap_biomarkers):
-    merged_biomarkers = []
-
     merged_by_symbol = {}
+
     for marker in canonical_marker_genes:
         symbol = marker.symbol
-
         if symbol not in merged_by_symbol:
             #  new merged biomarker entry
-            merged_by_symbol[symbol] = {
-                'symbol': symbol,
-                'source': ["cellxgene"],
-                'type': "marker_gene",
-                'label': [marker.label],
-                'additionalMetadata': {
-                    'cellxgene_canonical': [{
+            merged_by_symbol[symbol] = BioQueryBiomarker(
+                symbol=symbol,
+                source=["cellxgene"],
+                type="marker_gene",
+                uniprot_id=None,
+                label=[marker.label],
+                additionalMetadata=AdditionalMetadata(
+                    cellxgene_canonical=[{
                         'tissue': marker.tissue,
                         'publication': marker.publication,
                         'publication_titles': marker.publication_titles
                     }],
-                    'cellxgene_computational': None,
-                    'hubmap': None  # Add hubmap data if available
-                }
-            }
+                    cellxgene_computational=None,
+                    hubmap=None,  # Add hubmap data if available
+                    cellphonedb=None,
+                ),
+            )
         else:
             # update metadata
-            if marker.label not in merged_by_symbol[symbol]['label']:
-                merged_by_symbol[symbol]['label'].append(marker.label)
-            merged_by_symbol[symbol]['additionalMetadata']['cellxgene_canonical'].append({
+            if marker.label not in merged_by_symbol[symbol].label:
+                merged_by_symbol[symbol].label.append(marker.label) #TODO: make label updating/checking more 
+            merged_by_symbol[symbol].additionalMetadata.cellxgene_canonical.append({
                 'tissue': marker.tissue,
                 'publication': marker.publication,
                 'publication_titles': marker.publication_titles
@@ -300,31 +253,33 @@ def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap
 
         if symbol not in merged_by_symbol:
             # Create new biomarker entry
-            merged_by_symbol[symbol] = {
-                'symbol': symbol,
-                'source': ["cellxgene"],
-                'type': "marker_gene",
-                'label': [marker.label],
-                'additionalMetadata': {
-                    'cellxgene_canonical': None,
-                    'cellxgene_computational': {
+            merged_by_symbol[symbol] = BioQueryBiomarker(
+                symbol=symbol,
+                source=["cellxgene"],
+                type="marker_gene",
+                uniprot_id=None,
+                label=[marker.label],
+                additionalMetadata=AdditionalMetadata(
+                    cellxgene_canonical=None,
+                    cellxgene_computational=[{
                         'me': marker.me,
                         'pc': marker.pc,
                         'marker_score': marker.marker_score,
                         'specificity': marker.specificity,
                         'gene_ontology_term_id': marker.gene_ontology_term_id,
                         'groupby_dims': marker.groupby_dims
-                    },
-                    'hubmap': None  # Add hubmap data if available
-                }
-            }
+                    }],
+                    hubmap=None,  # Add hubmap data if available
+                    cellphonedb=None,
+                ),
+            )
         else:
             # update biomarker entry
-            if marker.label not in merged_by_symbol[symbol]['label']:
+            if marker.label not in merged_by_symbol[symbol].label:
                 merged_by_symbol[symbol]['label'].append(marker.label)
-            if merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational']:
-                existing_computational = merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational']
-                existing_computational.update({
+            if merged_by_symbol[symbol].additionalMetadata.cellxgene_computational:
+                existing_computational = merged_by_symbol[symbol].additionalMetadata.cellxgene_computational
+                existing_computational.append({
                     'me': marker.me,
                     'pc': marker.pc,
                     'marker_score': marker.marker_score,
@@ -333,48 +288,60 @@ def combine_biomarkers(canonical_marker_genes,computational_marker_genes, hubmap
                     'groupby_dims': marker.groupby_dims
                 })
             else:
-                merged_by_symbol[symbol]['additionalMetadata']['cellxgene_computational'] = {
+                merged_by_symbol[symbol].additionalMetadata.cellxgene_computational = [{
                     'me': marker.me,
                     'pc': marker.pc,
                     'marker_score': marker.marker_score,
                     'specificity': marker.specificity,
                     'gene_ontology_term_id': marker.gene_ontology_term_id,
                     'groupby_dims': marker.groupby_dims
-                }
+                }]
 
     for marker in hubmap_biomarkers:
         symbol = marker.symbol
         if symbol not in merged_by_symbol:
             # Create new biomarker entry
-            merged_by_symbol[symbol] = {
-                'symbol': symbol,
-                'source': ["hubmap"],
-                'type': "marker_gene",
-                'label': [marker.label],
-                'additionalMetadata': {
-                    'cellxgene_canonical': None,
-                    'cellxgene_computational': None,
-                    'hubmap': {
+            merged_by_symbol[symbol] =  BioQueryBiomarker(
+                symbol=symbol,
+                source=["hubmap"],
+                type="marker_gene",
+                uniprot_id=None,
+                label=[marker.label],
+                additionalMetadata=AdditionalMetadata(
+                    cellxgene_canonical= None,
+                    cellxgene_computational=None,
+                    hubmap=[{
                         'anatomical_structures': marker.anatomical_structures,
                         'cell_types': marker.cell_types
-                    } 
-                }
-            }
+                    }],
+                    cellphonedb=None, 
+                )
+            )
         else:
-            if marker.label not in merged_by_symbol[symbol]['label']:
+            if marker.label not in merged_by_symbol[symbol].label:
                 merged_by_symbol[symbol]['label'].append(marker.label)
-            merged_by_symbol[symbol]['additionalMetadata']['hubmap'] = {
-                'anatomical_structures': marker.anatomical_structures,
-                'cell_types': marker.cell_types
-                }
-            if "hubmap" not in merged_by_symbol[symbol]['source']:
-                merged_by_symbol[symbol]['source'].append("hubmap")
+            if merged_by_symbol[symbol].additionalMetadata.hubmap:
+                merged_by_symbol[symbol].additionalMetadata.hubmap.append({ #TODO: this doesnt check for duplicates
+                    'anatomical_structures': marker.anatomical_structures,
+                    'cell_types': marker.cell_types
+                    })
+            else:
+                merged_by_symbol[symbol].additionalMetadata.hubmap = [{
+                    'anatomical_structures': marker.anatomical_structures,
+                    'cell_types': marker.cell_types
+                    }]
+            if "hubmap" not in merged_by_symbol[symbol].source:
+                merged_by_symbol[symbol].source.append("hubmap")
 
                                      
     # convert to list of biomarker dictionaries
+   
     merged_biomarkers = list(merged_by_symbol.values())
+    biomarker_list = []
+    for bm in merged_biomarkers:
+        biomarker_list.append(bm.dict())
         
-    return merged_biomarkers
+    return biomarker_list
     
 
 def process_biomarkers(canonical_info, data_driven_info, hubmap_biomarkers):
