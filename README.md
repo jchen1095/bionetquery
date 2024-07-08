@@ -9,7 +9,7 @@ virtualenv -p python3 .venv
 
 Activate virtual env:
 ```sh
-source .venv/bin/activatie
+source .venv/bin/activate
 ```
 
 Install packages: 

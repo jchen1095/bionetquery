@@ -133,8 +133,8 @@ print(curr_id)
 def get_biomarkers_from_cl(string):
     cl_id = str(get_cell_ontology_id(string))
 
-    canonical_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json")
-    data_driven_info_req = requests.get(f"https://cellguide.cellxgene.cziscience.com/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json")
+    canonical_info_req = requests.get(f"{API_URL}/{curr_id}/canonical_marker_genes/{cl_id.replace(':', '_')}.json")
+    data_driven_info_req = requests.get(f"{API_URL}/{curr_id}/computational_marker_genes/{cl_id.replace(':', '_')}.json")
     data_ok = data_driven_info_req.text
     canonical_ok = canonical_info_req.text
     if data_ok:
