@@ -29,5 +29,10 @@ pip freeze > requirements.txt
 
 Run 'function one'
 ```sh
-python src/python_functions/function_one.py podocyte
+python src/python_functions/c2bm.py podocyte
+```
+
+Run 'function three'
+```sh
+python src/python_functions/network.py
 ```
