@@ -9,9 +9,6 @@ import requests
 from typing import List,Optional, Dict, Union
 from pydantic_classes import AdditionalMetadata,BioQueryBiomarker,CellPhoneDBBiomarker
 
-# import obonet
-# G = obonet.read_obo("http://purl.obolibrary.org/obo/cl/cl-basic.obo")
-
 nodes_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/hubmap_enrichkg/hubmap_nodes.csv"
 nodes_df = pd.read_csv(nodes_file)
 edges_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/hubmap_enrichkg/hubmap_edges.csv"
@@ -124,11 +121,6 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
     ) for pair in related_hgnc_symbols]
 
     return cellphonedb_biomarkers
-
-#TODO: Instead of the name of the gene, return information about why this is being returned. 
-# this biomarker from the input is in interaction with these biomarkers in the output + other information about related biomarkers 
-# focus on standardizing, will make adding databases easier, and also will make next steps + flow better 
-# pydantic library will help validate the structure, can serialize two jsons
 
 def get_original_biomarker(uniprot_to_symbol, uniprot_partners, related_uniprot_id):
     original_biomarker_uniprot = uniprot_partners.get(related_uniprot_id)

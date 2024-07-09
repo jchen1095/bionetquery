@@ -56,7 +56,7 @@ def get_kegg_id(gene_id): #assumes uniprot id, can also use ncbi ids but you nee
     except ValueError as ve:
         print(f"Did not retrieve KEGG ID: {ve}")
 
-practice = ["Q9H8P0"]
+practice = ["P31213"]
 
 def main():
     for gene in practice: 

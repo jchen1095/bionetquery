@@ -5,12 +5,13 @@
             "hubmap"
         ],
         "symbol": "CLIC5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "chloride intracellular channel 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": [
                 {
                     "tissue": "kidney",
@@ -69,12 +70,13 @@
             "hubmap"
         ],
         "symbol": "NPHS1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "NPHS1 adhesion molecule, nephrin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": [
                 {
                     "tissue": "kidney",
@@ -170,12 +172,13 @@
             "hubmap"
         ],
         "symbol": "NPHS2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "NPHS2 stomatin family member, podocin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": [
                 {
                     "tissue": "kidney",
@@ -271,12 +274,13 @@
             "hubmap"
         ],
         "symbol": "NTNG1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "netrin G1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": [
                 {
                     "tissue": "kidney",
@@ -335,12 +339,13 @@
             "hubmap"
         ],
         "symbol": "PODXL",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "podocalyxin like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": [
                 {
                     "tissue": "kidney",
@@ -436,12 +441,13 @@
             "hubmap"
         ],
         "symbol": "PTPRQ",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase receptor type Q"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": [
                 {
                     "tissue": "kidney",
@@ -536,12 +542,13 @@
             "cellxgene"
         ],
         "symbol": "Wt1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "WT1 transcription factor"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -577,7 +584,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -585,12 +592,13 @@
             "cellxgene"
         ],
         "symbol": "Srgap1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SLIT-ROBO Rho GTPase activating protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -626,7 +634,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -634,12 +642,13 @@
             "cellxgene"
         ],
         "symbol": "Ptpro",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase, receptor type, O"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -675,7 +684,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -683,12 +692,13 @@
             "cellxgene"
         ],
         "symbol": "Dach1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dachshund family transcription factor 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -724,7 +734,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -732,12 +742,13 @@
             "cellxgene"
         ],
         "symbol": "Wt1os",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "WT1 transcription factor, opposite strand"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -773,7 +784,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -781,12 +792,13 @@
             "cellxgene"
         ],
         "symbol": "Robo2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "roundabout guidance receptor 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -822,7 +834,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -830,12 +842,13 @@
             "cellxgene"
         ],
         "symbol": "Sncaip",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "synuclein, alpha interacting protein (synphilin)"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -871,7 +884,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -879,12 +892,13 @@
             "cellxgene"
         ],
         "symbol": "St6galnac3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -920,7 +934,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -928,12 +942,13 @@
             "cellxgene"
         ],
         "symbol": "Zbtb7c",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "zinc finger and BTB domain containing 7C"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -969,7 +984,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -977,12 +992,13 @@
             "cellxgene"
         ],
         "symbol": "Nebl",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "nebulette"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1018,7 +1034,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1026,12 +1042,13 @@
             "cellxgene"
         ],
         "symbol": "Mgat5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "mannoside acetylglucosaminyltransferase 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1067,7 +1084,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1075,12 +1092,13 @@
             "cellxgene"
         ],
         "symbol": "Podxl",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "podocalyxin-like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1116,7 +1134,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1124,12 +1142,13 @@
             "cellxgene"
         ],
         "symbol": "Pard3b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "par-3 family cell polarity regulator beta"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1165,7 +1184,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1173,12 +1192,13 @@
             "cellxgene"
         ],
         "symbol": "Unc5c",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "unc-5 netrin receptor C"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1214,7 +1234,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1222,12 +1242,13 @@
             "cellxgene"
         ],
         "symbol": "Arhgap28",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Rho GTPase activating protein 28"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1263,7 +1284,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1271,12 +1292,13 @@
             "cellxgene"
         ],
         "symbol": "Arhgef18",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "rho/rac guanine nucleotide exchange factor (GEF) 18"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1312,7 +1334,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1320,12 +1342,13 @@
             "cellxgene"
         ],
         "symbol": "Gab2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "growth factor receptor bound protein 2-associated protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1361,7 +1384,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1369,12 +1392,13 @@
             "cellxgene"
         ],
         "symbol": "Zfp385b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "zinc finger protein 385B"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1410,7 +1434,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1418,12 +1442,13 @@
             "cellxgene"
         ],
         "symbol": "Lpin2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "lipin 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1448,7 +1473,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1456,12 +1481,13 @@
             "cellxgene"
         ],
         "symbol": "Dpp4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dipeptidylpeptidase 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1497,7 +1523,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1505,12 +1531,13 @@
             "cellxgene"
         ],
         "symbol": "P3h2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "prolyl 3-hydroxylase 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1535,7 +1562,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1543,12 +1570,13 @@
             "cellxgene"
         ],
         "symbol": "Cdc14a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "CDC14 cell division cycle 14A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1584,7 +1612,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1592,12 +1620,13 @@
             "cellxgene"
         ],
         "symbol": "Parva",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "parvin, alpha"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1633,7 +1662,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1641,12 +1670,13 @@
             "cellxgene"
         ],
         "symbol": "Tmem150c",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "transmembrane protein 150C"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1682,7 +1712,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1690,12 +1720,13 @@
             "cellxgene"
         ],
         "symbol": "Epb41l5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "erythrocyte membrane protein band 4.1 like 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1731,7 +1762,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1739,12 +1770,13 @@
             "cellxgene"
         ],
         "symbol": "Sema5a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "sema domain, seven thrombospondin repeats (type 1 and type 1-like), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 5A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1780,7 +1812,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1788,12 +1820,13 @@
             "cellxgene"
         ],
         "symbol": "Magi2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "membrane associated guanylate kinase, WW and PDZ domain containing 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1829,7 +1862,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1837,12 +1870,13 @@
             "cellxgene"
         ],
         "symbol": "Plekhg1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "pleckstrin homology domain containing, family G (with RhoGef domain) member 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1878,7 +1912,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1886,12 +1920,13 @@
             "cellxgene"
         ],
         "symbol": "Iqgap2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "IQ motif containing GTPase activating protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1927,7 +1962,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1935,12 +1970,13 @@
             "cellxgene"
         ],
         "symbol": "Nphs1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "nephrosis 1, nephrin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -1976,7 +2012,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -1984,12 +2020,13 @@
             "cellxgene"
         ],
         "symbol": "Shroom3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "shroom family member 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2014,7 +2051,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2022,12 +2059,13 @@
             "cellxgene"
         ],
         "symbol": "Golim4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "golgi integral membrane protein 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2052,7 +2090,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2060,12 +2098,13 @@
             "cellxgene"
         ],
         "symbol": "Thsd7a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "thrombospondin, type I, domain containing 7A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2101,7 +2140,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2109,12 +2148,13 @@
             "cellxgene"
         ],
         "symbol": "Enpep",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "glutamyl aminopeptidase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2150,7 +2190,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2158,12 +2198,13 @@
             "cellxgene"
         ],
         "symbol": "Plcl1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phospholipase C-like 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2188,7 +2229,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2196,12 +2237,13 @@
             "cellxgene"
         ],
         "symbol": "Cers6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ceramide synthase 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2237,7 +2279,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2245,12 +2287,13 @@
             "cellxgene"
         ],
         "symbol": "Dock4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dedicator of cytokinesis 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2286,7 +2329,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2294,12 +2337,13 @@
             "cellxgene"
         ],
         "symbol": "Lrch1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "leucine-rich repeats and calponin homology (CH) domain containing 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2335,7 +2379,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2343,12 +2387,13 @@
             "cellxgene"
         ],
         "symbol": "Itgb5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "integrin beta 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2384,7 +2429,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2392,12 +2437,13 @@
             "cellxgene"
         ],
         "symbol": "Vegfa",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "vascular endothelial growth factor A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2433,7 +2479,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2441,12 +2487,13 @@
             "cellxgene"
         ],
         "symbol": "Ptpn14",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase, non-receptor type 14"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2471,7 +2518,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2479,12 +2526,13 @@
             "cellxgene"
         ],
         "symbol": "Cdh4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cadherin 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2509,7 +2557,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2517,12 +2565,13 @@
             "cellxgene"
         ],
         "symbol": "Maml3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "mastermind like transcriptional coactivator 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2558,7 +2607,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2566,12 +2615,13 @@
             "cellxgene"
         ],
         "symbol": "Plekhh2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "pleckstrin homology domain containing, family H (with MyTH4 domain) member 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2596,7 +2646,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2604,12 +2654,13 @@
             "cellxgene"
         ],
         "symbol": "Mafb",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "MAF bZIP transcription factor B"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2645,7 +2696,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2653,12 +2704,13 @@
             "cellxgene"
         ],
         "symbol": "Sgip1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SH3-domain GRB2-like (endophilin) interacting protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2694,7 +2746,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2702,12 +2754,13 @@
             "cellxgene"
         ],
         "symbol": "Mertk",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "MER proto-oncogene tyrosine kinase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2743,7 +2796,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2751,12 +2804,13 @@
             "cellxgene"
         ],
         "symbol": "Peli2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "glyceraldehyde-3-phosphate dehydrogenase pseudogene"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2781,7 +2835,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2789,12 +2843,13 @@
             "cellxgene"
         ],
         "symbol": "Fndc3b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "fibronectin type III domain containing 3B"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2819,7 +2874,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2827,12 +2882,13 @@
             "cellxgene"
         ],
         "symbol": "Rnf150",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ring finger protein 150"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2857,7 +2913,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2865,12 +2921,13 @@
             "cellxgene"
         ],
         "symbol": "Septin11",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "septin 11"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2906,7 +2963,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2914,12 +2971,13 @@
             "cellxgene"
         ],
         "symbol": "Tle4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "transducin-like enhancer of split 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2944,7 +3002,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2952,12 +3010,13 @@
             "cellxgene"
         ],
         "symbol": "Frem1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Fras1 related extracellular matrix protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -2982,7 +3041,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -2990,12 +3049,13 @@
             "cellxgene"
         ],
         "symbol": "Pdzd2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "PDZ domain containing 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3020,7 +3080,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3028,12 +3088,13 @@
             "cellxgene"
         ],
         "symbol": "Plce1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phospholipase C, epsilon 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3058,7 +3119,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3066,12 +3127,13 @@
             "cellxgene"
         ],
         "symbol": "Lgr4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "leucine-rich repeat-containing G protein-coupled receptor 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3096,7 +3158,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3104,12 +3166,13 @@
             "cellxgene"
         ],
         "symbol": "Ctdspl",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3145,7 +3208,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3153,12 +3216,13 @@
             "cellxgene"
         ],
         "symbol": "Inpp4a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "inositol polyphosphate-4-phosphatase, type I"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3183,7 +3247,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3191,12 +3255,13 @@
             "cellxgene"
         ],
         "symbol": "Tgfbr3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "transforming growth factor, beta receptor III"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3221,7 +3286,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3229,12 +3294,13 @@
             "cellxgene"
         ],
         "symbol": "Adcy1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "adenylate cyclase 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3259,7 +3325,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3267,12 +3333,13 @@
             "cellxgene"
         ],
         "symbol": "Nphs2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "nephrosis 2, podocin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3308,7 +3375,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3316,12 +3383,13 @@
             "cellxgene"
         ],
         "symbol": "Synpo",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "synaptopodin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3357,7 +3425,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3365,12 +3433,13 @@
             "cellxgene"
         ],
         "symbol": "Csnk1a1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "casein kinase 1, alpha 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3395,7 +3464,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3403,12 +3472,13 @@
             "cellxgene"
         ],
         "symbol": "Arhgef12",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Rho guanine nucleotide exchange factor (GEF) 12"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3433,7 +3503,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3441,12 +3511,13 @@
             "cellxgene"
         ],
         "symbol": "Schip1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "schwannomin interacting protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3471,7 +3542,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3479,12 +3550,13 @@
             "cellxgene"
         ],
         "symbol": "Tmod3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "tropomodulin 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3520,7 +3592,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3528,12 +3600,13 @@
             "cellxgene"
         ],
         "symbol": "Coro2b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "coronin, actin binding protein, 2B"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3558,7 +3631,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3566,12 +3639,13 @@
             "cellxgene"
         ],
         "symbol": "Mtss1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "MTSS I-BAR domain containing 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3596,7 +3670,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3604,12 +3678,13 @@
             "cellxgene"
         ],
         "symbol": "Wipf3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "WAS/WASL interacting protein family, member 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3645,7 +3720,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3653,12 +3728,13 @@
             "cellxgene"
         ],
         "symbol": "Foxd2os",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "forkhead box D2, opposite strand"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3694,7 +3770,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3702,12 +3778,13 @@
             "cellxgene"
         ],
         "symbol": "Gramd1b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "GRAM domain containing 1B"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3732,7 +3809,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3740,12 +3817,13 @@
             "cellxgene"
         ],
         "symbol": "Npr3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "natriuretic peptide receptor 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3770,7 +3848,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3778,12 +3856,13 @@
             "cellxgene"
         ],
         "symbol": "Clic5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "chloride intracellular channel 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3819,7 +3898,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3827,12 +3906,13 @@
             "cellxgene"
         ],
         "symbol": "Raver2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ribonucleoprotein, PTB-binding 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3857,7 +3937,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3865,12 +3945,13 @@
             "cellxgene"
         ],
         "symbol": "Col4a4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "collagen, type IV, alpha 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3906,7 +3987,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3914,12 +3995,13 @@
             "cellxgene"
         ],
         "symbol": "Col4a3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "collagen, type IV, alpha 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3955,7 +4037,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -3963,12 +4045,13 @@
             "cellxgene"
         ],
         "symbol": "Mme",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "membrane metallo endopeptidase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -3993,7 +4076,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4001,12 +4084,13 @@
             "cellxgene"
         ],
         "symbol": "Glcci1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "glucocorticoid induced transcript 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4020,7 +4104,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4028,12 +4112,13 @@
             "cellxgene"
         ],
         "symbol": "Fryl",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "FRY like transcription coactivator"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4058,7 +4143,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4066,12 +4151,13 @@
             "cellxgene"
         ],
         "symbol": "Itga3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "integrin alpha 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4096,7 +4182,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4104,12 +4190,13 @@
             "cellxgene"
         ],
         "symbol": "Ndnf",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "neuron-derived neurotrophic factor"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4134,7 +4221,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4142,12 +4229,13 @@
             "cellxgene"
         ],
         "symbol": "Dock5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dedicator of cytokinesis 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4172,7 +4260,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4180,12 +4268,13 @@
             "cellxgene"
         ],
         "symbol": "Hs3st3b1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "heparan sulfate (glucosamine) 3-O-sulfotransferase 3B1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4210,7 +4299,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4218,12 +4307,13 @@
             "cellxgene"
         ],
         "symbol": "Myo6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "myosin VI"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4237,7 +4327,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4245,12 +4335,13 @@
             "cellxgene"
         ],
         "symbol": "Lmx1b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "LIM homeobox transcription factor 1 beta"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4275,7 +4366,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4283,12 +4374,13 @@
             "cellxgene"
         ],
         "symbol": "St3gal6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ST3 beta-galactoside alpha-2,3-sialyltransferase 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4324,7 +4416,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4332,12 +4424,13 @@
             "cellxgene"
         ],
         "symbol": "Bbx",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "bobby sox HMG box containing"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4362,7 +4455,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4370,12 +4463,13 @@
             "cellxgene"
         ],
         "symbol": "9530026P05Rik",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RIKEN cDNA 9530026P05 gene"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4400,7 +4494,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4408,12 +4502,13 @@
             "cellxgene"
         ],
         "symbol": "Rhpn1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "rhophilin, Rho GTPase binding protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4449,7 +4544,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4457,12 +4552,13 @@
             "cellxgene"
         ],
         "symbol": "Tdrd5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "tudor domain containing 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4498,7 +4594,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4506,12 +4602,13 @@
             "cellxgene"
         ],
         "symbol": "Pappa",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "pregnancy-associated plasma protein A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4536,7 +4633,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4544,12 +4641,13 @@
             "cellxgene"
         ],
         "symbol": "Pde3a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phosphodiesterase 3A, cGMP inhibited"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4563,7 +4661,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4571,12 +4669,13 @@
             "cellxgene"
         ],
         "symbol": "Adamts9",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 9"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4590,7 +4689,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4598,12 +4697,13 @@
             "cellxgene"
         ],
         "symbol": "Abtb2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ankyrin repeat and BTB (POZ) domain containing 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4617,7 +4717,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4625,12 +4725,13 @@
             "cellxgene"
         ],
         "symbol": "Hspa12a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "heat shock protein 12A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4655,7 +4756,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4663,12 +4764,13 @@
             "cellxgene"
         ],
         "symbol": "Dcdc2a",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "doublecortin domain containing 2a"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4693,7 +4795,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4701,12 +4803,13 @@
             "cellxgene"
         ],
         "symbol": "Lrrfip1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "leucine rich repeat (in FLII) interacting protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4731,7 +4834,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4739,12 +4842,13 @@
             "cellxgene"
         ],
         "symbol": "Arhgap24",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Rho GTPase activating protein 24"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4758,7 +4862,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4766,12 +4870,13 @@
             "cellxgene"
         ],
         "symbol": "C1qtnf7",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "C1q and tumor necrosis factor related protein 7"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4807,7 +4912,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4815,12 +4920,13 @@
             "cellxgene"
         ],
         "symbol": "Man1a2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "mannosidase, alpha, class 1A, member 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4845,7 +4951,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4853,12 +4959,13 @@
             "cellxgene"
         ],
         "symbol": "PTPRO",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase receptor type O"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4883,7 +4990,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4891,12 +4998,13 @@
             "cellxgene"
         ],
         "symbol": "PLA2R1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phospholipase A2 receptor 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4921,7 +5029,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4929,12 +5037,13 @@
             "cellxgene"
         ],
         "symbol": "MME",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "membrane metalloendopeptidase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4959,7 +5068,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -4967,12 +5076,13 @@
             "cellxgene"
         ],
         "symbol": "ST6GALNAC3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ST6 N-acetylgalactosaminide alpha-2,6-sialyltransferase 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -4997,7 +5107,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5005,12 +5115,13 @@
             "cellxgene"
         ],
         "symbol": "DACH1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dachshund family transcription factor 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5035,7 +5146,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5043,12 +5154,13 @@
             "cellxgene"
         ],
         "symbol": "COL4A3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "collagen type IV alpha 3 chain"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5073,7 +5185,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5081,12 +5193,13 @@
             "cellxgene"
         ],
         "symbol": "MAGI2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "membrane associated guanylate kinase, WW and PDZ domain containing 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5111,7 +5224,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5119,12 +5232,13 @@
             "cellxgene"
         ],
         "symbol": "PTH1R",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "parathyroid hormone 1 receptor"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5149,7 +5263,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5157,12 +5271,13 @@
             "cellxgene"
         ],
         "symbol": "PLCE1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phospholipase C epsilon 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5187,7 +5302,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5195,12 +5310,13 @@
             "cellxgene"
         ],
         "symbol": "SEMA5A",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "semaphorin 5A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5225,7 +5341,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5233,12 +5349,13 @@
             "cellxgene"
         ],
         "symbol": "VEGFA",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "vascular endothelial growth factor A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5263,7 +5380,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5271,12 +5388,13 @@
             "cellxgene"
         ],
         "symbol": "ARMH4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "armadillo like helical domain containing 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5301,7 +5419,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5309,12 +5427,13 @@
             "cellxgene"
         ],
         "symbol": "NPNT",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "nephronectin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5339,7 +5458,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5347,12 +5466,13 @@
             "cellxgene"
         ],
         "symbol": "TGFBR3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "transforming growth factor beta receptor 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5377,7 +5497,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5385,12 +5505,13 @@
             "cellxgene"
         ],
         "symbol": "IQGAP2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "IQ motif containing GTPase activating protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5415,7 +5536,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5423,12 +5544,13 @@
             "cellxgene"
         ],
         "symbol": "LINC00472",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "long intergenic non-protein coding RNA 472"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5442,7 +5564,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5450,12 +5572,13 @@
             "cellxgene"
         ],
         "symbol": "ST3GAL6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ST3 beta-galactoside alpha-2,3-sialyltransferase 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5480,7 +5603,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5488,12 +5611,13 @@
             "cellxgene"
         ],
         "symbol": "CDC14A",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cell division cycle 14A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5518,7 +5642,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5526,12 +5650,13 @@
             "cellxgene"
         ],
         "symbol": "FGF1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "fibroblast growth factor 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5556,7 +5681,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5564,12 +5689,13 @@
             "cellxgene"
         ],
         "symbol": "CRIM1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cysteine rich transmembrane BMP regulator 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5594,7 +5720,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5602,12 +5728,13 @@
             "cellxgene"
         ],
         "symbol": "NFASC",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "neurofascin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5632,7 +5759,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5640,12 +5767,13 @@
             "cellxgene"
         ],
         "symbol": "PARD3B",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "par-3 family cell polarity regulator beta"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5670,7 +5798,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5678,12 +5806,13 @@
             "cellxgene"
         ],
         "symbol": "MYO1E",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "myosin IE"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5708,7 +5837,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5716,12 +5845,13 @@
             "cellxgene"
         ],
         "symbol": "ENPEP",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "glutamyl aminopeptidase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5746,7 +5876,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5754,12 +5884,13 @@
             "cellxgene"
         ],
         "symbol": "ATP10A",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ATPase phospholipid transporting 10A (putative)"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5784,7 +5915,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5792,12 +5923,13 @@
             "cellxgene"
         ],
         "symbol": "ACTN4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "actinin alpha 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5822,7 +5954,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5830,12 +5962,13 @@
             "cellxgene"
         ],
         "symbol": "VTI1A",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "vesicle transport through interaction with t-SNAREs 1A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5860,7 +5993,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5868,12 +6001,13 @@
             "cellxgene"
         ],
         "symbol": "RIPOR1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RHO family interacting cell polarization regulator 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5898,7 +6032,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5906,12 +6040,13 @@
             "cellxgene"
         ],
         "symbol": "ALS2CL",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ALS2 C-terminal like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5936,7 +6071,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5944,12 +6079,13 @@
             "cellxgene"
         ],
         "symbol": "ARHGEF3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Rho guanine nucleotide exchange factor 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -5974,7 +6110,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -5982,12 +6118,13 @@
             "cellxgene"
         ],
         "symbol": "ITGB8",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "integrin subunit beta 8"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6012,7 +6149,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6020,12 +6157,13 @@
             "cellxgene"
         ],
         "symbol": "NEBL",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "nebulette"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6050,7 +6188,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6058,12 +6196,13 @@
             "cellxgene"
         ],
         "symbol": "EPB41L5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "erythrocyte membrane protein band 4.1 like 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6088,7 +6227,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6096,12 +6235,13 @@
             "cellxgene"
         ],
         "symbol": "SPATA13_ENSG00000182957",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "spermatogenesis associated 13"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6126,7 +6266,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6134,12 +6274,13 @@
             "cellxgene"
         ],
         "symbol": "COL4A4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "collagen type IV alpha 4 chain"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6164,7 +6305,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6172,12 +6313,13 @@
             "cellxgene"
         ],
         "symbol": "KLHL29",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "kelch like family member 29"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6202,7 +6344,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6210,12 +6352,13 @@
             "cellxgene"
         ],
         "symbol": "WT1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "WT1 transcription factor"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6240,7 +6383,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6248,12 +6391,13 @@
             "cellxgene"
         ],
         "symbol": "THSD7A",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "thrombospondin type 1 domain containing 7A"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6278,7 +6422,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6286,12 +6430,13 @@
             "cellxgene"
         ],
         "symbol": "NPAS3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "neuronal PAS domain protein 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6316,7 +6461,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6324,12 +6469,13 @@
             "cellxgene"
         ],
         "symbol": "CTDSPL",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "CTD small phosphatase like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6354,7 +6500,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6362,12 +6508,13 @@
             "cellxgene"
         ],
         "symbol": "MAGI2-AS3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "MAGI2 antisense RNA 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6392,7 +6539,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6400,12 +6547,13 @@
             "cellxgene"
         ],
         "symbol": "KIRREL1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "kirre like nephrin family adhesion molecule 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6430,7 +6578,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6438,12 +6586,13 @@
             "cellxgene"
         ],
         "symbol": "ZNRF3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "zinc and ring finger 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6468,7 +6617,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6476,12 +6625,13 @@
             "cellxgene"
         ],
         "symbol": "SPOCK1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SPARC (osteonectin), cwcv and kazal like domains proteoglycan 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6506,7 +6656,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6514,12 +6664,13 @@
             "cellxgene"
         ],
         "symbol": "KANK1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "KN motif and ankyrin repeat domains 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6544,7 +6695,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6552,12 +6703,13 @@
             "cellxgene"
         ],
         "symbol": "ARHGAP28",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Rho GTPase activating protein 28"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6582,7 +6734,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6590,12 +6742,13 @@
             "cellxgene"
         ],
         "symbol": "MGAT5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6620,7 +6773,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6628,12 +6781,13 @@
             "cellxgene"
         ],
         "symbol": "DOCK5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dedicator of cytokinesis 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6658,7 +6812,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6666,12 +6820,13 @@
             "cellxgene"
         ],
         "symbol": "CCDC91",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "coiled-coil domain containing 91"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6696,7 +6851,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6704,12 +6859,13 @@
             "cellxgene"
         ],
         "symbol": "MPP5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein associated with LIN7 1, MAGUK p55 family member"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6734,7 +6890,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6742,12 +6898,13 @@
             "cellxgene"
         ],
         "symbol": "MTSS1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "MTSS I-BAR domain containing 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6772,7 +6929,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6780,12 +6937,13 @@
             "cellxgene"
         ],
         "symbol": "TJP1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "tight junction protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6810,7 +6968,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6818,12 +6976,13 @@
             "cellxgene"
         ],
         "symbol": "SRGAP2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SLIT-ROBO Rho GTPase activating protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6848,7 +7007,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6856,12 +7015,13 @@
             "cellxgene"
         ],
         "symbol": "IQCJ-SCHIP1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "IQCJ-SCHIP1 readthrough"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6886,7 +7046,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6894,12 +7054,13 @@
             "cellxgene"
         ],
         "symbol": "SRGAP1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SLIT-ROBO Rho GTPase activating protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6924,7 +7085,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6932,12 +7093,13 @@
             "cellxgene"
         ],
         "symbol": "FRMD3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "FERM domain containing 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -6962,7 +7124,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -6970,12 +7132,13 @@
             "cellxgene"
         ],
         "symbol": "UACA",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "uveal autoantigen with coiled-coil domains and ankyrin repeats"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7000,7 +7163,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7008,12 +7171,13 @@
             "cellxgene"
         ],
         "symbol": "RERG",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RAS like estrogen regulated growth inhibitor"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7038,7 +7202,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7046,12 +7210,13 @@
             "cellxgene"
         ],
         "symbol": "PHACTR4",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phosphatase and actin regulator 4"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7076,7 +7241,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7084,12 +7249,13 @@
             "cellxgene"
         ],
         "symbol": "ABLIM2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "actin binding LIM protein family member 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7114,7 +7280,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7122,12 +7288,13 @@
             "cellxgene"
         ],
         "symbol": "ZDHHC6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "zinc finger DHHC-type palmitoyltransferase 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7152,7 +7319,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7160,12 +7327,13 @@
             "cellxgene"
         ],
         "symbol": "RETREG1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "reticulophagy regulator 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7190,7 +7358,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7198,12 +7366,13 @@
             "cellxgene"
         ],
         "symbol": "ADAMTS19",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ADAM metallopeptidase with thrombospondin type 1 motif 19"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7228,7 +7397,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7236,12 +7405,13 @@
             "cellxgene"
         ],
         "symbol": "CBLB",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Cbl proto-oncogene B"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7266,7 +7436,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7274,12 +7444,13 @@
             "cellxgene"
         ],
         "symbol": "RP11-550H2.2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RP11-550H2.2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7304,7 +7475,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7312,12 +7483,13 @@
             "cellxgene"
         ],
         "symbol": "CCBE1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "collagen and calcium binding EGF domains 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7342,7 +7514,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7350,12 +7522,13 @@
             "cellxgene"
         ],
         "symbol": "MYO1D",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "myosin ID"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7380,7 +7553,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7388,12 +7561,13 @@
             "cellxgene"
         ],
         "symbol": "TARID",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "TCF21 antisense RNA inducing promoter demethylation"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7418,7 +7592,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7426,12 +7600,13 @@
             "cellxgene"
         ],
         "symbol": "ARHGEF12",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "Rho guanine nucleotide exchange factor 12"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7456,7 +7631,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7464,12 +7639,13 @@
             "cellxgene"
         ],
         "symbol": "ADAMTS9-AS2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ADAMTS9 antisense RNA 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7483,7 +7659,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7491,12 +7667,13 @@
             "cellxgene"
         ],
         "symbol": "ADAMTS9",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ADAM metallopeptidase with thrombospondin type 1 motif 9"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7521,7 +7698,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7529,12 +7706,13 @@
             "cellxgene"
         ],
         "symbol": "KCNQ1OT1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "KCNQ1 opposite strand/antisense transcript 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7559,7 +7737,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7567,12 +7745,13 @@
             "cellxgene"
         ],
         "symbol": "APBB2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "amyloid beta precursor protein binding family B member 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7586,7 +7765,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7594,12 +7773,13 @@
             "cellxgene"
         ],
         "symbol": "EXPH5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "exophilin 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7624,7 +7804,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7632,12 +7812,13 @@
             "cellxgene"
         ],
         "symbol": "FMN2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "formin 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7662,7 +7843,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7670,12 +7851,13 @@
             "cellxgene"
         ],
         "symbol": "TCF7L1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "transcription factor 7 like 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7689,7 +7871,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7697,12 +7879,13 @@
             "cellxgene"
         ],
         "symbol": "CGNL1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cingulin like 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7716,7 +7899,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7724,12 +7907,13 @@
             "cellxgene"
         ],
         "symbol": "CTC-340A15.2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "uncharacterized LOC102546299"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7754,7 +7938,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7762,12 +7946,13 @@
             "cellxgene"
         ],
         "symbol": "ITGAV",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "integrin subunit alpha V"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7792,7 +7977,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7800,12 +7985,13 @@
             "cellxgene"
         ],
         "symbol": "P3H2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "prolyl 3-hydroxylase 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7819,7 +8005,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7827,12 +8013,13 @@
             "cellxgene"
         ],
         "symbol": "ZSWIM6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "zinc finger SWIM-type containing 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7857,7 +8044,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7865,12 +8052,13 @@
             "cellxgene"
         ],
         "symbol": "LARGE1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "LARGE xylosyl- and glucuronyltransferase 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7895,7 +8083,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7903,12 +8091,13 @@
             "cellxgene"
         ],
         "symbol": "ITGA3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "integrin subunit alpha 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7922,7 +8111,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7930,12 +8119,13 @@
             "cellxgene"
         ],
         "symbol": "SH3RF1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SH3 domain containing ring finger 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7949,7 +8139,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7957,12 +8147,13 @@
             "cellxgene"
         ],
         "symbol": "PTPN14",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase non-receptor type 14"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -7976,7 +8167,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -7984,12 +8175,13 @@
             "cellxgene"
         ],
         "symbol": "SRGAP2C",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SLIT-ROBO Rho GTPase activating protein 2C"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8003,7 +8195,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8011,12 +8203,13 @@
             "cellxgene"
         ],
         "symbol": "CMYA5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cardiomyopathy associated 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8041,7 +8234,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8049,12 +8242,13 @@
             "cellxgene"
         ],
         "symbol": "RYR3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ryanodine receptor 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8079,7 +8273,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8087,12 +8281,13 @@
             "cellxgene"
         ],
         "symbol": "SULF1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "sulfatase 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8106,7 +8301,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8114,12 +8309,13 @@
             "cellxgene"
         ],
         "symbol": "PCOLCE2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "procollagen C-endopeptidase enhancer 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8133,7 +8329,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8141,12 +8337,13 @@
             "cellxgene"
         ],
         "symbol": "FRY",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "FRY microtubule binding protein"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8171,7 +8368,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8179,12 +8376,13 @@
             "cellxgene"
         ],
         "symbol": "LRRC2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "leucine rich repeat containing 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8198,7 +8396,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8206,12 +8404,13 @@
             "cellxgene"
         ],
         "symbol": "NLK",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "nemo like kinase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8225,7 +8424,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8233,12 +8432,13 @@
             "cellxgene"
         ],
         "symbol": "CR1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "complement C3b/C4b receptor 1 (Knops blood group)"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8252,7 +8452,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8260,12 +8460,13 @@
             "cellxgene"
         ],
         "symbol": "Igfbp7",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "insulin-like growth factor binding protein 7"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8280,7 +8481,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8288,12 +8489,13 @@
             "cellxgene"
         ],
         "symbol": "Sema3g",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3G"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8308,7 +8510,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8316,12 +8518,13 @@
             "cellxgene"
         ],
         "symbol": "Pax8",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "paired box 8"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8336,7 +8539,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8344,12 +8547,13 @@
             "cellxgene"
         ],
         "symbol": "Cdkn1c",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cyclin-dependent kinase inhibitor 1C (P57)"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8364,7 +8568,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8372,12 +8576,13 @@
             "cellxgene"
         ],
         "symbol": "Ntng2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "netrin G2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8392,7 +8597,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8400,12 +8605,13 @@
             "cellxgene"
         ],
         "symbol": "Ripor1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RHO family interacting cell polarization regulator 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8420,7 +8626,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8428,12 +8634,13 @@
             "cellxgene"
         ],
         "symbol": "Efnb1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ephrin B1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8448,7 +8655,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8456,12 +8663,13 @@
             "cellxgene"
         ],
         "symbol": "9130410C08Rik",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "9130410C08Rik"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8476,7 +8684,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8484,12 +8692,13 @@
             "cellxgene"
         ],
         "symbol": "Plat",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "plasminogen activator, tissue"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8504,7 +8713,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8512,12 +8721,13 @@
             "cellxgene"
         ],
         "symbol": "Pls3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "plastin 3 (T-isoform)"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8532,7 +8742,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8540,12 +8750,13 @@
             "cellxgene"
         ],
         "symbol": "Eif3m",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "eukaryotic translation initiation factor 3, subunit M"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8560,7 +8771,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8568,12 +8779,13 @@
             "cellxgene"
         ],
         "symbol": "Ddn",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dendrin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8588,7 +8800,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8596,12 +8808,13 @@
             "cellxgene"
         ],
         "symbol": "Gpc1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "glypican 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8616,7 +8829,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8624,12 +8837,13 @@
             "cellxgene"
         ],
         "symbol": "Mapt",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "microtubule-associated protein tau"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8644,7 +8858,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8652,12 +8866,13 @@
             "cellxgene"
         ],
         "symbol": "Prkg1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein kinase, cGMP-dependent, type I"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8672,7 +8887,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8680,12 +8895,13 @@
             "cellxgene"
         ],
         "symbol": "Agrp",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "agouti related neuropeptide"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8700,7 +8916,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8708,12 +8924,13 @@
             "cellxgene"
         ],
         "symbol": "Nsf",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "N-ethylmaleimide sensitive fusion protein"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8728,7 +8945,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8736,12 +8953,13 @@
             "cellxgene"
         ],
         "symbol": "Sema3e",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3E"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8756,7 +8974,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8764,12 +8982,13 @@
             "cellxgene"
         ],
         "symbol": "Auts2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "autism susceptibility candidate 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8784,7 +9003,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8792,12 +9011,13 @@
             "cellxgene"
         ],
         "symbol": "Myo1e",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "myosin IE"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8812,7 +9032,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8820,12 +9040,13 @@
             "cellxgene"
         ],
         "symbol": "Myo1d",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "myosin ID"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8840,7 +9061,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8848,12 +9069,13 @@
             "cellxgene"
         ],
         "symbol": "Mcc",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "mutated in colorectal cancers"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8868,7 +9090,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8876,12 +9098,13 @@
             "cellxgene"
         ],
         "symbol": "Alcam",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "activated leukocyte cell adhesion molecule"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8896,7 +9119,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8904,12 +9127,13 @@
             "cellxgene"
         ],
         "symbol": "Kank1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "KN motif and ankyrin repeat domains 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8924,7 +9148,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8932,12 +9156,13 @@
             "cellxgene"
         ],
         "symbol": "Mpp5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein associated with LIN7 1, MAGUK family member"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8952,7 +9177,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8960,12 +9185,13 @@
             "cellxgene"
         ],
         "symbol": "Cttnbp2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "cortactin binding protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -8980,7 +9206,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -8988,12 +9214,13 @@
             "cellxgene"
         ],
         "symbol": "Pak1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "p21 (RAC1) activated kinase 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9008,7 +9235,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9016,12 +9243,13 @@
             "cellxgene"
         ],
         "symbol": "Tmem108",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "transmembrane protein 108"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9036,7 +9264,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9044,12 +9272,13 @@
             "cellxgene"
         ],
         "symbol": "Atp8b1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ATPase, class I, type 8B, member 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9064,7 +9293,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9072,12 +9301,13 @@
             "cellxgene"
         ],
         "symbol": "Astn2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "astrotactin 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9092,7 +9322,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9100,12 +9330,13 @@
             "cellxgene"
         ],
         "symbol": "Ildr2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "immunoglobulin-like domain containing receptor 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9120,7 +9351,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9128,12 +9359,13 @@
             "cellxgene"
         ],
         "symbol": "Ptprd",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase, receptor type, D"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9148,7 +9380,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9156,12 +9388,13 @@
             "cellxgene"
         ],
         "symbol": "Plekha5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "pleckstrin homology domain containing, family A member 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9176,7 +9409,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9184,12 +9417,13 @@
             "cellxgene"
         ],
         "symbol": "Elmo1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "engulfment and cell motility 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9204,7 +9438,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9212,12 +9446,13 @@
             "cellxgene"
         ],
         "symbol": "Qk",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "quaking, KH domain containing RNA binding"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9232,7 +9467,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9240,12 +9475,13 @@
             "cellxgene"
         ],
         "symbol": "St3gal3",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ST3 beta-galactoside alpha-2,3-sialyltransferase 3"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9260,7 +9496,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9268,12 +9504,13 @@
             "cellxgene"
         ],
         "symbol": "Nck2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "non-catalytic region of tyrosine kinase adaptor protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9288,7 +9525,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9296,12 +9533,13 @@
             "cellxgene"
         ],
         "symbol": "Gmds",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "GDP-mannose 4, 6-dehydratase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9316,7 +9554,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9324,12 +9562,13 @@
             "cellxgene"
         ],
         "symbol": "Fmnl2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "formin-like 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9344,7 +9583,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9352,12 +9591,13 @@
             "cellxgene"
         ],
         "symbol": "H2-Q7",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "histocompatibility 2, Q region locus 7"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9372,7 +9612,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9380,12 +9620,13 @@
             "cellxgene"
         ],
         "symbol": "Gabrb1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "gamma-aminobutyric acid (GABA) A receptor, subunit beta 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9400,7 +9641,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9408,12 +9649,13 @@
             "cellxgene"
         ],
         "symbol": "Pde4b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "phosphodiesterase 4B, cAMP specific"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9428,7 +9670,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9436,12 +9678,13 @@
             "cellxgene"
         ],
         "symbol": "Tjp1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "tight junction protein 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9456,7 +9699,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9464,12 +9707,13 @@
             "cellxgene"
         ],
         "symbol": "Large1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "LARGE xylosyl- and glucuronyltransferase 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9484,7 +9728,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9492,12 +9736,13 @@
             "cellxgene"
         ],
         "symbol": "Cep85l",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "centrosomal protein 85-like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9512,7 +9757,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9520,12 +9765,13 @@
             "cellxgene"
         ],
         "symbol": "Rab3b",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RAB3B, member RAS oncogene family"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9540,7 +9786,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9548,12 +9794,13 @@
             "cellxgene"
         ],
         "symbol": "Fnbp1l",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "formin binding protein 1-like"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9568,7 +9815,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9576,12 +9823,13 @@
             "cellxgene"
         ],
         "symbol": "Fchsd2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "FCH and double SH3 domains 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9596,7 +9844,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9604,12 +9852,13 @@
             "cellxgene"
         ],
         "symbol": "St6gal1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "beta galactoside alpha 2,6 sialyltransferase 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9624,7 +9873,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9632,12 +9881,13 @@
             "cellxgene"
         ],
         "symbol": "Galnt10",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "polypeptide N-acetylgalactosaminyltransferase 10"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9652,7 +9902,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9660,12 +9910,13 @@
             "cellxgene"
         ],
         "symbol": "Cpq",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "carboxypeptidase Q"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9680,7 +9931,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9688,12 +9939,13 @@
             "cellxgene"
         ],
         "symbol": "Sox5",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SRY (sex determining region Y)-box 5"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9708,7 +9960,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9716,12 +9968,13 @@
             "cellxgene"
         ],
         "symbol": "Osbpl9",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "oxysterol binding protein-like 9"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9736,7 +9989,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9744,12 +9997,13 @@
             "cellxgene"
         ],
         "symbol": "DPP6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dipeptidyl peptidase like 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9764,7 +10018,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9772,12 +10026,13 @@
             "cellxgene"
         ],
         "symbol": "PTPRD",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein tyrosine phosphatase receptor type D"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9792,7 +10047,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9800,12 +10055,13 @@
             "cellxgene"
         ],
         "symbol": "DST",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "dystonin"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9820,7 +10076,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9828,12 +10084,13 @@
             "cellxgene"
         ],
         "symbol": "DLG2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "discs large MAGUK scaffold protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9848,7 +10105,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9856,12 +10113,13 @@
             "cellxgene"
         ],
         "symbol": "PRKG1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "protein kinase cGMP-dependent 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9876,7 +10134,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9884,12 +10142,13 @@
             "cellxgene"
         ],
         "symbol": "RBFOX1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "RNA binding fox-1 homolog 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9904,7 +10163,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9912,12 +10171,13 @@
             "cellxgene"
         ],
         "symbol": "TENM2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "teneurin transmembrane protein 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9932,7 +10192,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9940,12 +10200,13 @@
             "cellxgene"
         ],
         "symbol": "GPC6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "glypican 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9960,7 +10221,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9968,12 +10229,13 @@
             "cellxgene"
         ],
         "symbol": "SGIP1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "SH3GL interacting endocytic adaptor 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -9988,7 +10250,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -9996,12 +10258,13 @@
             "cellxgene"
         ],
         "symbol": "UNC5C",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "unc-5 netrin receptor C"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -10016,7 +10279,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -10024,12 +10287,13 @@
             "cellxgene"
         ],
         "symbol": "CACNB2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "calcium voltage-gated channel auxiliary subunit beta 2"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -10044,7 +10308,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -10052,12 +10316,13 @@
             "cellxgene"
         ],
         "symbol": "TOM1L2",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "target of myb1 like 2 membrane trafficking protein"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -10072,7 +10337,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -10080,12 +10345,13 @@
             "cellxgene"
         ],
         "symbol": "GULP1",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "GULP PTB domain containing engulfment adaptor 1"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -10100,7 +10366,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -10108,12 +10374,13 @@
             "cellxgene"
         ],
         "symbol": "CERS6",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "ceramide synthase 6"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -10128,7 +10395,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -10136,12 +10403,13 @@
             "cellxgene"
         ],
         "symbol": "GMDS",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             "GDP-mannose 4,6-dehydratase"
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
+            "cellphonedb": {},
             "cellxgene_canonical": null,
             "cellxgene_computational": [
                 {
@@ -10156,7 +10424,7 @@
                     }
                 }
             ],
-            "hubmap": null
+            "hubmap": []
         }
     },
     {
@@ -10164,14 +10432,15 @@
             "hubmap"
         ],
         "symbol": "",
+        "uniprot_id": "",
         "type": "marker_gene",
         "label": [
             ""
         ],
         "additionalMetadata": {
-            "cellphonedb": null,
-            "cellxgene_canonical": null,
-            "cellxgene_computational": null,
+            "cellphonedb": {},
+            "cellxgene_canonical": [],
+            "cellxgene_computational": [],
             "hubmap": [
                 {
                     "anatomical_structures": [
@@ -10189,222 +10458,6 @@
                     "anatomical_structures": [
                         "kidney",
                         "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "outer cortex of kidney",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
-                        "juxtamedullary cortex",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "cortex of kidney",
                         "juxtamedullary cortex",
                         "Glomerular Epithelium",
                         "visceral epithelial layer"
@@ -10418,214 +10471,6 @@
                         "kidney",
                         "renal cortex",
                         "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "renal cortex",
-                        "renal column (column of Bertin)",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
-                        "Glomerular Epithelium",
-                        "visceral epithelial layer"
-                    ],
-                    "cell_types": [
-                        "Podocyte",
-                        "POD"
-                    ]
-                },
-                {
-                    "anatomical_structures": [
-                        "kidney",
-                        "nephron",
-                        "Renal Corpuscle",
                         "Glomerular Epithelium",
                         "visceral epithelial layer"
                     ],
