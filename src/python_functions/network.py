@@ -7,9 +7,9 @@ def get_kegg_image_with_pathway(path_names): #MUST BE A KEGG PATHWAY NAME
     
     try:
         for name in path_names:
-            response = requests.get(f"{KEGG_URL}/get/{name}")
+            response = requests.get(f"{KEGG_URL}/get/{name}/image")
             response.raise_for_status()
-            with open(f'./outputs/images/image_{name}.jpg', 'wb') as f:
+            with open(f'./outputs/images/image_{name}.png', 'wb') as f:
                 f.write(response.content)
             print('successfully retrieved image')
     except requests.exceptions.RequestException as e:
