@@ -19,6 +19,11 @@ class MarkerSource(Enum):
     HUBMAP = 'hubmap'
     CELLPHONEDB = 'cellphonedb'
 
+class OutputType(Enum):
+    DICTIONARY = 'dictionary'
+    LIST_SYMBOLS = 'list_symbols'
+    LIST_UNIPROT = 'list_uniprot'
+
 
 API_URL = "https://cellguide.cellxgene.cziscience.com"
 data_file = "./outputs/out.csv"
@@ -60,7 +65,6 @@ def get_cell_ontology_id(cell_type):
         docs = data["response"]["docs"]
         if docs:
             first_id = docs[0]["obo_id"]
-            print(docs[0])
             print("found in api")
             return first_id
         
@@ -75,7 +79,6 @@ def get_cell_ontology_id(cell_type):
 # The cellxgene API URLs contain a "latest snapshot identifier" (presumably points to a specific version of the data)
 curr_id = requests.get("https://cellguide.cellxgene.cziscience.com/latest_snapshot_identifier").text
      
-print(curr_id)
 # cl_id = "CL:0000653" # Podocyte
 
      
@@ -118,19 +121,8 @@ def get_biomarkers_from_cl(string):
 def get_hubmap_biomarkers(cell_type, file):
     
     df = pd.read_csv(file)
-    print(cell_type)
     mask = df.apply(lambda row: row.str.contains(cell_type, case=False).any(), axis=1) #filter out the rows where the token is found in the cell type col
     filtered_rows = df[mask]
-    # if len(sys.argv) == 2: ### TODO: Maybe better organize the names/ids/labels that result from this block because sometimes when you do unique/set you lose the connections between label and name/id
-    #     biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
-    #     filtered_rows = filtered_rows[biomarker_col]
-    # elif len(sys.argv) > 2: 
-    #     if sys.argv[2]=="id":
-    #         ids_only = [col for col in df.columns if col.startswith('BGene') and col.endswith("ID")]
-    #         filtered_rows = filtered_rows[ids_only]
-    #     elif sys.argv[2]=="name":
-    #         names_only = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID") and not col.endswith("LABEL")]
-    #         filtered_rows = filtered_rows[names_only]
    
     return filtered_rows
     
@@ -146,14 +138,22 @@ def only_check_ct_col(row, token):
 # Processing HuBMAP data
 # =====================================
 
-def get_hubmap_biomarker_objects(filtered_rows):    
+def get_hubmap_biomarker_objects(cell_type, filtered_rows):    
     hubmap_biomarkers = []
-    
+    ct_names_all = []
     for index, row in filtered_rows.iterrows():  # Use iterrows() to iterate over rows
-        print(row)
+
         as_names = [row[name] for name in row.index if name.startswith('AS') and not name.endswith('LABEL') and not name.endswith('ID') and not pd.isna(row[name])]
         ct_names = [row[name] for name in row.index if name.startswith('CT') and not name.endswith('LABEL') and not name.endswith('ID') and not pd.isna(row[name])]
-       
+        if not any(
+            str(ct_name).strip().lower() == cell_type.lower() or 
+            f" {cell_type.lower()}" in str(ct_name).strip().lower()
+            for ct_name in ct_names
+        ):
+            continue
+
+        ct_names_all.append((index, ct_names))
+
         for x in range(1, 15):  # Assuming this is the maximum number of biomarkers returned by Hubmap
             label_col = f'BGene/{x}/LABEL'
             id_col = f'BGene/{x}/ID'
@@ -164,7 +164,7 @@ def get_hubmap_biomarker_objects(filtered_rows):
                 symbol_result = row[symbol_col]
                 label_result = row[label_col]
                 if pd.isna(gene_id):
-                    gene_id = -1  
+                    gene_id = ""  
                 
                 if pd.isna(symbol_result):
                     symbol_result = "" 
@@ -172,20 +172,19 @@ def get_hubmap_biomarker_objects(filtered_rows):
                 if pd.isna(label_result):
                     label_result = "" 
                 
-                if gene_id != -1: 
-                    split = str(gene_id).split(':')
-                    id_num = split[1]
-                    gene_id = int(id_num)
-                
                 hubmap_biomarkers.append(HubmapBiomarker(
                     label=label_result,
-                    hgnc_id=gene_id,
+                    id=gene_id,
                     symbol=symbol_result,
                     anatomical_structures=as_names,
                     cell_types=ct_names
                 ))
     
-   
+        output_file = 'ct_names'
+        # Write CT names to file
+        with open(output_file, 'w') as f:
+            for index, ct_names in ct_names_all:
+                f.write(f'Row {index}: {ct_names}\n')
     return hubmap_biomarkers
 
 # =====================================
@@ -238,9 +237,7 @@ def update_metadata(symbol_dict, biomarker, marker_source):
     metadata_func = metadata_func_map.get(marker_source)
     if metadata_func:
         possible_metadata = metadata_func(biomarker)
-        print(biomarker.symbol)
-        print(symbol_dict[biomarker.symbol])
-        print(marker_source)
+
         if marker_source is not MarkerSource.CELLPHONEDB:
             if possible_metadata not in getattr(symbol_dict[biomarker.symbol].additionalMetadata, marker_source.value.lower(), []):
                 getattr(symbol_dict[biomarker.symbol].additionalMetadata, marker_source.value.lower()).append(possible_metadata)
@@ -378,29 +375,46 @@ def process_biomarkers(canonical_info, data_driven_info, hubmap_biomarkers):
 # Search function
 # =====================================
 
-def process_input():
-    input=sys.argv[1]
+def process_output_into_list_symbols(final_biomarkers_list):
+    symbols_list = []
+    for biomarker in final_biomarkers_list:
+        symbols_list.append(biomarker['symbol'])
+    return symbols_list
+
+
+
+def process_input(input):
+    print(input)
     processed_string = input.replace('_', ' ')
     processed_string = str(processed_string)
+    print(processed_string)
     return processed_string
 
 
-def search(): #method to call full search
+def search(input_string, output_type): #method to call full search
     file_to_use = data_file
-    hubmap_results = get_hubmap_biomarkers(process_input(), file_to_use)
-    hubmap_markers = get_hubmap_biomarker_objects(hubmap_results)
-    canonical_markers, data_driven_markers = get_biomarkers_from_cl(process_input())
-    # print(data_driven_markers)
-    # print(canonical_markers)
-   
+    cell_type = process_input(input_string)
+    print("did this")
+    hubmap_results = get_hubmap_biomarkers(cell_type, file_to_use)
+    hubmap_markers = get_hubmap_biomarker_objects(cell_type, hubmap_results)
+    canonical_markers, data_driven_markers = get_biomarkers_from_cl(process_input(input_string))
+    
     processed_data = process_biomarkers(canonical_markers, data_driven_markers, hubmap_markers)
-    json_string = json.dumps(processed_data, indent=4)
-    output_file = "./outputs/cellxgene2.json"
+    if output_type == OutputType.LIST_SYMBOLS:
+        final_list = process_output_into_list_symbols(processed_data)
+        output_file = './outputs/av_phage.txt'
+        with open(output_file, 'w') as file:
+            for gene in final_list:
+                file.write(gene + '\n')
+        return final_list
+    else:
+        json_string = json.dumps(processed_data, indent=4)
+        output_file = "./outputs/av_macrophage.json"
 
-    with open(output_file, 'w') as f:
-        f.write(json_string)
+        with open(output_file, 'w') as f:
+            f.write(json_string)
 
-    print(f"JSON data has been written to {output_file}")
+        print(f"c2bm {output_file}")
    
 
-search()
+search(sys.argv[1], OutputType.LIST_SYMBOLS)

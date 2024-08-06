@@ -39,7 +39,7 @@ class CellXGeneComputationalMarkerGene(BaseModel):
 
 class HubmapBiomarker(BaseModel):
     label:str
-    hgnc_id:int
+    id:str
     symbol:str
     anatomical_structures:list
     cell_types:list

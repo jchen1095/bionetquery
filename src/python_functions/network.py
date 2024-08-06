@@ -58,10 +58,11 @@ def get_kegg_id(gene_id): #assumes uniprot id, can also use ncbi ids but you nee
 
 practice = ["P31213"]
 
-def main():
-    for gene in practice: 
+def search_kegg(list_uniprot_ids):
+    print(list_uniprot_ids)
+    for gene in list_uniprot_ids: 
         id = get_kegg_id(gene)
         pathways = get_kegg_pathways(id)
         get_kegg_image_with_pathway(pathways)
+     
 
-main()

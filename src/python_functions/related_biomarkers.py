@@ -8,6 +8,17 @@ from pydantic import BaseModel, TypeAdapter
 import requests
 from typing import List,Optional, Dict, Union
 from pydantic_classes import AdditionalMetadata,BioQueryBiomarker,CellPhoneDBBiomarker
+from enum import Enum
+
+
+class MarkerProperty(Enum):
+    HGNC_SYMBOL = 'hgnc_symbol'
+    HGNC_ID = 'hgnc_id'
+
+class OutputType(Enum):
+    DICTIONARY = 'dictionary'
+    LIST_SYMBOLS = 'list_symbols'
+    LIST_UNIPROT = 'list_uniprot'
 
 nodes_file = "/Users/JenChen/Desktop/SIBMI/bionetquery/data/hubmap_enrichkg/hubmap_nodes.csv"
 nodes_df = pd.read_csv(nodes_file)
@@ -33,7 +44,7 @@ def get_related_cells_and_biomarkers(cell_type_id):
         relevant_ids = filtered_edges['source'].tolist() + filtered_edges['target'].tolist()
         relevant_ids = list(set(relevant_ids))
     relevant_biomarkers = []
-    print(relevant_ids)
+   
     for cellt in relevant_ids:
         print(cellt)
         df = pd.read_csv(get_files(sys.argv[1]))
@@ -42,7 +53,7 @@ def get_related_cells_and_biomarkers(cell_type_id):
         biomarker_col = [col for col in df.columns if col.startswith('BGene') and not col.endswith("ID")]
         filtered_rows = filtered_rows[biomarker_col]
         relevant_biomarkers.append(filtered_rows)
-    print(relevant_biomarkers)
+  
     return relevant_biomarkers
 
 def check_ct_id_col(row, token):
@@ -52,41 +63,44 @@ def check_ct_id_col(row, token):
             return True
     return False
 
-def find_hgnc_info(uniprot_id):
-    response = requests.get(f'{GENENAMES_API}/uniprot_ids/P00568')
+def find_hgnc_info(uniprot_id): #TODO: FIX THIS
+    response = requests.get(f'{GENENAMES_API}/uniprot_ids/{uniprot_id}')
     root = ET.fromstring(response)
     hgnc_id = root.find(".//str[@name='hgnc_id']").text
     symbol = root.find(".//str[@name='symbol']").text
     return hgnc_id,symbol
 
 
-def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
+def search_cpdb_with_genes(list_biomarkers,biomarker_representation): #must be a list of their hgnc ids
     ###returns a list of the hgnc symbols of related biomarkers in cpdb
     found_uniprot_to_symbols={}
     found_symbols_to_uniprot={}
     found_uniprot = []
     all_bm_symbols = []
+    if biomarker_representation == MarkerProperty.HGNC_ID:
     #get the hgnc symbols for all the biomarkers
-    for bm in list_biomarkers:
-        hgnc_symbol = get_symbol_from_hgnc_id(bm)
-        all_bm_symbols.append(hgnc_symbol)
-    print(all_bm_symbols)
+        for bm in list_biomarkers:
+            hgnc_symbol = get_symbol_from_hgnc_id(bm)
+            all_bm_symbols.append(hgnc_symbol)
+     
+    elif biomarker_representation == MarkerProperty.HGNC_SYMBOL:
+        all_bm_symbols = list_biomarkers
     #check if the symbols are in the cpdb gene csv. if it is get the uniprot ids
     with open(cpdb_genes, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             symbol_in_csv = row['hgnc_symbol']
             if symbol_in_csv in all_bm_symbols:
-                print("im in the cpdb gene csvs!")
+               
                 uniprot_id = row['uniprot']
-                print(uniprot_id)
+                
                 found_uniprot.append(uniprot_id)
                 found_uniprot_to_symbols[uniprot_id]=symbol_in_csv
                 found_symbols_to_uniprot[symbol_in_csv]=uniprot_id
     #find interaction partners if any
     related_bm_uniprot = {}
     input_to_related_uniprot = {}
-    print(found_uniprot)
+    # print(found_uniprot)
     with open(cpdb_interactions, mode='r') as file:
         reader = csv.DictReader(file)
         for row in reader:
@@ -99,7 +113,7 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
             if partner_b in found_uniprot:
                 related_bm_uniprot[partner_a]=partner_b
                 input_to_related_uniprot[partner_b] = partner_a
-    print(related_bm_uniprot)
+    # print(related_bm_uniprot)
     related_hgnc_symbols = [] #maps original biomarker to the related biomarker
     related_bm_symb_to_uniprot={}
     with open(cpdb_genes, mode='r') as file:
@@ -109,8 +123,8 @@ def search_cpdb(list_biomarkers) : #must be a list of their hgnc ids
             if uniprot_id_to_check in related_bm_uniprot:
                 related_hgnc_symbols.append((get_original_biomarker(found_uniprot_to_symbols,related_bm_uniprot,uniprot_id_to_check),row['hgnc_symbol']))
                 related_bm_symb_to_uniprot[row['hgnc_symbol']] = uniprot_id_to_check
-    print(related_bm_symb_to_uniprot)
-    print(related_hgnc_symbols)
+    # print(related_bm_symb_to_uniprot)
+    # print(related_hgnc_symbols)
 
     cellphonedb_biomarkers = [CellPhoneDBBiomarker(
         partner_a=pair[0],  # Original biomarker
@@ -131,7 +145,6 @@ def get_original_biomarker(uniprot_to_symbol, uniprot_partners, related_uniprot_
 practice_list = ['29945']
 
 def create_bioquery_biomarkers(cellphonedb_markers):
-
     merged_by_symbol = {}
     for marker in cellphonedb_markers:
         symbol_a = marker.partner_a
@@ -170,7 +183,7 @@ def create_bioquery_biomarkers(cellphonedb_markers):
         else:
             if symbol_a not in merged_by_symbol[symbol_b].additionalMetadata.cellphonedb['related_biomarkers']:
                 merged_by_symbol[symbol_a].additionalMetadata.cellphonedb['related_biomarkers'].append(symbol_a)
-    print(merged_by_symbol)
+    # print(merged_by_symbol)
     merged_biomarkers = list(merged_by_symbol.values())
     biomarker_list = []
     for bm in merged_biomarkers:
@@ -195,7 +208,7 @@ def get_symbol_from_hgnc_id(hgnc_id):
             root = ET.fromstring(xml_response)
             
             symbol = root.find(".//str[@name='symbol']").text
-            print(symbol)
+            # print(symbol)
             return symbol
         else:
             print(f"Error {response.status_code}: {response.reason}")
@@ -209,15 +222,24 @@ def get_symbol_from_hgnc_id(hgnc_id):
 # Main function
 # =====================================
 
-def main():
-    get_bm_obj = search_cpdb(practice_list)
+def main(list_of_biomarkers, marker_representation, output_type):
+    print("Output type:", output_type)  # Debugging line
+    get_bm_obj = search_cpdb_with_genes(list_of_biomarkers,marker_representation)
     final_list = create_bioquery_biomarkers(get_bm_obj)
-    json_string = json.dumps(final_list, indent=4)
-    output_file = "./outputs/related_biomarkers.json"
+
+    # if output_type is OutputType.LIST_UNIPROT:
+    id_list = []
+    for biomarker in final_list:
+        id_list.append(biomarker['symbol'])
+    # return id_list
+    # else:
+    #     json_string = json.dumps(final_list, indent=4)
+
+    output_file = "./outputs/list_related.txt"
 
     with open(output_file, 'w') as f:
-        f.write(json_string)
+        f.write(str(id_list))
 
     print(f"JSON data has been written to {output_file}")
 
-main()
+# main(practice_list)

@@ -3,16 +3,18 @@
         "source": [
             "cellphonedb"
         ],
-        "symbol": "TENM4",
-        "uniprot_id": "Q6N022",
+        "symbol": "TNFSF10",
+        "uniprot_id": "P50591",
         "type": "marker_gene",
         "label": [],
         "additionalMetadata": {
             "cellphonedb": {
                 "related_biomarkers": [
-                    "ADGRL1",
-                    "ADGRL2",
-                    "ADGRL3"
+                    "TNFRSF10A",
+                    "TNFRSF11B",
+                    "TNFRSF10B",
+                    "TNFRSF10C",
+                    "TNFRSF10D"
                 ]
             },
             "cellxgene_canonical": null,
@@ -24,14 +26,14 @@
         "source": [
             "cellphonedb"
         ],
-        "symbol": "ADGRL1",
-        "uniprot_id": "Q6N022",
+        "symbol": "TNFRSF10A",
+        "uniprot_id": "P50591",
         "type": "marker_gene",
         "label": [],
         "additionalMetadata": {
             "cellphonedb": {
                 "related_biomarkers": [
-                    "TENM4"
+                    "TNFSF10"
                 ]
             },
             "cellxgene_canonical": null,
@@ -43,14 +45,15 @@
         "source": [
             "cellphonedb"
         ],
-        "symbol": "ADGRL2",
-        "uniprot_id": "Q6N022",
+        "symbol": "TDGF1",
+        "uniprot_id": "P13385",
         "type": "marker_gene",
         "label": [],
         "additionalMetadata": {
             "cellphonedb": {
                 "related_biomarkers": [
-                    "TENM4"
+                    "LEFTY2",
+                    "LEFTY1"
                 ]
             },
             "cellxgene_canonical": null,
@@ -62,14 +65,4287 @@
         "source": [
             "cellphonedb"
         ],
-        "symbol": "ADGRL3",
-        "uniprot_id": "Q6N022",
+        "symbol": "LEFTY2",
+        "uniprot_id": "P13385",
         "type": "marker_gene",
         "label": [],
         "additionalMetadata": {
             "cellphonedb": {
                 "related_biomarkers": [
-                    "TENM4"
+                    "TDGF1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF11B",
+        "uniprot_id": "P50591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF10"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCL19",
+        "uniprot_id": "Q99731",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCRL2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCRL2",
+        "uniprot_id": "Q99731",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL19"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NCAM1",
+        "uniprot_id": "P13591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "AGRN",
+                    "FGFR1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "AGRN",
+        "uniprot_id": "P13591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NCAM1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NOTCH1",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "DLL1",
+                    "JAG1",
+                    "DLK1",
+                    "DLL4",
+                    "DLL3",
+                    "JAG2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "DLL1",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NOTCH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR7",
+        "uniprot_id": "P32248",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL21",
+                    "CCL19",
+                    "CCR7"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCL21",
+        "uniprot_id": "P32248",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCR7"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCL5",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ACKR2",
+                    "GPR75",
+                    "CCR1",
+                    "CCR3",
+                    "CCR4",
+                    "CCR5",
+                    "ACKR1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ACKR2",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SELL",
+        "uniprot_id": "P14151",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PODXL",
+                    "CD34",
+                    "SELPLG",
+                    "PODXL2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PODXL",
+        "uniprot_id": "P14151",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SELL"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCR3",
+        "uniprot_id": "P49682",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCL11",
+                    "PF4",
+                    "CXCL10",
+                    "CXCL9"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL11",
+        "uniprot_id": "P49682",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF10B",
+        "uniprot_id": "P50591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF10"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF10C",
+        "uniprot_id": "P50591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF10"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "EGFR",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EREG",
+                    "EGF",
+                    "TGFA",
+                    "AREG",
+                    "BTC",
+                    "EPGN",
+                    "HBEGF"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "EREG",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR9",
+        "uniprot_id": "P51686",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL25"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCL25",
+        "uniprot_id": "P51686",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCR9",
+                    "ACKR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF25",
+        "uniprot_id": "Q93038",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF12",
+                    "TNFSF15"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFSF12",
+        "uniprot_id": "Q93038",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF25"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD44",
+        "uniprot_id": "P16070",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TYROBP",
+                    "SELE",
+                    "SIGLEC15"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TYROBP",
+        "uniprot_id": "P16070",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD44"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCR5",
+        "uniprot_id": "P32302",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCL13"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL13",
+        "uniprot_id": "P32302",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ICOS",
+        "uniprot_id": "Q9Y6W8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ICOSLG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ICOSLG",
+        "uniprot_id": "Q9Y6W8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ICOS"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "RSPO3",
+        "uniprot_id": "Q9BXY4",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LGR5",
+                    "LGR4",
+                    "LGR6"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LGR5",
+        "uniprot_id": "Q9BXY4",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "RSPO3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PI16",
+        "uniprot_id": "Q6UXB8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF21"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF21",
+        "uniprot_id": "Q6UXB8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PI16"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LEFTY1",
+        "uniprot_id": "P13385",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TDGF1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF13B",
+        "uniprot_id": "O14836",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF13",
+                    "TNFSF13B"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFSF13",
+        "uniprot_id": "O14836",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF13B"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFSF15",
+        "uniprot_id": "Q93038",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF25"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FASLG",
+        "uniprot_id": "P48023",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF6B",
+                    "FAS"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF6B",
+        "uniprot_id": "P48023",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FASLG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCR4",
+        "uniprot_id": "P61073",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCL14",
+                    "CXCL12"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL14",
+        "uniprot_id": "P61073",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "GPR75",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "WNT2",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CER1",
+                    "SFRP5",
+                    "SFRP4",
+                    "SFRP1",
+                    "FRZB",
+                    "SFRP2",
+                    "WIF1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CER1",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "EGF",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TGFA",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PF4",
+        "uniprot_id": "P49682",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL10",
+        "uniprot_id": "P49682",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SCARA5",
+        "uniprot_id": "Q6ZMJ2",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FTL",
+                    "FTH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FTL",
+        "uniprot_id": "Q6ZMJ2",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SCARA5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FTH1",
+        "uniprot_id": "Q6ZMJ2",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SCARA5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ADGRE5",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "THY1",
+                    "CD55",
+                    "SFTPD",
+                    "LPAR1",
+                    "LPAR2",
+                    "LPAR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "THY1",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRE5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SORL1",
+        "uniprot_id": "Q92673",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "APP"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "APP",
+        "uniprot_id": "Q92673",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SORL1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGFR4",
+        "uniprot_id": "P22455",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGF1",
+                    "FGF2",
+                    "TGFBR3",
+                    "SDC2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGF1",
+        "uniprot_id": "P22455",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGFR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ITGAL",
+        "uniprot_id": "P20701",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ICAM1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ICAM1",
+        "uniprot_id": "P20701",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ITGAL"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD8A",
+        "uniprot_id": "P01732",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CEACAM5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CEACAM5",
+        "uniprot_id": "P01732",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD8A"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CSF1",
+        "uniprot_id": "P09603",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CSF1R"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CSF1R",
+        "uniprot_id": "P09603",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CSF1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD55",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRE5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD22",
+        "uniprot_id": "P20273",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PTPRC"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PTPRC",
+        "uniprot_id": "P20273",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD22",
+                    "MRC1",
+                    "SEMA4D"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGF2",
+        "uniprot_id": "P22455",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGFR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGFR1",
+        "uniprot_id": "P13591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NCAM1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KLRG1",
+        "uniprot_id": "Q96E93",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CDH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CDH1",
+        "uniprot_id": "Q96E93",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KLRG1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KLRK1",
+        "uniprot_id": "P26718",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-E"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "HLA-E",
+        "uniprot_id": "P26718",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KLRK1",
+                    "KLRC1",
+                    "KLRC2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD34",
+        "uniprot_id": "P28906",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SELL",
+                    "CD34",
+                    "SELP"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PILRA",
+        "uniprot_id": "Q9UKJ1",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD99"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD99",
+        "uniprot_id": "Q9UKJ1",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PILRA"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TIGIT",
+        "uniprot_id": "Q495A1",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PVR",
+                    "NECTIN2",
+                    "NECTIN3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PVR",
+        "uniprot_id": "Q495A1",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TIGIT"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "AREG",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SELP",
+        "uniprot_id": "P28906",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD34"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SELE",
+        "uniprot_id": "P16070",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD44"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FCER2",
+        "uniprot_id": "P06734",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CDH2",
+                    "CR2",
+                    "FGFR2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CDH2",
+        "uniprot_id": "P06734",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FCER2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD2",
+        "uniprot_id": "P06729",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD58"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD58",
+        "uniprot_id": "P06729",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNF",
+        "uniprot_id": "P01375",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF1A",
+                    "TNFRSF1B"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF1A",
+        "uniprot_id": "P01375",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNF"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CR2",
+        "uniprot_id": "P06734",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FCER2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF1B",
+        "uniprot_id": "P01375",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNF"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ANXA1",
+        "uniprot_id": "P04083",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FPR1",
+                    "FPR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FPR1",
+        "uniprot_id": "P04083",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ANXA1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KIT",
+        "uniprot_id": "P10721",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KITLG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KITLG",
+        "uniprot_id": "P10721",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KIT"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGFR2",
+        "uniprot_id": "P06734",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FCER2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGF17",
+        "uniprot_id": "O60258",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGFR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGFR3",
+        "uniprot_id": "O60258",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGF17"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "MRC1",
+        "uniprot_id": "P08575",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PTPRC"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PTN",
+        "uniprot_id": "P21246",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PTPRZ1",
+                    "ALK"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PTPRZ1",
+        "uniprot_id": "P21246",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PTN"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF4",
+        "uniprot_id": "P43489",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFSF4",
+        "uniprot_id": "P43489",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FPR3",
+        "uniprot_id": "P04083",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ANXA1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SAA1",
+        "uniprot_id": "P0DJI8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FPR2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FPR2",
+        "uniprot_id": "P0DJI8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SAA1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FAS",
+        "uniprot_id": "P48023",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FASLG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD40LG",
+        "uniprot_id": "P29965",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD40"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD40",
+        "uniprot_id": "P29965",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD40LG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KLRC1",
+        "uniprot_id": "P13747",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-E"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KLRC2",
+        "uniprot_id": "P13747",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-E"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR1",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD27",
+        "uniprot_id": "P26842",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD70"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD70",
+        "uniprot_id": "P26842",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD27"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CDH5",
+        "uniprot_id": "P33151",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CDH5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CTLA4",
+        "uniprot_id": "P16410",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD80",
+                    "CD86"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD80",
+        "uniprot_id": "P16410",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CTLA4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "BTC",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "VEGFD",
+        "uniprot_id": "O43915",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FLT4",
+                    "KDR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FLT4",
+        "uniprot_id": "O43915",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "VEGFD"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KDR",
+        "uniprot_id": "O43915",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "VEGFD"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FLT3LG",
+        "uniprot_id": "P49771",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FLT3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FLT3",
+        "uniprot_id": "P49771",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FLT3LG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LTB",
+        "uniprot_id": "Q06643",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LTBR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LTBR",
+        "uniprot_id": "Q06643",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LTB"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF9",
+        "uniprot_id": "Q07011",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF9"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFSF9",
+        "uniprot_id": "Q07011",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF9"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCL2",
+        "uniprot_id": "P13500",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCR2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR2",
+        "uniprot_id": "P13500",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD86",
+        "uniprot_id": "P16410",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CTLA4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "HLA-C",
+        "uniprot_id": "HLAC",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KIR2DL1",
+                    "KIR2DL3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KIR2DL1",
+        "uniprot_id": "HLAC",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-C"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KIR2DL3",
+        "uniprot_id": "HLAC",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-C"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "HLA-F",
+        "uniprot_id": "P30511",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KIR3DL1",
+                    "KIR3DL2",
+                    "KIR3DS1",
+                    "VSIR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KIR3DL1",
+        "uniprot_id": "P30511",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-F"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KIR3DL2",
+        "uniprot_id": "P30511",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-F"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "XCL2",
+        "uniprot_id": "Q9UBD3",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "XCR1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "XCR1",
+        "uniprot_id": "Q9UBD3",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "XCL2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL12",
+        "uniprot_id": "P61073",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LEP",
+        "uniprot_id": "P41159",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LEPR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LEPR",
+        "uniprot_id": "P41159",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LEP"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR3",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR4",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR5",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "JAG1",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NOTCH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCR6",
+        "uniprot_id": "P51684",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL20"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CCL20",
+        "uniprot_id": "P51684",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCR6"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "DLK1",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NOTCH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TGFBR3",
+        "uniprot_id": "P22455",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGFR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL9",
+        "uniprot_id": "P49682",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SIRPG",
+        "uniprot_id": "Q9P1W8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD47"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD47",
+        "uniprot_id": "Q9P1W8",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SIRPG"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LAG3",
+        "uniprot_id": "P18627",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGL1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FGL1",
+        "uniprot_id": "P18627",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LAG3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LILRA4",
+        "uniprot_id": "P59901",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "BST2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "BST2",
+        "uniprot_id": "P59901",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LILRA4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "MCAM",
+        "uniprot_id": "P43121",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CNTN1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CNTN1",
+        "uniprot_id": "P43121",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "MCAM"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LGALS3",
+        "uniprot_id": "P17931",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "MERTK"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "MERTK",
+        "uniprot_id": "P17931",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LGALS3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CLEC2D",
+        "uniprot_id": "Q9UHP7",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KLRB1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KLRB1",
+        "uniprot_id": "Q9UHP7",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CLEC2D"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD6",
+        "uniprot_id": "P30203",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ALCAM"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ALCAM",
+        "uniprot_id": "P30203",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD6"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SELPLG",
+        "uniprot_id": "P14151",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SELL"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KIR3DS1",
+        "uniprot_id": "P30511",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-F"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD96",
+        "uniprot_id": "P40200",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NECTIN1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NECTIN1",
+        "uniprot_id": "P40200",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD96"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ACKR1",
+        "uniprot_id": "P13501",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SFRP5",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SFRP4",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "EPGN",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SIGLEC15",
+        "uniprot_id": "P16070",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD44"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "HLA-G",
+        "uniprot_id": "P17693",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "LILRB2",
+                    "LILRB1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LILRB2",
+        "uniprot_id": "P17693",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-G"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SFRP1",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LILRB1",
+        "uniprot_id": "P17693",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-G"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "KLRF1",
+        "uniprot_id": "Q9NZS2",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CLEC2B"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CLEC2B",
+        "uniprot_id": "Q9NZS2",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "KLRF1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NECTIN2",
+        "uniprot_id": "Q495A1",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TIGIT"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "FRZB",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SEMA4D",
+        "uniprot_id": "P08575",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PTPRC"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SFRP2",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD52",
+        "uniprot_id": "P31358",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SIGLEC10"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SIGLEC10",
+        "uniprot_id": "P31358",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD52"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "HBEGF",
+        "uniprot_id": "P00533",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "EGFR"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NTS",
+        "uniprot_id": "P30990",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SORT1",
+                    "NTSR2",
+                    "NTSR1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SORT1",
+        "uniprot_id": "P30990",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NTS"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PDCD1",
+        "uniprot_id": "Q15116",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PDCD1LG2",
+                    "CD274"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PDCD1LG2",
+        "uniprot_id": "Q15116",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PDCD1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LGR4",
+        "uniprot_id": "Q9BXY4",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "RSPO3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CRTAM",
+        "uniprot_id": "O95727",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CADM1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CADM1",
+        "uniprot_id": "O95727",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CRTAM"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD48",
+        "uniprot_id": "P09326",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD244"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD244",
+        "uniprot_id": "P09326",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD48"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCR6",
+        "uniprot_id": "O00574",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCL16"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CXCL16",
+        "uniprot_id": "O00574",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CXCR6"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ICAM3",
+        "uniprot_id": "P32942",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CLEC4M",
+                    "CD209"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CLEC4M",
+        "uniprot_id": "P32942",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ICAM3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LGR6",
+        "uniprot_id": "Q9BXY4",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "RSPO3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD209",
+        "uniprot_id": "P32942",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ICAM3"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ACKR4",
+        "uniprot_id": "O15444",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CCL25"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NECTIN3",
+        "uniprot_id": "Q495A1",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TIGIT"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "DLL4",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NOTCH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "DLL3",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NOTCH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "PODXL2",
+        "uniprot_id": "P14151",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "SELL"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD274",
+        "uniprot_id": "Q15116",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PDCD1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFRSF10D",
+        "uniprot_id": "P50591",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFSF10"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ALK",
+        "uniprot_id": "P21246",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "PTN"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "JAG2",
+        "uniprot_id": "P46531",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NOTCH1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "TNFSF13B",
+        "uniprot_id": "O14836",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "TNFRSF13B"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "WIF1",
+        "uniprot_id": "P09544",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "WNT2"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "JAML",
+        "uniprot_id": "Q86YT9",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "CD320"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "CD320",
+        "uniprot_id": "Q86YT9",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "JAML"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SDC2",
+        "uniprot_id": "P22455",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "FGFR4"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NTSR2",
+        "uniprot_id": "P30990",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NTS"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "NTSR1",
+        "uniprot_id": "P30990",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "NTS"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "SFTPD",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRE5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LPAR1",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRE5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "VSIR",
+        "uniprot_id": "P30511",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "HLA-F"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LPAR2",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRE5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "LPAR3",
+        "uniprot_id": "P48960",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRE5"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "COL3A1",
+        "uniprot_id": "P02461",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "ADGRG1"
+                ]
+            },
+            "cellxgene_canonical": null,
+            "cellxgene_computational": null,
+            "hubmap": null
+        }
+    },
+    {
+        "source": [
+            "cellphonedb"
+        ],
+        "symbol": "ADGRG1",
+        "uniprot_id": "P02461",
+        "type": "marker_gene",
+        "label": [],
+        "additionalMetadata": {
+            "cellphonedb": {
+                "related_biomarkers": [
+                    "COL3A1"
                 ]
             },
             "cellxgene_canonical": null,
