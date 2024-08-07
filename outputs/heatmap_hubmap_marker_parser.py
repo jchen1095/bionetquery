@@ -103,7 +103,7 @@ dataset_tissues = ["blood", "bone marrow", "caecum", "duodenum", "ileum", "jejun
                    "spleen", "thoracic lymph node", "thymus", "transverse colon"]
 
 #50 lists from model
-txt_filepath = "processed_genes_av_mac.txt"
+txt_filepath = "c2s_genes_av_mac.txt"
 
 def main():
     with open(data_file, 'r') as file:
