@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import ast
 import numpy as np
-gt_genes = 'pc_sorted_symbols.txt'
-model_genes = 'processed_genes.txt'
+import altair as alt
+gt_genes = 'me_sorted_symbols_av_mac.txt'
+model_genes = 'c2s_genes_av_mac.txt'
 
 #This file produces old scatterplot
 def read_genes_from_file(file_path):
@@ -26,14 +27,49 @@ ranked_model_lists = read_txt(model_genes)
 
 
 
-common_genes = set(ranked_gt)
-final_set = set()
+gt_gene_set = set(ranked_gt)
+model_gene_set = set()
 
 for model_list in ranked_model_lists:
-    curr_common_genes = common_genes.intersection(model_list)
-    final_set.update(curr_common_genes)
+    model_gene_set.update(model_list)
 
-missing_genes = common_genes.difference(final_set)
+common_genes = gt_gene_set.intersection(model_gene_set)
+missing_genes = gt_gene_set.difference(model_gene_set)
+print(f"Number of genes in ground truth not found in at least one model prediction: {len(missing_genes)}")
+
+
+
+
+cell_type = 'Alveolar Macrophage'
+
+gt_df = pd.DataFrame(data=[], columns=['Gene', 'Rank'])
+gt_df['Gene'] = ranked_gt
+gt_df['Rank'] = list(range(len(ranked_gt)))
+gt_df['Execution'] = 'NA'
+gt_df['Cell Type'] = cell_type
+gt_df['Rank Type'] = 'Ground Truth'
+
+model_df = pd.DataFrame(index=[], data=[], columns=['Gene', 'Rank', 'Execution'])
+for i, model_list in enumerate(ranked_model_lists):
+    model_list = [gene for gene in model_list if gene in common_genes]
+    model_list_df = pd.DataFrame(data=[], columns=['Gene', 'Rank', 'Execution'])
+    model_list_df['Gene'] = model_list
+    model_list_df['Rank'] = list(range(len(model_list)))
+    model_list_df['Execution'] = i
+    model_list_df['Cell Type'] = cell_type
+    model_list_df['Rank Type'] = 'Model Prediction'
+    model_df = pd.concat([model_df, model_list_df])
+
+gt_df.to_csv('av_mac_gt_df.csv', index=False)
+model_df.to_csv('av_mac_model_df.csv', index=False)
+
+
+
+
+"""
+print(ranked_gt)
+print(ranked_model_lists)
+
 
 
 print(f"Number of genes in ground truth not found in model predictions: {len(missing_genes)}")
@@ -97,3 +133,4 @@ plt.ylabel('Average Model Rank')
 plt.title('Alveolar Macrophage Rank Correlation Plot')
 plt.grid(True)
 plt.show()
+"""
